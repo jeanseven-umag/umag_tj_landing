@@ -9,7 +9,7 @@
     <div class="row flat-container flat-container-first" id="umag-advantages">
         <div class="col-50">
             <div class="flat-container__left-side">
-                <div class="title">Бизнеси худро идора кунед <br class="desk-only">дар вақти воқеӣ</div>
+                <div class="title">Тиҷорати худро идора кунед <br class="desk-only">дар низоми вақти воқеӣ</div>
                 <div class="text">
                     Лозим нест интизори ҳисоботҳои охири рӯз бошед — <br class="desk-only">дар ҳар вақт ба кабинети шахсӣ дароед, <br class="desk-only">то фурӯшҳо, анбор ва <br class="desk-only">бисёр чизҳои дигарро донед
                 </div>

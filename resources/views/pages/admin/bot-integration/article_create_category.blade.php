@@ -8,7 +8,7 @@
             <div class="form-group" >
                 <label for="exampleFormControlInput2">Категория*</label>
                 <select name="category_id" class="form-control @error('category_id') is-invalid @enderror">
-                    <option value="">Выберите категорию</option>
+                    <option value="">Категорияро интихоб кунед</option>
                     @foreach($categories as $category)
                     <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
@@ -19,10 +19,10 @@
                 <input type="hidden" name="franz" value="1">
             @endif
             <div class="form-group">
-                <label for="exampleFormControlInput1">Название*</label>
-                <input name="name" type="text" class="form-control @error('category_id') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите название подкатегорий" required>
+                <label for="exampleFormControlInput1">Ном*</label>
+                <input name="name" type="text" class="form-control @error('category_id') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номи зеркатегорияҳоро ворид кунед" required>
             </div>
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кардан</button>
         </form>
     </div>
 </div>

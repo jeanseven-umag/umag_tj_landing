@@ -15,14 +15,14 @@
 @extends('layouts.admin')
 @section('content')
 <div class="header-title">
-    <h1>Таблица подкатегорий</h1>
+    <h1>Ҷадвали зеркатегория</h1>
 </div>
 <table class="table">
     <thead>
     <tr>
         <th width="40%">ID</th>
-        <th width="40%">Название</th>
-        <th width="10">Действия</th>
+        <th width="40%">Ном</th>
+        <th width="10">Амалҳо</th>
     </tr>
     </thead>
     <tbody>
@@ -32,12 +32,12 @@
             <td>{{ $category->name }} </td>
             <td class="text-right">
                 @if(Route::is('subcategories-franz-list'))
-                    <a href="{{ URL::route('article-franz-subcategories.edit', $category->id) }}" class="btn btn-xs btn-primary">Изменить</a>
-                    <a href="{{ URL::route('article-franz-subcategories.remove', $category->id) }}" class="btn btn-xs btn-danger">Удалить</a>
+                    <a href="{{ URL::route('article-franz-subcategories.edit', $category->id) }}" class="btn btn-xs btn-primary">Таҳрир кардан</a>
+                    <a href="{{ URL::route('article-franz-subcategories.remove', $category->id) }}" class="btn btn-xs btn-danger">Нест кардан</a>
                 @endif
                 @if(Route::is('subcategories-list'))
-                    <a href="{{ URL::route('article-subcategories.edit', $category->id) }}" class="btn btn-xs btn-primary">Изменить</a>
-                    <a href="{{ URL::route('article-subcategories.remove', $category->id) }}" class="btn btn-xs btn-danger">Удалить</a>
+                    <a href="{{ URL::route('article-subcategories.edit', $category->id) }}" class="btn btn-xs btn-primary">Таҳрир кардан</a>
+                    <a href="{{ URL::route('article-subcategories.remove', $category->id) }}" class="btn btn-xs btn-danger">Нест кардан</a>
                 @endif
             </td>
         </tr>

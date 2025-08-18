@@ -23,12 +23,13 @@
             <thead>
             <tr>
                 <th width="10%">#</th>
-                <th width="25%">Название</th>
-                <th width="15%">Город</th>
-                <th width="10%">Акканут</th>
+                <th width="25%">Ном</th> <!-- Название -> Ном -->
+                <th width="15%">Шаҳр</th> <!-- Город -> Шаҳр -->
+                <th width="15%">Ҳисоб</th> <!-- Акканут -> Ҳисоб -->
                 <th width="15%">Телефон</th>
-                <th width="15%">Время</th>
-                <th width="10%">Действия</th>
+                <th width="15%">Вақт</th> <!-- Время -> Вақт -->
+                <th width="10%">Амал</th> <!-- Действия -> Амал -->
+                <th width="10%">#</th>
             </tr>
             </thead>
             <tbody>
@@ -40,7 +41,7 @@
                     <td>{{ $item->domain }}</td>
                     <td>{{ $item->phone }}</td>
                     <td>{{  date('d-m-Y H:i', strtotime('+6 hour', strtotime($item->created_at )))}}</td>
-                    <td><a class="btn btn-danger" href="{{URL::route('amo.queriesSecretRemove', $item->id)}}">Удалить</a></td>
+                    <td><a class="btn btn-danger" href="{{URL::route('amo.queriesSecretRemove', $item->id)}}">Нест кардан</a></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>

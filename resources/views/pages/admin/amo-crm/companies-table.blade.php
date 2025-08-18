@@ -16,16 +16,16 @@
 @section('content')
     <div class="top-header-container">
         <div class="container-nav">
-            <h1>Контакты-клиенты</h1>
-            <a class="btn btn-success" href="{{URL::route('kontakty.create')}}">Создать</a>
+            <h1>Тамос - мизоҷон</h1>
+            <a class="btn btn-success" href="{{URL::route('kontakty.create')}}">Эҷод кунед</a>
         </div>
 
         <table class="table table-striped">
             <thead>
             <tr>
-                <th width="35%">Название</th>
-                <th width="25%">Город</th>
-                <th width="15%">Действия</th>
+                <th width="35%">Ном</th>
+                <th width="25%">Шаҳр</th>
+                <th width="15%">Амалҳо</th>
             </tr>
             </thead>
             <tbody>
@@ -34,8 +34,8 @@
                     <td>{{ $company->name }}</td>
                     <td>{{ $company->cities_name }}</td>
                     <td>
-                        <a class="btn btn-primary" style="margin: 4px 0" href="{{URL::route('kontakty.edit', $company->id)}}">Изменить</a>
-                        <a class="btn btn-danger" href="{{URL::route('kontakty.remove', $company->id)}}">Удалить</a>
+                        <a class="btn btn-primary" style="margin: 4px 0" href="{{URL::route('kontakty.edit', $company->id)}}">Таҳрир</a>
+                        <a class="btn btn-danger" href="{{URL::route('kontakty.remove', $company->id)}}">Нест кардан</a>
                     </td>
 
                 </tr>

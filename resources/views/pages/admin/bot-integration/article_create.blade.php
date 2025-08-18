@@ -5,35 +5,35 @@
         <form action="{{ route('article.store_v2')}}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="exampleFormControlInput1">Название*</label>
-                <input name="title" type="text" class="form-control @error('category_id') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите название" required>
+                <label for="exampleFormControlInput1">Ном*</label>
+                <input name="title" type="text" class="form-control @error('category_id') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номро ворид кунед" required>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput2">Категория*</label>
                 <select id="categoryList" name="category_id" class="form-control @error('category_id') is-invalid @enderror">
-                    <option value="">Выберите категорию</option>
+                    <option value="">Категорияро интихоб кунед</option>
                     @foreach($categories as $category)
                     <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
                 </select>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput2">Подкатегория*</label>
+                <label for="exampleFormControlInput2">Зеркатегория*</label>
                 <select id="subcategoryList" name="subcategory_id" class="form-control @error('category_id') is-invalid @enderror">
-                    <option value="">Выберите подкатегорию</option>
+                    <option value="">Зеркатегорияро интихоб кунед</option>
                     @foreach($subcategories as $subcategory)
                     <option value="{{ $subcategory->id }}" class='parent-{{ $subcategory->category_id }} subcategory'>{{ $subcategory->name }}</option>
                     @endforeach
                 </select>
             </div>
             <div class="form-group">
-                <label for="LinkLabel">Ссылка на статью*</label>
-                <input name="link" type="text" class="form-control @error('link') is-invalid @enderror" id="LinkLabel" placeholder="Введите ссылку" required>
+                <label for="LinkLabel">Суроғаи мақола*</label>
+                <input name="link" type="text" class="form-control @error('link') is-invalid @enderror" id="LinkLabel" placeholder="Суроға ворид кунед" required>
             </div>
             @if(Route::is('article-franz-integration.create') )
                 <input type="hidden" name="franz" value="1">
             @endif
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кунед</button>
         </form>
     </div>
 </div>

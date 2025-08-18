@@ -7,12 +7,12 @@
     <meta name="google-site-verification" content="sHaPx1B9u1cK90kL592_-3d367nfaAJskdCPwkGM8XU"/>
     <meta name="yandex-verification" content="78156ab336769e4f"/>
     <meta name="facebook-domain-verification" content="yt9mj5tmtoxg2hc339xkhtbbakijzs" />
-    <meta property="og:title" content="UMAG - Системаи автоматикунонии савдо №1 дар Қазоқистон"/>
+    <meta property="og:title" content="UMAG — Низоми автоматикунонии савдои рақами 1 дар Қазоқистон"/>
     <meta property="og:description" content="Барномаи оддӣ ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кардан ройгон!"/>
     <meta property="og:image" content="/img/social_umag_logo.png"/>
     <meta property="og:url" content="https://umag.kz/"/>
     <meta name="description" content="Барномаи оддӣ ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кардан ройгон!"/>
-    <title>UMAG - Савдоро автоматиксозии низоми №1 дар Қазоқистон</title>
+    <title>UMAG — Низоми автоматикунонии савдои рақами 1 дар Қазоқистон</title>
     <link rel="canonical" href="https://umag.kz/">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="/css/style.css?v2.512195" />

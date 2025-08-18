@@ -8,10 +8,10 @@
                 <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>"/>
                 <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value=""/>
                 <span title="Закрыть" class="lead-catcher-form__close" data-close-modal="#lead-catcher-modal"></span>
-                <p class="lead-catcher-form__caption"> У вас есть вопросы? </p>
-                <p class="lead-catcher-form__lead"> Оставьте свой телефон, мы свяжемся с вами
-                    <br/> и ответим на любые возникшие вопросы! </p>
-                <label for="lead-catcher-modal__phone">Введите телефон</label>
+                <p class="lead-catcher-form__caption"> Шумо савол доред? </p>
+                <p class="lead-catcher-form__lead"> Рақами телефони худро гузоред, мо бо шумо тамос мегирем
+                    <br/> ва ба ҳама саволҳои шумо ҷавоб медиҳем! </p>
+                <label for="lead-catcher-modal__phone">Рақами телефонро ворид кунед</label>
                 <div class="row row_nowrap mob-row_wrap sides-margin-minus-10">
                     <div class="col-auto col-mob-100 sides-padding-10">
                         <select title="Ваш город" name="city" class="lead-catcher-form__input"
@@ -52,9 +52,9 @@
                     <div class="col-auto col-mob-100 sides-padding-10">
                         <input type="submit" value="Позвонить мне" class="lead-catcher-form__btn"></div>
                 </div>
-                <span class="lead-catcher-form__error-message" data-error-message style="display:none">Ошибка! Заполните все поля формы.</span>
-                <span class="lead-catcher-form__error-message" data-error-message-cache style="display:none">Этот номер ранее был уже отправлен</span>
-                <span class="lead-catcher-form__info-message" data-info-message style="display:none">Заявка успешно отравлена!</span>
+                <span class="lead-catcher-form__error-message" data-error-message style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+                <span class="lead-catcher-form__error-message" data-error-message-cache style="display:none">Ин рақам аллакай фиристода шудааст</span>
+                <span class="lead-catcher-form__info-message" data-info-message style="display:none">Дархост бомуваффақият фиристода шуд!</span>
             </form>
         </div>
     </div>
@@ -65,9 +65,9 @@
                 <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>"/>
                 <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value=""/>
                 <p id="modal-form__caption" class="modal-form__caption"></p>
-                <span class="modal-form__error-message" data-error-message style="display:none">Ошибка! Заполните все поля формы.</span>
+                <span class="modal-form__error-message" data-error-message style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
                 <span class="modal-form__info-message" data-info-message
-                      style="display:none">Заявка успешно отравлена!</span>
+                      style="display:none">Дархост бомуваффақият фиристода шуд!</span>
                 <div class="margin-20">
                     <select title="Ваш город" name="city" class="modal-form__input" id="modal-form__input-select">
                         <option value="" disabled selected>@lang('contact.your_city')</option>
@@ -365,11 +365,11 @@
                     </div>
                 </div>
             </div>
-            <a class="footer-bottom__offer offer" href="/legal/terms-of-use">ЛИЦЕНЗИОННЫЙ ДОГОВОР-ОФЕРТА</a>
-            <a class="footer-bottom__offer policy" href="/privacy-policy">Политика Конфиденциальности</a>
+            <a class="footer-bottom__offer offer" href="/legal/terms-of-use">ШАРТНОМАИ ЛИТСЕНЗИОНӢ-ОФЕРТА</a>
+            <a class="footer-bottom__offer policy" href="/privacy-policy">Сиёсати махфият</a>
         </div>
         @if(!str_contains(url()->current(), '/start') && !str_contains(url()->current(), '/target'))
-            <div class="start-for-free"><a href="/request-form" class="in-free">попробовать бесплатно</a></div>
+            <div class="start-for-free"><a href="/request-form" class="in-free">ройгон кӯшиш кунед</a></div>
         @endif
         <script type="text/javascript" src="/landing-resources/lib/modernizr-custom.js"></script>
         <script type="text/javascript" src="/js/index.js"></script>
@@ -531,7 +531,7 @@
                 e.stopPropagation()
             }), $("[data-caption]").click(function () {
                 var e = $(this).data("caption");
-                $("#modal-form__caption").text(e), $("#modal-form__type").val("Заявка на оборудование: " + e.replace("Купить товар: ", ""))
+                $("#modal-form__caption").text(e), $("#modal-form__type").val("Дархости таҷҳизот: " + e.replace("Маҳсулот харед: ", ""))
             }), $("[data-phone-mask]").inputmask("+7 (999) 999 99 99"), addEventListenerForm($("#lead-catcher-form")), addEventListenerForm($("#request-form")), addEventListenerForm($("#modal-form")), addEventListenerForm($("#contact-form-target"), 'target'), addEventListenerForm($("#contact-form")), addEventListenerForm($("#complexForm"));
         </script>
         {{--        <script>--}}

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width"/>
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta property="og:title" content="UMAG - Система автоматизации торговли №1 в Казахстане"/>
-    <meta property="og:description" content="Простая и понятная программа учета товаров и продаж. Начать бесплатно!"/>
+    <meta property="og:title" content="UMAG - Системаи автоматикунонии савдо №1 дар Қазоқистон"/>
+    <meta property="og:description" content="Барномаи осон ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кунед ройгон!"/>
     <meta property="og:image" content="/img/social_umag_logo.png"/>
     <meta property="og:url" content="https://umag.kz/"/>
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">

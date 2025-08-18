@@ -16,9 +16,9 @@
 @section('content')
 <div class="header-title">
     @if(Route::is('article-integration'))
-        <h1>Таблица статьи</h1>
+        <h1>Ҷадвали модда</h1>
         <div class="d-flex">
-            <a class="btn btn-primary" href="{{ URL::route('article-integration.create') }}" role="button">Создать</a>
+            <a class="btn btn-primary" href="{{ URL::route('article-integration.create') }}" role="button">Эҷод кардан</a>
             <a class="btn btn-primary" href="{{ URL::route('categories.create') }}" role="button">Создать Категорию</a>
             <a class="btn btn-primary" href="{{ URL::route('subcategories.create') }}" role="button">Создать Подкатегорию</a>
             <a class="btn btn-primary" href="{{ URL::route('categories-list') }}" role="button">Страница категорий</a>
@@ -29,11 +29,11 @@
     @if(Route::is('article-franz-integration'))
         <h1>Таблица франчизей</h1>
         <div class="d-flex">
-            <a class="btn btn-primary" href="{{ URL::route('article-franz-integration.create') }}" role="button">Создать</a>
-            <a class="btn btn-primary" href="{{ URL::route('categories-franz.create') }}" role="button">Создать Категорию</a>
-            <a class="btn btn-primary" href="{{ URL::route('franz-subcategories.create') }}" role="button">Создать Подкатегорию</a>
-            <a class="btn btn-primary" href="{{ URL::route('categories-franz-list') }}" role="button">Страница категорий</a>
-            <a class="btn btn-primary" href="{{ URL::route('subcategories-franz-list') }}" role="button">Страница подкатегорий</a>
+            <a class="btn btn-primary" href="{{ URL::route('article-franz-integration.create') }}" role="button">Эҷод кардан</a>
+            <a class="btn btn-primary" href="{{ URL::route('categories-franz.create') }}" role="button">Категория эҷод кардан</a>
+            <a class="btn btn-primary" href="{{ URL::route('franz-subcategories.create') }}" role="button">Зеркатегория эҷод кардан</a>
+            <a class="btn btn-primary" href="{{ URL::route('categories-franz-list') }}" role="button">Саҳифаи категория</a>
+            <a class="btn btn-primary" href="{{ URL::route('subcategories-franz-list') }}" role="button">Саҳифаи зеркатегорияҳо</a>
         </div>
     @endif
 
@@ -41,9 +41,9 @@
 <table class="table">
     <thead>
     <tr>
-        <th width="40%">Название</th>
+        <th width="40%">Ном</th>
         <th width="40%">Категория</th>
-        <th width="10">Действия</th>
+        <th width="10">Амалҳо</th>
     </tr>
     </thead>
     <tbody>
@@ -58,15 +58,15 @@
             <td class="text-right">
                 @if(Route::is('article-franz-integration'))
                       <div class="d-flex">
-                        <a href="{{ URL::route('article-franz-integration.edit', $article->id) }}" class="btn btn-xs btn-primary">Изменить</a>
-                        <a href="{{ URL::route('article-franz.remove', $article->id) }}" class="btn btn-xs btn-danger">Удалить</a>
+                        <a href="{{ URL::route('article-franz-integration.edit', $article->id) }}" class="btn btn-xs btn-primary">Таҳрир кардан</a>
+                        <a href="{{ URL::route('article-franz.remove', $article->id) }}" class="btn btn-xs btn-danger">Нест кардан</a>
                     </div>
                 @endif
 
                 @if(Route::is('article-integration'))
                 <div class="d-flex">
-                    <a href="{{ URL::route('article-integration.edit', $article->id) }}" class="btn btn-xs btn-primary">Изменить</a>
-                    <a href="{{ URL::route('article.remove', $article->id) }}" class="btn btn-xs btn-danger">Удалить</a>
+                    <a href="{{ URL::route('article-integration.edit', $article->id) }}" class="btn btn-xs btn-primary">Таҳрир кардан</a>
+                    <a href="{{ URL::route('article.remove', $article->id) }}" class="btn btn-xs btn-danger">Нест кардан</a>
                 </div>
                 @endif
             </td>

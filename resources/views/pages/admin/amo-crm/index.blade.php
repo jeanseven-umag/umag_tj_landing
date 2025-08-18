@@ -16,19 +16,19 @@
 @section('content')
     <div class="top-header-container">
         <div class="container-nav">
-            <h1>AmoCrm-Integrations</h1>
-            <a class="btn btn-success" href="{{URL::route('amo.create')}}">Создать</a>
+            <h1>АмоCrm-Интегратсияҳо</h1>
+            <a class="btn btn-success" href="{{URL::route('amo.create')}}">Сохтан</a>
         </div>
 
         <table class="table table-striped">
             <thead>
             <tr>
-                <th width="35%">Название</th>
-                <th width="25%">Город</th>
-                <th>Активация</th>
-                <th width="15%">Статус</th>
-                <th width="15%">Порядок</th>
-                <th width="15%">Действия</th>
+                <th width="35%">Ном</th>
+                <th width="25%">Шаҳр</th>
+                <th>Фаъолсозӣ</th>
+                <th width="15%">Ҳолат</th>
+                <th width="15%">Тартиб</th>
+                <th width="15%">Амалиётҳо</th>
             </tr>
             </thead>
             <tbody>
@@ -42,15 +42,15 @@
                         </div>
                     </td>
                     @if(!$integration->is_active)
-                        <td><span class="label label-default">Не активен</span></td>
+                        <td><span class="label label-default">Ғайрифаъол</span></td>
                     @elseif( $integration->send_status == 1 )
-                        <td><span class="label label-success">Отправлено</span></td>
+                        <td><span class="label label-success">Фиристода шуд</span></td>
                     @elseif( $integration->send_status == 2 )
-                        <td><span class="label label-danger">Ошибка с токеном</span></td>
+                        <td><span class="label label-danger">Хато бо токен</span></td>
                     @elseif( $integration->send_status == 3 )
-                        <td><span class="label label-primary">Подписки нету</span></td>
+                        <td><span class="label label-primary">Обуна нест</span></td>
                     @else
-                        <td><span class="label label-warning">В очереди</span></td>
+                        <td><span class="label label-warning">Дар навбат</span></td>
                     @endif
                     <td>
                         <select class="integration-order" data-integration="{{$integration->id}}">
@@ -60,8 +60,8 @@
                         </select>
                     </td>
                     <td>
-                        <a class="btn btn-primary" style="margin: 4px 0" href="{{URL::route('amo.edit', $integration->id)}}">Изменить</a>
-                        <a class="btn btn-danger" href="{{URL::route('amo.remove', $integration->id)}}">Удалить</a>
+                        <a class="btn btn-primary" style="margin: 4px 0" href="{{URL::route('amo.edit', $integration->id)}}">Тағйир додан</a>
+                        <a class="btn btn-danger" href="{{URL::route('amo.remove', $integration->id)}}">Ҳазф кардан</a>
                     </td>
 
                 </tr>
