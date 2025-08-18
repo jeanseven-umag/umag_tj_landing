@@ -8,6 +8,7 @@ return [
     'country_kz' => 'Қазақстан',
     'country_kg' => 'Қырғызстан',
     'country_uz' => 'Өзбекстан',
+    'country_tj' => 'Таджикистан',
     'city' => 'Қала',
     'city_not' => 'Қала таңдалмаған',
     'contact_us' => 'бізбен хабарласу',

@@ -8,6 +8,7 @@ return [
     'country_kz' => 'Казахстан',
     'country_kg' => 'Кыргызстан',
     'country_uz' => 'Узбекистан',
+    'country_tj' => 'Таджикистан',
     'city' => 'Город',
     'city_not' => 'Город не выбран',
     'contact_us' => 'связаться с нами',
