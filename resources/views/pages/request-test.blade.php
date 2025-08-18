@@ -5,29 +5,55 @@
     <div class="col-50 col-mob-100 block-1__left">
         <div class="container_half-left sides-padding-40">
             <h1>
-                Оставьте ваш <br />
-                номер телефона
+                Рақами телефони худро <br />
+                гузоред
             </h1>
             <p class="text">
-                И начните автоматизировать<br />
-                свой бизнес бесплатно
+                Ва бизнеси худро<br />
+                ройгон автоматизатсия кунед
             </p>
         </div>
     </div>
     <div class="col-50 col-mob-100 block-1__right">
         <div class="container_half-right">
             <form id="request-test" class="request-form">
-                <input type="hidden" name="type" value="Заявка на демо-доступ" />
+                <input type="hidden" name="type" value="Ариза барои дастрасии намоишӣ" />
                 <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
                 <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
-                <span data-error-message class="request-form__error-message" style="display:none">Ошибка! Заполните все поля формы.</span>
+                <span data-error-message class="request-form__error-message" style="display:none">Хатогӣ! Лутфан ҳамаи майдонҳои формаро пур кунед.</span>
                 <div class="margin-20">
                     <input title="Телефон" type="text" name="phone" data-phone-mask class="request-form__input" placeholder="+7 (___) ___ __ __"/>
                 </div>
                 <div class="margin-20">
                 <div class="select-icon"></div>
-                    <select title="ваш город" name="city" class="request-form__input">
+                    <select title="шаҳри шумо" name="city" class="request-form__input">
                         <option value="" disabled selected>@lang('contact.your_city')</option>
+                        <option value="DUS">Душанбе</option>
+                        <option value="TRS">Турсунзода</option>
+                        <option value="VHD">Ваҳдат</option>
+                        <option value="GSR">Ҳисор</option>
+                        <option value="NRK">Норак</option>
+                        <option value="RGN">Роғун</option>
+                        <option value="KHD">Хуҷанд</option>
+                        <option value="ISR">Истаравшан</option>
+                        <option value="PNJ">Панҷакент</option>
+                        <option value="ISF">Исфара</option>
+                        <option value="KNB">Конибодом</option>
+                        <option value="BST">Бустон</option>
+                        <option value="GLS">Гулистон</option>
+                        <option value="IST">Истиқлол</option>
+                        <option value="BHT">Бохтар</option>
+                        <option value="KLB">Кӯлоб</option>
+                        <option value="FRH">Фархор</option>
+                        <option value="JLB">Ҷалолиддин Балхӣ</option>
+                        <option value="KBD">Қубодиён</option>
+                        <option value="SHT">Шаҳритус</option>
+                        <option value="LVK">Леваканд</option>
+                        <option value="NRB">Нуробод</option>
+                        <option value="KRG">Хоруғ</option>
+                        <option value="VND">Ванҷ</option>
+                        <option value="RSH">Рушон</option>
+                        <option value="MRG">Мурғоб</option>
                         <option value="U11">Аксай ЗКО</option>
                         <option value="AKU">Актау</option>
                         <option value="AKT">Актобе</option>
@@ -66,7 +92,7 @@
                         <option value="BSH">Бишкек (Кыргызстан)</option>
                     </select>
                 </div>
-                <input type="submit" value="Отправить" class="request-form__btn"/>
+                <input type="submit" value="Фиристодан" class="request-form__btn"/>
             </form>
         </div>
     </div>
@@ -75,20 +101,20 @@
     <div class="container row sides-padding-20">
         <div class="col-33-3 col-mob-100 sides-padding-20">
             <p class="feature feature_1">
-                Полный контроль над<br />
-                движением товаров и денег
+                Назорати пурра ба<br />
+                ҳаракати мол ва пул
             </p>
         </div>
         <div class="col-33-3 col-mob-100 sides-padding-20">
             <p class="feature feature_2">
-                Подробная аналитика<br />
-                прибылей и убытков
+                Таҳлили муфассал<br />
+                фоида ва зарарҳо
             </p>
         </div>
         <div class="col-33-3 col-mob-100 sides-padding-20">
             <p class="feature feature_3">
-                Контроль за работой<br />
-                сотрудников
+                Назорат ба кори<br />
+                кормандон
             </p>
         </div>
     </div>
@@ -100,7 +126,7 @@
                 <div class="benefit">
                     <div class="row row_middle">
                         <span class="benefit__big-text col-auto col-mob-100">+27%</span>
-                        <span class="benefit__text col-auto col-mob-100">рост продаж</span>
+                        <span class="benefit__text col-auto col-mob-100">афзоиши фурӯш</span>
                     </div>
                 </div>
             </div>
@@ -108,7 +134,7 @@
                 <div class="benefit row row_middle">
                     <div class="row row_middle">
                         <span class="benefit__big-text col-auto col-mob-100">-18%</span>
-                        <span class="benefit__text col-auto col-mob-100">Сокращение<br /> издержек</span>
+                        <span class="benefit__text col-auto col-mob-100">Коҳиши<br /> хароҷотҳо</span>
                     </div>
                 </div>
             </div>

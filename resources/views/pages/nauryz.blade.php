@@ -6,12 +6,12 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="sHaPx1B9u1cK90kL592_-3d367nfaAJskdCPwkGM8XU"/>
     <meta name="yandex-verification" content="78156ab336769e4f"/>
-    <meta property="og:title" content="UMAG - Система автоматизации торговли №1 в Казахстане"/>
-    <meta property="og:description" content="Простая и понятная программа учета товаров и продаж. Начать бесплатно!"/>
+    <meta property="og:title" content="UMAG - Системаи автоматикунонии савдо №1 дар Қазоқистон"/>
+    <meta property="og:description" content="Барномаи осон ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кунед ройгон!"/>
     <meta property="og:image" content="/img/social_umag_logo.png"/>
     <meta property="og:url" content="https://umag.kz/"/>
-    <meta name="description" content="Простая и понятная программа учета товаров и продаж. Начать бесплатно!"/>
-    <title>UMAG - Система автоматизации торговли №1 в Казахстане</title>
+    <meta name="description" content="Барномаи осон ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кунед ройгон!"/>
+    <title>UMAG - Системаи автоматикунонии савдо №1 дар Қазоқистон</title>
     <link rel="canonical" href="https://umag.kz/">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico"/>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -30,21 +30,6 @@
         <a class="landing-logo-link" href="/nauryz">
             <svg xmlns="http://www.w3.org/2000/svg" width="97.456" height="31.087" viewBox="0 0 97.456 31.087">
                 <g id="Group_1159" data-name="Group 1159" transform="translate(-29 -26.447)">
-                    <path id="Path_1" data-name="Path 1"
-                          d="M144.619,98.231H143.9A12.8,12.8,0,0,0,131,110.923v.707a12.8,12.8,0,0,0,12.9,12.693h.718a12.8,12.8,0,0,0,12.9-12.693v-.707A12.8,12.8,0,0,0,144.619,98.231Z"
-                          transform="translate(-102 -71.783)" fill="#ffae1f"/>
-                    <path id="Path_2" data-name="Path 2"
-                          d="M652.714,187.265a7.778,7.778,0,0,1,3,.6,7.675,7.675,0,0,1,2.524,1.705,7.726,7.726,0,0,1,3.933-2.14,7.808,7.808,0,0,1,4.477.388,7.665,7.665,0,0,1,3.492,2.783,7.478,7.478,0,0,1,1.315,4.228v7.6a2.121,2.121,0,0,1-.634,1.509,2.181,2.181,0,0,1-3.061,0,2.118,2.118,0,0,1-.637-1.5v-7.6a3.279,3.279,0,0,0-.984-2.338,3.4,3.4,0,0,0-4.752,0,3.279,3.279,0,0,0-.984,2.338v7.6a2.121,2.121,0,0,1-.635,1.505,2.179,2.179,0,0,1-3.059,0,2.121,2.121,0,0,1-.637-1.5v-7.6a3.278,3.278,0,0,0-.984-2.337,3.4,3.4,0,0,0-4.751,0,3.278,3.278,0,0,0-.984,2.337v7.6a2.12,2.12,0,0,1-.636,1.506,2.182,2.182,0,0,1-3.06,0,2.121,2.121,0,0,1-.637-1.5V189.4a2.121,2.121,0,0,1,.637-1.5,2.182,2.182,0,0,1,2.549-.374,2.157,2.157,0,0,1,.779.694,7.756,7.756,0,0,1,3.727-.947Z"
-                          transform="translate(-586.624 -155.725)" fill="#00864f"/>
-                    <path id="Path_3" data-name="Path 3"
-                          d="M1177.885,188.153a2.2,2.2,0,0,0-1.194.355,2.149,2.149,0,0,0-.8.942,8.915,8.915,0,0,0-8.907-.205,8.726,8.726,0,0,0-3.3,3.174,8.527,8.527,0,0,0,0,8.765,8.727,8.727,0,0,0,3.3,3.174,8.915,8.915,0,0,0,8.907-.205,2.15,2.15,0,0,0,.8.943,2.181,2.181,0,0,0,2.723-.271,2.119,2.119,0,0,0,.637-1.5V190.286a2.119,2.119,0,0,0-.636-1.506A2.19,2.19,0,0,0,1177.885,188.153Zm-6.624,13.034a4.507,4.507,0,0,1-2.475-.739,4.4,4.4,0,0,1-1.641-1.967,4.313,4.313,0,0,1-.253-2.532,4.357,4.357,0,0,1,1.219-2.244,4.477,4.477,0,0,1,2.281-1.2,4.522,4.522,0,0,1,2.574.249,4.439,4.439,0,0,1,2,1.614,4.335,4.335,0,0,1-.554,5.534,4.457,4.457,0,0,1-1.445.95A4.519,4.519,0,0,1,1171.26,201.187Z"
-                          transform="translate(-1074.476 -156.563)" fill="#00864f"/>
-                    <path id="Path_4" data-name="Path 4"
-                          d="M1542.947,188.153a2.229,2.229,0,0,0-1.19.348,2.176,2.176,0,0,0-.81.926,8.915,8.915,0,0,0-8.835-.2,8.728,8.728,0,0,0-3.294,3.126,8.529,8.529,0,0,0-.119,8.694,8.716,8.716,0,0,0,3.208,3.211,8.915,8.915,0,0,0,8.838.034v1.148a4.276,4.276,0,0,1-.781,2.458,4.388,4.388,0,0,1-2.062,1.585,4.465,4.465,0,0,1-2.613.152,4.409,4.409,0,0,1-2.237-1.336c-.027-.03-.055-.059-.085-.088a2.224,2.224,0,0,0-3.05-.061,2.137,2.137,0,0,0-.173,3,8.783,8.783,0,0,0,2.982,2.176,8.916,8.916,0,0,0,3.629.772,8.762,8.762,0,0,0,8.791-8.649V190.315a2.15,2.15,0,0,0-.646-1.527A2.224,2.224,0,0,0,1542.947,188.153Zm-3.481,11.7a4.453,4.453,0,0,1-5.55.549,4.336,4.336,0,0,1-1.771-2.335,4.265,4.265,0,0,1,.135-2.911,4.352,4.352,0,0,1,1.98-2.167,4.462,4.462,0,0,1,2.927-.441,4.415,4.415,0,0,1,2.548,1.484,4.284,4.284,0,0,1,1.014,2.737v.046A4.276,4.276,0,0,1,1539.466,199.856Z"
-                          transform="translate(-1418.69 -156.563)" fill="#00864f"/>
-                    <path id="Path_5" data-name="Path 5"
-                          d="M243.736,190.315a2.15,2.15,0,0,0-.645-1.527,2.214,2.214,0,0,0-3.1,0,2.15,2.15,0,0,0-.645,1.527l0,7.627a3.221,3.221,0,0,1-1.017,2.2,3.336,3.336,0,0,1-4.553,0,3.221,3.221,0,0,1-1.017-2.2v-7.627a2.15,2.15,0,0,0-.647-1.528,2.218,2.218,0,0,0-3.106,0,2.15,2.15,0,0,0-.645,1.527v7.567a7.5,7.5,0,0,0,2.161,5.259,7.782,7.782,0,0,0,10.685.358,7.521,7.521,0,0,0,2.52-5.1,2.129,2.129,0,0,0,.019-.275Z"
-                          transform="translate(-193.784 -156.563)" fill="#fff"/>
                 </g>
             </svg>
         </a>
@@ -57,29 +42,29 @@
         <div class="container arn sides-padding-40">
             <img class="left" src="/img/arn.png" alt="">
             <img class="right" src="/img/arn.png" alt="">
-            <p class="lead first">поздравляем!</p>
-            <p class="lead">в честь праздника наурыз <br/> дарим вам</p>
-            <h1 class="big-lanfing-text">20% скидку</h1>
-            <p class="lead small">на автоматизацию бизнеса</p>
+            <p class="lead first">табрик!</p>
+            <p class="lead">ба муносибати иди Наврӯз <br/> ба шумо</p>
+            <h1 class="big-lanfing-text">20% тахфиф</h1>
+            <p class="lead small">барои автоматикунонии бизнес</p>
         </div>
         <div class="img-wrapper">
             <img src="img/noteb.png" alt="">
         </div>
     </div>
-    <a href="#" class="start-for-free"> получить скидку</a>
+    <a href="#" class="start-for-free"> гирифтани тахфиф</a>
     <div class="constacts-lead">
-        <h1 class="second-lead-h1">оставьте заявку и мы свяжемся с вами</h1>
+        <h1 class="second-lead-h1">дархост гузоред ва мо бо шумо тамос мегирем</h1>
         <div class="fit-container__left-side">
             <div class="form-block">
                 <form id="sale-form" action="" method="post">
-                    <input type="hidden" name="type" value="акция наурыз">
+                    <input type="hidden" name="type" value="аксияи Наврӯз">
                     <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>"/>
                     <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region"
                            value="">
-                    <span class="request-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span>
-                    <span class="request-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+                    <span class="request-form__error-message" data-error-message="" style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+                    <span class="request-form__info-message" data-info-message="" style="display:none">Дархост бомуваффақият фиристода шуд!</span>
                     <div class="input-group">
-                        <input title="Имя" type="text" name="name" placeholder="имя">
+                        <input title="Ном" type="text" name="name" placeholder="ном">
                     </div>
                     <div class="input-group">
                         <input title="Телефон" type="text" name="phone" data-phone-mask=""
@@ -94,26 +79,41 @@
                                       stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
                             </svg>
                         </div>
-                        <select title="Ваш город" name="city" class="input">
+                        <select title="Шаҳри шумо" name="city" class="input">
                             <option value="" disabled="" selected="">@lang('contact.your_city')</option>
-                            <option value="ALA">Алматы</option>
-                            <option value="ALA">Атырау</option>
-                            <option value="ALA">Уральск</option>
-                            <option value="ALA">Талдыкорган</option>
-                            <option value="ALA">Петропавлск</option>
-                            <option value="ALA">Костанай</option>
-                            <option value="ALA">Кызылорда</option>
-                            <option value="ALA">Кокшетау</option>
-                            <option value="ALA">Темиртау</option>
-                            <option value="ALA">Туркестан</option>
-                            <option value="ALA">Экибастуз</option>
-                            <option value="ALA">Рудный</option>
+                            <option value="ALA">Алмато</option>
+                            <option value="DUS">Душанбе</option>
+                            <option value="TRS">Турсунзода</option>
+                            <option value="VHD">Ваҳдат</option>
+                            <option value="GSR">Ҳисор</option>
+                            <option value="NRK">Норак</option>
+                            <option value="RGN">Роғун</option>
+                            <option value="KHD">Хуҷанд</option>
+                            <option value="ISR">Истаравшан</option>
+                            <option value="PNJ">Панҷакент</option>
+                            <option value="ISF">Исфара</option>
+                            <option value="KNB">Конибодом</option>
+                            <option value="BST">Бустон</option>
+                            <option value="GLS">Гулистон</option>
+                            <option value="IST">Истиқлол</option>
+                            <option value="BHT">Бохтар</option>
+                            <option value="KLB">Кӯлоб</option>
+                            <option value="FRH">Фархор</option>
+                            <option value="JLB">Ҷалолиддин Балхӣ</option>
+                            <option value="KBD">Қубодиён</option>
+                            <option value="SHT">Шаҳритус</option>
+                            <option value="LVK">Леваканд</option>
+                            <option value="NRB">Нуробод</option>
+                            <option value="KRG">Хоруғ</option>
+                            <option value="VND">Ванҷ</option>
+                            <option value="RSH">Рушон</option>
+                            <option value="MRG">Мурғоб</option>
                         </select>
                     </div>
                     <div class="input-group">
                         <button class="landing-button button_class" type="submit">
                             <img class="leftbutton" src="/img/arn.png" alt="">
-                            <span class="calibri-text">получить скидку</span>
+                            <span class="calibri-text">гирифтани тахфиф</span>
                             <img class="rigtbutton" src="/img/arn.png" alt="">
                         </button>
                     </div>
@@ -122,8 +122,8 @@
         </div>
         <div class="landing-footer">
             <p class="first-text-on-footer">
-                <span>примечания по акции</span>
-                <br> все права защищены @ 2021. umag
+                <span>шарҳҳо оид ба аксия</span>
+                <br> Ҳамаи ҳуқуқҳо ҳифз шудаанд @ 2021. umag
             </p>
         </div>
         <div class="landing-info-popup">
@@ -135,12 +135,10 @@
                           d="M22.942,2.294,20.648,0,11.471,9.177,2.294,0,0,2.294l9.177,9.177L0,20.648l2.294,2.294,9.177-9.177,9.177,9.177,2.294-2.294-9.177-9.177Z"></path>
                 </svg>
             </span>
-                <span class="bolder-text-heading">примечание:</span>
+                <span class="bolder-text-heading">шарҳ:</span>
                 <ul>
-                    <li>акция распространяется только на новых клиентов.</li>
-                    <li>акция не распространяется на действующих клиентов и клиентов, чей договор необходимо
-                        перезаключить.
-                    </li>
+                    <li>аксия танҳо барои муштариёни нав аст.</li>
+                    <li>аксия ба муштариёни амалкунанда ва муштариёне, ки шартномаашон бояд аз нав баста шавад, татбиқ намегардад.</li>
                 </ul>
             </div>
         </div>

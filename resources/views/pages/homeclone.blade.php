@@ -6,12 +6,12 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="sHaPx1B9u1cK90kL592_-3d367nfaAJskdCPwkGM8XU" />
     <meta name="yandex-verification" content="78156ab336769e4f" />
-    <meta property="og:title" content="UMAG - Система автоматизации торговли №1 в Казахстане" />
-    <meta property="og:description" content="Простая и понятная программа учета товаров и продаж. Начать бесплатно!" />
+    <meta property="og:title" content="UMAG - Системаи автоматикунонии савдо №1 дар Қазоқистон" />
+    <meta property="og:description" content="Барномаи оддӣ ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кардан ройгон!" />
     <meta property="og:image" content="/img/social_umag_logo.png" />
     <meta property="og:url" content="https://umag.kz/" />
-    <meta name="description" content="Простая и понятная программа учета товаров и продаж. Начать бесплатно!" />
-    <title>UMAG - Система автоматизации торговли №1 в Казахстане</title>
+    <meta name="description" content="Барномаи оддӣ ва фаҳмо барои ҳисоби мол ва фурӯш. Оғоз кардан ройгон!" />
+    <title>UMAG - Системаи автоматикунонии савдо №1 дар Қазоқистон</title>
     <link rel="canonical" href="https://umag.kz/">
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -42,7 +42,7 @@
                 <p class="lead">
                     {!! $text !!}
                 </p>
-                <h1 class="big-lanfing-text"><span>20%</span> скидка!</h1>
+                <h1 class="big-lanfing-text"><span>20%</span> тахфиф!</h1>
                 <div class="wrap">
                     <div class="countdown">
                         <div class="bloc-time hours">
@@ -68,7 +68,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="titler"><span>часы</span></div>
+                            <div class="titler"><span>соат</span></div>
                         </div>
                         <div class="sdsdsds">:</div>
                         <div class="bloc-time min">
@@ -94,7 +94,7 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="titler"><span>минуты</span></div>
+                            <div class="titler"><span>дақиқа</span></div>
                         </div>
                         <div class="sdsdsds">:</div>
                         <div class="bloc-time sec">
@@ -120,51 +120,66 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="titler"><span>секунды</span></div>
+                            <div class="titler"><span>сония</span></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <a href="#" class="start-for-free"> получить скидку</a>
+        <a href="#" class="start-for-free"> гирифтани тахфиф</a>
         <div class="constacts-lead">
-            <h1 class="second-lead-h1">оставь заявку прямо сейчас</h1>
-            <p class="last-change">другого шанса не будет получить</p>
-            <h3 class="red-price">20% скидку</h3>
+            <h1 class="second-lead-h1">ҳозир дархост гузоред</h1>
+            <p class="last-change">дигар имконият намешавад гирифтани</p>
+            <h3 class="red-price">20% тахфиф</h3>
             <div class="fit-container__left-side">
                 <div class="form-block">
                     <form id="sale-form" action="" method="post">
-                        <input type="hidden" name="type" value="скидка 20% процентов">
+                        <input type="hidden" name="type" value="тахфифи 20% фоиз">
                         <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
                         <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="">
-                        <span class="request-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span>
-                        <span class="request-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+                        <span class="request-form__error-message" data-error-message="" style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+                        <span class="request-form__info-message" data-info-message="" style="display:none">Дархост бомуваффақият фиристода шуд!</span>
                         <div class="input-group">
-                            <input title="Имя" type="text" name="name" placeholder="имя">
+                            <input title="Ном" type="text" name="name" placeholder="ном">
                         </div>
                         <div class="input-group">
                             <input title="Телефон" type="text" name="phone" data-phone-mask="" placeholder="+7 (___) ___ __ __">
                         </div>
                         <div class="input-group">
                             <div class="select-icon"></div>
-                            <select title="Ваш город" name="city" class="input">
+                            <select title="Шаҳри шумо" name="city" class="input">
                                 <option value="" disabled="" selected="">@lang('contact.your_city')</option>
                                 <option value="ALA">Алматы</option>
-                                <option value="ALA">Атырау</option>
-                                <option value="ALA">Уральск</option>
-                                <option value="ALA">Талдыкорган</option>
-                                <option value="ALA">Петропавлск</option>
-                                <option value="ALA">Костанай</option>
-                                <option value="ALA">Кызылорда</option>
-                                <option value="ALA">Кокшетау</option>
-                                <option value="ALA">Темиртау</option>
-                                <option value="ALA">Туркестан</option>
-                                <option value="ALA">Экибастуз</option>
-                                <option value="ALA">Рудный</option>
+                                <option value="DUS">Душанбе</option>
+                                <option value="TRS">Турсунзода</option>
+                                <option value="VHD">Ваҳдат</option>
+                                <option value="GSR">Ҳисор</option>
+                                <option value="NRK">Норак</option>
+                                <option value="RGN">Роғун</option>
+                                <option value="KHD">Хуҷанд</option>
+                                <option value="ISR">Истаравшан</option>
+                                <option value="PNJ">Панҷакент</option>
+                                <option value="ISF">Исфара</option>
+                                <option value="KNB">Конибодом</option>
+                                <option value="BST">Бустон</option>
+                                <option value="GLS">Гулистон</option>
+                                <option value="IST">Истиқлол</option>
+                                <option value="BHT">Бохтар</option>
+                                <option value="KLB">Кӯлоб</option>
+                                <option value="FRH">Фархор</option>
+                                <option value="JLB">Ҷалолиддин Балхӣ</option>
+                                <option value="KBD">Қубодиён</option>
+                                <option value="SHT">Шаҳритус</option>
+                                <option value="LVK">Леваканд</option>
+                                <option value="NRB">Нуробод</option>
+                                <option value="KRG">Хоруғ</option>
+                                <option value="VND">Ванҷ</option>
+                                <option value="RSH">Рушон</option>
+                                <option value="MRG">Мурғоб</option>
                             </select>
                         </div>
                         <div class="input-group">
-                            <button class="landing-button" type="submit">получить скидку</button>
+                            <button class="landing-button" type="submit">гирифтани тахфиф</button>
                         </div>
                     </form>
                 </div>
@@ -172,8 +187,8 @@
         </div>
         <div class="landing-footer">
             <p class="first-text-on-footer">
-                <span>примечания по акции</span>
-                <br> все права защищены @ 2020. umag
+                <span>шарҳҳо оид ба аксия</span>
+                <br> ҳамаи ҳуқуқҳо ҳифз шудаанд @ 2020. umag
             </p>
         </div>
         <div class="landing-info-popup">
@@ -183,50 +198,65 @@
                     <path id="Path_72" data-name="Path 72" d="M22.942,2.294,20.648,0,11.471,9.177,2.294,0,0,2.294l9.177,9.177L0,20.648l2.294,2.294,9.177-9.177,9.177,9.177,2.294-2.294-9.177-9.177Z"></path>
                 </svg>
             </span>
-                <span class="bolder-text-heading">примечание:</span>
+                <span class="bolder-text-heading">шарҳ:</span>
                 <ul>
-                    <li>акция распространяется только на новых клиентов.</li>
-                    <li>акция не распространяется на действующих клиентов и клиентов, чей договор необходимо перезаключить.</li>
+                    <li>аксия танҳо барои муштариёни нав аст.</li>
+                    <li>аксия барои муштариёни амалкунанда ва муштариёне, ки шартномаашонро бояд аз нав бастанд, татбиқ намешавад.</li>
                 </ul>
             </div>
         </div>
         <div class="last-chance-popup">
             <div class="lastbox">
-                <h1>время истекло!</h1>
-                <h2>это последний шанс получить скидку 20% на программу umag</h2>
+                <h1>вақт тамом шуд!</h1>
+                <h2>ин охирин имконият барои гирифтани тахфифи 20% ба барномаи umag аст</h2>
                 <div class="form-block">
                     <form id="chance_form" action="" method="post">
-                        <input type="hidden" name="type" value="скидка 20% процентов на послежднем шансе">
+                        <input type="hidden" name="type" value="тахфифи 20% фоиз дар охирин имконият">
                         <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
                         <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="">
-                        <span class="request-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span>
-                        <span class="request-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+                        <span class="request-form__error-message" data-error-message="" style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+                        <span class="request-form__info-message" data-info-message="" style="display:none">Дархост бомуваффақият фиристода шуд!</span>
                         <div class="input-group">
-                            <input title="Имя" type="text" name="name" placeholder="имя">
+                            <input title="Ном" type="text" name="name" placeholder="ном">
                         </div>
                         <div class="input-group">
                             <input title="Телефон" type="text" name="phone" data-phone-mask="" placeholder="+7 (___) ___ __ __">
                         </div>
                         <div class="input-group">
                             <div class="select-icon"></div>
-                            <select title="Ваш город" name="city" class="input">
+                            <select title="Шаҳри шумо" name="city" class="input">
                                 <option value="" disabled="" selected="">@lang('contact.your_city')</option>
                                 <option value="ALA">Алматы</option>
-                                <option value="ALA">Атырау</option>
-                                <option value="ALA">Уральск</option>
-                                <option value="ALA">Талдыкорган</option>
-                                <option value="ALA">Петропавлск</option>
-                                <option value="ALA">Костанай</option>
-                                <option value="ALA">Кызылорда</option>
-                                <option value="ALA">Кокшетау</option>
-                                <option value="ALA">Темиртау</option>
-                                <option value="ALA">Туркестан</option>
-                                <option value="ALA">Экибастуз</option>
-                                <option value="ALA">Рудный</option>
+                                <option value="DUS">Душанбе</option>
+                                <option value="TRS">Турсунзода</option>
+                                <option value="VHD">Ваҳдат</option>
+                                <option value="GSR">Ҳисор</option>
+                                <option value="NRK">Норак</option>
+                                <option value="RGN">Роғун</option>
+                                <option value="KHD">Хуҷанд</option>
+                                <option value="ISR">Истаравшан</option>
+                                <option value="PNJ">Панҷакент</option>
+                                <option value="ISF">Исфара</option>
+                                <option value="KNB">Конибодом</option>
+                                <option value="BST">Бустон</option>
+                                <option value="GLS">Гулистон</option>
+                                <option value="IST">Истиқлол</option>
+                                <option value="BHT">Бохтар</option>
+                                <option value="KLB">Кӯлоб</option>
+                                <option value="FRH">Фархор</option>
+                                <option value="JLB">Ҷалолиддин Балхӣ</option>
+                                <option value="KBD">Қубодиён</option>
+                                <option value="SHT">Шаҳритус</option>
+                                <option value="LVK">Леваканд</option>
+                                <option value="NRB">Нуробод</option>
+                                <option value="KRG">Хоруғ</option>
+                                <option value="VND">Ванҷ</option>
+                                <option value="RSH">Рушон</option>
+                                <option value="MRG">Мурғоб</option>
                             </select>
                         </div>
                         <div class="input-group">
-                            <button class="landing-button" type="submit">получить скидку</button>
+                            <button class="landing-button" type="submit">гирифтани тахфиф</button>
                         </div>
                     </form>
                 </div>

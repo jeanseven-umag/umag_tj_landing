@@ -3,7 +3,7 @@
 @extends('layouts.main')
 @section('content')
 <div class="top-header-container">
-    <a href="{{ URL::previous() }}" class="btnBack"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Вернутся к списку</a>
+    <a href="{{ URL::previous() }}" class="btnBack"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>Ба рӯйхат баргардед</a>
     <h1 class="title">{!! $post->title !!}</h1>
     <div class="content">
         {!! $post->content !!}

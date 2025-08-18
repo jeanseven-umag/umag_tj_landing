@@ -2,20 +2,20 @@
 
 @section('content')
     <div class="container">
-        <h1>Результат опроса</h1>
-        <a href="{{ url()->previous() }}" class="btn btn-primary">Назад</a>
+        <h1>Натиҷаи пурсиш</h1>
+        <a href="{{ url()->previous() }}" class="btn btn-primary">Бозгашт</a>
         <table class="table table-bordered">
             <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Ссылка</th>
-                    <th>Опрос</th>
-                    <th>Вариант</th>
-                    <th>Имя пользователя</th>
-                    <th>Телефон</th>
-                    <th>Текст другое</th>
-                    <th>Время</th>
-                </tr>
+            <tr>
+                <th>ID</th>
+                <th>Пайванд</th>
+                <th>Пурсиш</th>
+                <th>Вариант</th>
+                <th>Номи корбар</th>
+                <th>Телефон</th>
+                <th>Матни дигар</th>
+                <th>Вақт</th>
+            </tr>
             </thead>
             <tbody>
                 @foreach ($results as $result)

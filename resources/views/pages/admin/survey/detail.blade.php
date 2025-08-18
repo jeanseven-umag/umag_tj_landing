@@ -1,22 +1,22 @@
 @extends('layouts.admin')
 @section('content')
-<h1>Редактировать опросник</h1>
+<h1>Таҳрири саволнома</h1>
 
 <form action="{{ route('surveys.update', $survey->id) }}" method="POST">
     @csrf
     @method('PUT')
 
     <div class="form-group">
-        <label for="title">Название опроса *</label>
+        <label for="title">Номи саволнома *</label>
         <input type="text" name="title" id="title" class="form-control" value="{{ $survey->title }}" required>
     </div>
 
     <div class="form-group">
-        <label for="description">Описание</label>
+        <label for="description">Тавсиф</label>
         <textarea name="description" id="description" class="form-control">{{ $survey->description }}</textarea>
     </div>
 
-    <h3>Варианты опроса</h3>
+    <h3>Вариантҳои саволнома</h3>
 
     <div id="options-wrapper">
         @foreach ($survey->options as $index => $option)
@@ -28,9 +28,9 @@
         @endforeach
     </div>
 
-    <button type="button" class="btn btn-secondary mt-2" id="add-option">Добавить вариант</button>
+    <button type="button" class="btn btn-secondary mt-2" id="add-option">Иловаи вариант</button>
 
-    <button type="submit" class="btn btn-primary mt-3">Обновить опрос</button>
+    <button type="submit" class="btn btn-primary mt-3">Навсозии саволнома</button>
 </form>
 
 <script>

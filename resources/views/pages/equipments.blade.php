@@ -10,44 +10,39 @@
                 <ul>@lang('equipment.ready_box_desc') </ul>
             </div>
             <form id="complexForm" method="post" class="col-auto col-mob-100 complex-form">
-                <input type="hidden" name="type" value="Заявка на консультацию по оборудованию">
+                <input type="hidden" name="type" value="Дархост барои машварати таҷҳизот">
                 <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="">
                 <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
                 <select title="ваш город" name="city" id="complex-form__input-city" class="complex-form__input">
-                        <option value="" disabled="" selected="">@lang('home.your_city')</option>
-                    <option value="U11">Аксай ЗКО</option>
-                    <option value="AKU">Актау</option>
-                    <option value="AKT">Актобе</option>
+                    <option value="" disabled="" selected="">@lang('home.your_city')</option>
                     <option value="ALA">Алматы</option>
-                    <option value="ATR">Атырау</option>
-                    <option value="U10">Аягоз</option>
-                    <option value="BXH">Балхаш</option>
-                    <option value="U05">Жанаозен</option>
-                    <option value="U09">Жаркент</option>
-                    <option value="ZHE">Жезказган</option>
-                    <option value="U01">Жетысай</option>
-                    <option value="U08">Капчагай</option>
-                    <option value="KAR">Караганда</option>
-                    <option value="KOK">Кокшетау</option>
-                    <option value="KOS">Костанай</option>
-                    <option value="U06">Кульсары</option>
-                    <option value="KYZ">Кызылорда</option>
-                    <option value="U04">Лисаковск</option>
                     <option value="AST">Астана</option>
-                    <option value="PAV">Павлодар</option>
-                    <option value="PET">Петропавловск</option>
-                    <option value="U03">Рудный</option>
-                    <option value="KGF">Сатпаев</option>
-                    <option value="PLX">Семей</option>
-                    <option value="TAL">Талдыкорган</option>
-                    <option value="TAR">Тараз</option>
-                    <option value="U07">Темиртау</option>
-                    <option value="HSA">Туркестан</option>
-                    <option value="URA">Уральск</option>
-                    <option value="UKK">Усть-Каменогорск</option>
-                    <option value="U02">Шардара</option>
-                    <option value="CIT">Шымкент</option>
-                    <option value="EKB">Экибастуз</option>
+                    <option value="DUS">Душанбе</option>
+                    <option value="TRS">Турсунзода</option>
+                    <option value="VHD">Ваҳдат</option>
+                    <option value="GSR">Ҳисор</option>
+                    <option value="NRK">Норак</option>
+                    <option value="RGN">Роғун</option>
+                    <option value="KHD">Хуҷанд</option>
+                    <option value="ISR">Истаравшан</option>
+                    <option value="PNJ">Панҷакент</option>
+                    <option value="ISF">Исфара</option>
+                    <option value="KNB">Конибодом</option>
+                    <option value="BST">Бустон</option>
+                    <option value="GLS">Гулистон</option>
+                    <option value="IST">Истиқлол</option>
+                    <option value="BHT">Бохтар</option>
+                    <option value="KLB">Кӯлоб</option>
+                    <option value="FRH">Фархор</option>
+                    <option value="JLB">Ҷалолиддин Балхӣ</option>
+                    <option value="KBD">Қубодиён</option>
+                    <option value="SHT">Шаҳритус</option>
+                    <option value="LVK">Леваканд</option>
+                    <option value="NRB">Нуробод</option>
+                    <option value="KRG">Хоруғ</option>
+                    <option value="VND">Ванҷ</option>
+                    <option value="RSH">Рушон</option>
+                    <option value="MRG">Мурғоб</option>
                     <option value="UZB">Ташкент (Узбекистан)</option>
                     <option value="UZB">Самарканд (Узбекистан)</option>
                     <option value="NUK">Нукус (Узбекистан)</option>
@@ -57,8 +52,8 @@
                 <input title="Телефон" type="text" name="phone" id="complex-form__input-phone"
                 class="complex-form__input" disabled>
                 <input type="submit" value="@lang('equipment.consultation')" class="complex-form__btn">
-                <span class="complex-form__error-message" data-error-message style="display:none">Ошибка! Заполните все поля формы.</span>
-                <span class="complex-form__info-message" data-info-message style="display:none">Заявка успешно отравлена!</span>
+                <span class="complex-form__error-message" data-error-message style="display:none">Хато! Ҳамаи майдонҳои формаро пур кунед.</span>
+                <span class="complex-form__info-message" data-info-message style="display:none">Дархост бомуваффақият фиристода шуд!</span>
             </form>
         </div>
     </div>
@@ -142,7 +137,7 @@
     </section>
     <script>
         $(".equipment__btn, .button-product-buy").click(function(){
-            fbq('trackCustom','umag equipment',{'name':$(this).data("caption").replace('Купить товар: ', ''),'page':window.location.href});
+            fbq('trackCustom','umag equipment',{'name':$(this).data("caption").replace('Харидани мол: ', ''),'page':window.location.href});
         });
 
         function change(){

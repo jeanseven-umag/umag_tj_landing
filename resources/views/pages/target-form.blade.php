@@ -25,11 +25,11 @@
                 <div class="section-one__left">
                     <img src="/img/target-form/logo.png" alt="">
                     <div class="top-block-title">
-                        <p>система автоматизации торговли</p>
-                        <p class="sub-title">№1 в Казахстане</p>
+                        <p>системаи автоматикунонии савдо</p>
+                        <p class="sub-title">№1 дар Қазоқистон</p>
                     </div>
                     <button class="feedback-button">
-                        <div class="sub-title">оставить заявку</div>
+                        <div class="sub-title">дархост гузоред</div>
                     </button>
                 </div>
                 <div class="section-one__right">
@@ -48,8 +48,8 @@
                 <div class="section-one__left">
                     <img src="/img/target-form/logo.png" alt="">
                     <div class="top-block-title">
-                        <p>система автоматизации торговли</p>
-                        <p class="sub-title">№1 в Казахстане</p>
+                        <p>системаи автоматикунонии савдо</p>
+                        <p class="sub-title">№1 дар Қазоқистон</p>
                     </div>
                 </div>
                 <div class="section-one__right">
@@ -62,7 +62,7 @@
                     </div>
                     <img src="/img/target-form/cash.png" alt="">
                     <button class="feedback-button">
-                        <div class="sub-title">оставить заявку</div>
+                        <div class="sub-title">дархост гузоред</div>
                     </button>
                 </div>
             </div>
@@ -82,8 +82,7 @@
                         <img src="/img/target-form/blur-packet.png" alt="" class="img-3-absolute">
                         <img src="/img/target-form/basket.png" alt="" class="img-4-absolute">
                         <div class="text-info">
-                            Забудьте о
-                            <span class="highlight"><br>недостаче на кассе</span>
+                            Дар бораи <span class="highlight"><br>норасоиҳо дар касса фаромӯш кунед</span>
                         </div>
                     </div>
                     <div class="section-two__item section-two__item--2">
@@ -94,8 +93,7 @@
                         <img src="/img/target-form/bug.png" alt="" class="bug-absolute">
                         <img src="/img/target-form/theft.png" alt="">
                         <div class="text-info">
-                            Предотвратите
-                            <span class="highlight"><br>воровство сотрудников</span>
+                            Пешгирии <span class="highlight"><br>Дуздии кормандон</span>
                         </div>
                     </div>
                     <div class="section-two__item section-two__item--3">
@@ -104,8 +102,7 @@
                         <img src="/img/target-form/item-3-cloud-3.png" alt="" class="cloud-3-absolute">
                         <img src="/img/target-form/stocks.png" alt="">
                         <div class="text-info">
-                            Избавьтесь от
-                            <span class="highlight"><br>кассового разрыва</span>
+                            Аз <span class="highlight"><br>холии пули нақд</span> халос шавед
                         </div>
                     </div>
                 </div>
@@ -115,24 +112,23 @@
                 <img src="/img/target-form/milk-2.png" alt="" class="section-three__item--img for-mobile">
                 <img src="/img/target-form/bug-2.png" alt="" class="absolute-1 for-mobile">
                 <div class="section-three__items">
-                    <p class="for-mobile">Торговое оборудование и программа учета
-                        для вашего бизнеса</p>
+                    <p class="for-mobile">Таҷҳизот ва нармафзори муҳосибӣ барои тиҷорати шумо савдо кунед</p>
                     <div class="section-three__item">
                         <img src="/img/target-form/section-3-1-item.png" alt="">
-                        <p>Продуктовый магазин</p>
+                        <p>Мағозаи хӯрокворӣ</p>
                     </div>
                     <div class="section-three__item">
                         <img src="/img/target-form/section-3-2.png" alt="" class="absolute-1 for-desktop">
                         <img src="/img/target-form/section-3-3.png" alt="" class="absolute-2">
                         <img src="/img/target-form/section-3-2-item.png" alt="">
-                        <p>Бутики одежды</p>
+                        <p>Дӯконҳои либос</p>
                     </div>
                     <div class="section-three__item">
                         <div>
                             <img src="/img/target-form/section-3-3-item.png" alt="">
                             <img src="/img/target-form/section-3-4.png" alt="" class="absolute-3">
                             <img src="/img/target-form/section-3-6.png" alt="" class="absolute-5 for-desktop">
-                            <p>Магазин косметики</p>
+                            <p>Мағозаи косметика</p>
                             <img src="/img/target-form/section-3-5.png" alt="" class="absolute-4">
                             <img src="/img/target-form/pomade-2.png" alt="" class="absolute-5 for-mobile">
                         </div>
@@ -166,7 +162,7 @@
                         </div>
                     </div>
                     <button class="section-four__button">
-                        Хочу бесплатную консультацию
+                        Ман машварати ройгон мехоҳам
                     </button>
                 </div>
                 <div class="for-mobile">
@@ -176,7 +172,7 @@
 {{--                        <img src="/img/target-form/swift.png" class="swift" alt="">--}}
                     </div>
                     <button class="section-four__button">
-                        Хочу бесплатную консультацию
+                        Ман машварати ройгон мехоҳам
                     </button>
                     <div class="sec-block">
                         <div>
@@ -205,16 +201,16 @@
                         <img src="/img/target-form/logo.png" alt="">
                     </div>
                     <div class="form-title-bl">
-                        <p class="form-title">Оставьте заявку</p>
-                        <p>и мы перезвоним вам в ближайшее время</p>
+                        <p class="form-title">Дархост гузоред</p>
+                        <p>ва мо ба зудӣ ба шумо занг мезанем</p>
                     </div>
                     <input type="hidden" name="type" value="Обратная связь">
                     <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>"/>
                     <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region"
                            value=""/>
                     <input type="hidden" name="tag" value="{{$tag}}"/>
-                    <span class="contact-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span>
-                    <span class="contact-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+                    <span class="contact-form__error-message" data-error-message="" style="display:none">Хатогӣ! Лутфан ҳамаи майдонҳои формаро пур кунед.</span>
+                    <span class="contact-form__info-message" data-info-message="" style="display:none">Ариза бомуваффақият фиристода шуд!</span>
                     <div class="margin-20">
                         <input title="Имя" type="text" name="name" class="contact-form__input" placeholder="Имя">
                     </div>
@@ -223,13 +219,39 @@
                                placeholder="+7 (___) ___ __ __">
                     </div>
                     <div class="margin-20">
-                        <p class="select-text">Выберите город:</p>
+                        <p class="select-text">Шаҳр интихоб кунед:</p>
                         <svg class="select-icon" width="36" height="17" viewBox="0 0 36 17" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.4237 16.627L35.9941 0.027277H0.853397L18.4237 16.627Z" fill="#1F1F1F"/>
                         </svg>
                         <select title="Ваш город" name="city" class="contact-form__input">
-                            <option value="" disabled selected>Ваш город</option>
+                            <option value="" disabled selected>Шаҳри шумо</option>
+                            <option value="DUS">Душанбе</option>
+                            <option value="TRS">Турсунзода</option>
+                            <option value="VHD">Ваҳдат</option>
+                            <option value="GSR">Ҳисор</option>
+                            <option value="NRK">Норак</option>
+                            <option value="RGN">Роғун</option>
+                            <option value="KHD">Хуҷанд</option>
+                            <option value="ISR">Истаравшан</option>
+                            <option value="PNJ">Панҷакент</option>
+                            <option value="ISF">Исфара</option>
+                            <option value="KNB">Конибодом</option>
+                            <option value="BST">Бустон</option>
+                            <option value="GLS">Гулистон</option>
+                            <option value="IST">Истиқлол</option>
+                            <option value="BHT">Бохтар</option>
+                            <option value="KLB">Кӯлоб</option>
+                            <option value="FRH">Фархор</option>
+                            <option value="JLB">Ҷалолиддин Балхӣ</option>
+                            <option value="KBD">Қубодиён</option>
+                            <option value="SHT">Шаҳритус</option>
+                            <option value="LVK">Леваканд</option>
+                            <option value="NRB">Нуробод</option>
+                            <option value="KRG">Хоруғ</option>
+                            <option value="VND">Ванҷ</option>
+                            <option value="RSH">Рушон</option>
+                            <option value="MRG">Мурғоб</option>
                             <option value="ALA">Алматы</option>
                             <option value="AST">Нур-Султан</option>
                             <option value="CIT">Шымкент</option>
@@ -252,7 +274,7 @@
                         </select>
                     </div>
                     <button type="submit" class="contact-form__btn">
-                        Оставить заявку
+                        Дархост гузоред
                     </button>
                 </form>
             </div>

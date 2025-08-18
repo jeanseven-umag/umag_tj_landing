@@ -1,13 +1,13 @@
 @extends('layouts.admin')
 @section('content')
 <div class="top-header-container">
-    <h3>Создание категорий (База знаний)</h3>
+    <h3>Эҷоди категорияҳо (Базаи дониш)</h3>
     <div class="top-wrap">
         <form action="{{ route('new.admin.category-store')}}" method="POST">
             @csrf
             <div class="form-group">
-                <label for="exampleFormControlInput1">Название</label>
-                <input name="name" type="text" class="form-control @error('name') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите название">
+                <label for="exampleFormControlInput1">Ном</label>
+                <input name="name" type="text" class="form-control @error('name') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номро ворид кунед">
                 {{-- Display error message if name validation fails --}}
                 @error('name')
                     <div class="invalid-feedback">
@@ -15,9 +15,7 @@
                     </div>
                 @enderror
             </div>
-            
-
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кардан</button>
         </form>
     </div>
 </div>

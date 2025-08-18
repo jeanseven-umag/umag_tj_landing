@@ -7,13 +7,13 @@
 @section('content')
     <section class="ceny-page block-1">
         <div class="container">
-            <h1 class="sides-padding-40 title-page">Тарифы</h1>
+            <h1 class="sides-padding-40 title-page">Тарифҳо</h1>
             <div class="banner-block">
                 <div class="info-text">
-                    <h1 class="title">Бонусы только при первом пополнении!</h1>
+                    <h1 class="title">Бонусҳо танҳо ҳангоми пур кардани аввалин!</h1>
                     <ul>
-                        <li>При пополнении баланса от ₸60,000 до ₸119,999 получите <strong>кэшбек <br>5%</strong> на счет!</li>
-                        <li>При пополнении свыше ₸120,000 - <strong>кэшбек 10%</strong> на счет!</li>
+                        <li>Ҳангоми пур кардани баланс аз ₸60,000 то ₸119,999 <strong>кэшбек <br>5%</strong> ба ҳисоб гиред!</li>
+                        <li>Ҳангоми пур кардани зиёда аз ₸120,000 - <strong>кэшбек 10%</strong> ба ҳисоб!</li>
                     </ul>
                 </div>
             </div>
@@ -23,18 +23,16 @@
                         <div class="card-body">
                             <p class="text-left font-weight-bold" style="font-size:24px ">Старт</p>
                             <p class="info">
-                                Тариф подойдет тем, кто хочет попробовать нашу систему впервые или не имеет более 1
-                                торговой точки
+                                Тариф барои онҳое, ки мехоҳанд системаи моро бори аввал санҷанд ё зиёда аз 1 нуқтаи савдо надоранд
                             </p>
-                            <p class="card-title"><span>₸6,900 /</span> в месяц</p>
+                            <p class="card-title"><span>₸6,900 /</span> дар моҳ</p>
                             <button type="button" id="chooseTarifStartBtn"
                                     class="btn btn-success btn-lg btn-block" data-open-modal="#formModal">
-                                Выбрать тариф
+                                Тарифро интихоб кунед
                             </button>
                             <div class="text-center">
                                 <button type="button" class="btn btn-link" data-toggle="modal"
-                                        data-target=".bd-example-modal-lg" data-open-modal="#chooseTarif">Рассчитать
-                                    стоимость
+                                        data-target=".bd-example-modal-lg" data-open-modal="#chooseTarif">Ҳисоб кардани арзиш
                                 </button>
                             </div>
                         </div>
@@ -49,7 +47,7 @@
                                                       fill="#828282"/>
                                             </svg>
                                         </i>
-                                        Количество магазинов
+                                        Шумораи мағозаҳо
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -68,7 +66,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        Количество касс
+                                        Шумораи кассахои кассахо
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -87,7 +85,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        Количество пользователей
+                                        Шумораи истифодабарандагон
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -98,23 +96,22 @@
                 <div class="col-33-3 col-mob-100 sides-padding-20">
                     <div class="card">
                         <div class="card-header">
-                            Самый популярный выбор
+                            Интихоби маъмултарин
                         </div>
                         <div class="card-body">
                             <p class="text-left font-weight-bold" style="font-size:24px">Стандарт</p>
-                            <p class="info">Неограниченное количество пользователей, а также возможность докупать кассы
-                                и магазины</p>
-                            <p class="card-title"><span>₸19,900 /</span> в месяц</p>
+                            <p class="info">Шумораи номаҳдуди истифодабарандагон, инчунин имконияти харидани мошинҳои хазинавӣ ва мағозаҳои иловагӣ</p>
+                            <p class="card-title"><span>₸19,900 /</span> дар як моҳ</p>
                             <div class="text-option">
-                                <p>Доп. магазин - ₸2,900 / в месяц</p>
-                                <p>Доп. касса - ₸2,900 / в месяц</p>
+                                <p>Мағозаи иловагӣ - ₸2,900 / дар як моҳ</p>
+                                <p>Кассаи иловагй - ₸2,900 / дар як моҳ</p>
                             </div>
                             <button type="button" class="btn btn-success btn-lg btn-block"
-                                    data-open-modal="#formModal" id="chooseTarifStandardBtn">Выбрать тариф
+                                    data-open-modal="#formModal" id="chooseTarifStandardBtn">Тарофаро интихоб кунед
                             </button>
                             <div class="text-center">
-                                <button type="button" class="btn btn-link" data-open-modal="#chooseTarif">Рассчитать
-                                    стоимость
+                                <button type="button" class="btn btn-link" data-open-modal="#chooseTarif">
+                                    Ҳисоб кардани хароҷот
                                 </button>
                             </div>
                         </div>
@@ -129,7 +126,7 @@
                                                       fill="#828282"/>
                                             </svg>
                                         </i>
-                                        Количество магазинов
+                                        Шумораи мағозаҳо
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -148,7 +145,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        Количество касс
+                                        Шумораи кассахои кассахо
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -167,7 +164,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        Количество пользователей
+                                        Шумораи истифодабарандагон
                                     </p>
                                     <span>∞</span>
                                 </li>
@@ -178,22 +175,20 @@
                 <div class="col-33-3 col-mob-100 sides-padding-20">
                     <div class="card card-opacity">
                         <div class="card-header">
-                            Скоро...
+                            Ба зудӣ...
                         </div>
                         <div class="card-body">
                             <p class="text-left font-weight-bold" style="font-size:24px">Про</p>
-                            <p class="info">Тариф “Стандарт” + доп. функционал идеально подходящий под сетевые, вещевые
-                                и обувные магазины</p>
-                            <p class="card-title"><span>₸29,900 /</span> в месяц</p>
+                            <p class="info">Тарофаи “Стандарт” + функсионали иловагӣ, ки барои шабакаҳо, мағозаҳои либос ва пойафзол беҳтарин аст</p>
+                            <p class="card-title"><span>₸29,900 /</span> дар моҳ</p>
                             <div class="text-option">
-                                <p>Доп. магазин - ₸2,900 / в месяц</p>
-                                <p>Доп. касса - ₸2,900 / в месяц</p>
+                                <p>Мағозаи иловагӣ - ₸2,900 / дар моҳ</p>
+                                <p>Кассаи иловагӣ - ₸2,900 / дар моҳ</p>
                             </div>
-                            <button type="button" class="btn btn-success btn-lg btn-block btn-click" disabled>Выбрать
-                                тариф
+                            <button type="button" class="btn btn-success btn-lg btn-block btn-click" disabled>Тарифро интихоб кунед
                             </button>
                             <div class="text-center">
-                                <button type="button" class="btn btn-link">Рассчитать стоимость</button>
+                                <button type="button" class="btn btn-link">Ҳисоб кардани арзиш</button>
                             </div>
                         </div>
                         <div class="card-footer">
@@ -207,7 +202,7 @@
                                                       fill="#828282"/>
                                             </svg>
                                         </i>
-                                        Количество магазинов
+                                        Шумораи мағозаҳо
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -226,7 +221,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        Количество касс
+                                        Шумораи кассаҳо
                                     </p>
                                     <span>1</span>
                                 </li>
@@ -245,7 +240,7 @@
                                                 </g>
                                             </svg>
                                         </i>
-                                        Количество пользователей
+                                        Шумораи истифодабарандагон
                                     </p>
                                     <span>∞</span>
                                 </li>
@@ -254,17 +249,17 @@
                     </div>
                 </div>
             </div>
-            <h1 class="info-title btn-link" data-open-modal="#myModal">Сравнить все тарифы и возможности</h1>
+            <h1 class="info-title btn-link" data-open-modal="#myModal">Ҳамаи тарифҳо ва имкониятҳоро муқоиса кунед</h1>
             <div class="banner-block banner-2">
                 <div class="info-text">
-                    <h1 class="title">Первичная установка Программного Обеспечения UMAG</h1>
+                    <h1 class="title">Насби ибтидоии Барномаи UMAG</h1>
                     <p>
-                        При первичном подключении взимается единоразовый платеж в размере 30 000 тенге за установку оборудования с программным обеспечением для одной торговой точки. Далее вы оплачиваете только ежемесячные платежи согласно вашему тарифу
+                        Ҳангоми пайвастшавии аввал пардохти яквақта ба маблағи 30 000 танга барои насби таҷҳизот бо барнома барои як нуқтаи савдо гирифта мешавад. Баъдан шумо танҳо пардохти моҳонаро мувофиқи тарофаи худ пардохт мекунед.
                     </p>
                 </div>
                 <button type="button" id="chooseTarifStartBtn"
                         class="btn btn-outline-light btn-click btn-lg btn-block" data-open-modal="#formModal">
-                    Узнать подробнее
+                    Маълумоти бештар
                 </button>
             </div>
             <h1 class="sides-padding-40 price-include">@lang('product_price.included_price')</h1>
@@ -274,7 +269,7 @@
                         <p class="price-title">
                             @lang('product_price.phone_consultation')
                         </p>
-                        <p class="price-info-text">По всем интересующим вас вопросам, наша команда вас проконсультирует</p>
+                        <p class="price-info-text">Дар ҳама саволҳои шумо, дастаи мо ба шумо маслиҳат медиҳад</p>
                     </div>
                     <div class="price-logo">
                         <svg width="92" height="90" viewBox="0 0 92 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -303,7 +298,7 @@
                         <p class="price-title">
                             @lang('product_price.equipment_setup')
                         </p>
-                        <p class="price-info-text">Специалисты выезжают к вам на точку и настраивают все необходимое оборудование</p>
+                        <p class="price-info-text">Мутахассисон ба чои шумо омада, тамоми тачхизоти заруриро монтаж мекунанд</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,9 +323,9 @@
                 <div class="col-33-2 col-mob-100 sides-padding-20 price-bl">
                     <div class="price-txt-bl">
                         <p class="price-title">
-                            Установка необходимого ПО
+                            Насб кардани нармафзори зарурӣ
                         </p>
-                        <p class="price-info-text">Помимо установки оборудования наши специалисты помогут в настройке необходимого программного обеспечения</p>
+                        <p class="price-info-text">Мутахассисони мо ба гайр аз насби тачхизот ба шумо дар сохтани программахои зарурй ёрй мерасонанд.</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -370,9 +365,9 @@
                 <div class="col-33-2 col-mob-100 sides-padding-20 price-bl">
                     <div class="price-txt-bl">
                         <p class="price-title">
-                            Обучение сотрудников магазина
+                            Омузиши коркунони магазин
                         </p>
-                        <p class="price-info-text">Мы полностью обучим всем необходимым навыкам для владения программой Umag</p>
+                        <p class="price-info-text">Мо пурра ба шумо тамоми малакаҳои заруриро барои истифодаи барномаи Umag меомӯзем</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -397,8 +392,7 @@
                         <p class="price-title">
                             @lang('product_price.departure_specialist')<br>
                         </p>
-                        <p class="price-info-text">Наши коллеги окажут вам поддержку при любых
-                            неполадках</p>
+                        <p class="price-info-text">Ҳамкорони мо дар сурати пайдо шудани мушкилот ба шумо кумак хоҳанд кард</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -453,7 +447,7 @@
                         <p class="price-title">
                             @lang('product_price.technical_support')
                         </p>
-                        <p class="price-info-text">Полное сопровождение и поддержка</p>
+                        <p class="price-info-text">Дастгирии пурра ва кӯмак</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -481,41 +475,8 @@
                         <button type="button" class="close close-table" aria-label="Close">
                             <span aria-hidden="true"></span>
                         </button>
-                        <h1>Сравнение тарифов и функций</h1>
+                        <h1>Нархҳо ва хусусиятҳоро муқоиса кунед</h1>
                         <div class="row sides-padding-20">
-<!--                            <div class="col-25 col-mob-33">
-                                <div class="form-group has-search w-80">
-                                    <span class="fa fa-search form-control-feedback">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                             fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-</svg>
-                                    </span>
-                                    <input type="text" class="form-control" id="formGroupExampleInput2"
-                                           placeholder="Поиск функций">
-                                </div>
-                            </div>
-                            <div class="col-25 col-mob-22">
-                                <p class="text-left font-weight-bold" style="font-size:24px ">Start</p>
-                                <p class="card-title"><span>₸6,900 /</span> в месяц</p>
-                                <button type="button" class="btn btn-outline-success btn-click"
-                                        data-open-modal="#formModal">Выбрать тариф
-                                </button>
-                            </div>
-                            <div class="col-25 col-mob-22">
-                                <p class="text-left font-weight-bold" style="font-size:24px ">Standard</p>
-                                <p class="card-title"><span>₸19,900 /</span> в месяц</p>
-                                <button type="button" class="btn btn-outline-success btn-click"
-                                        data-open-modal="#formModal">Выбрать тариф
-                                </button>
-                            </div>
-                            <div class="col-25 col-mob-22">
-                                <p class="text-left font-weight-bold" style="font-size:24px ">Pro</p>
-                                <p class="card-title"><span>₸29,900 /</span> в месяц</p>
-                                <button type="button" class="btn btn-outline-success btn-click"
-                                        data-open-modal="#formModal">Выбрать тариф
-                                </button>
-                            </div>-->
                             <div class="col-100">
                                 <table class="table compare-table-list">
                                     <thead>
@@ -534,24 +495,24 @@
                                                 </div>
                                             </th>
                                             <th scope="col">
-                                                <p class="font-weight-bold" style="font-size:24px ">Старт</p>
-                                                <p class="card-title"><span>₸6,900 /</span> в месяц</p>
+                                                <p class="font-weight-bold" style="font-size:24px ">Оғоз</p>
+                                                <p class="card-title"><span>₸6,900 /</span> дар як моҳ</p>
                                                 <button type="button" class="btn btn-outline-success btn-click"
-                                                        data-open-modal="#formModal">Выбрать тариф
+                                                        data-open-modal="#formModal">Интихоби тариф
                                                 </button>
                                             </th>
                                             <th scope="col">
                                                 <p class="font-weight-bold" style="font-size:24px ">Стандарт</p>
-                                                <p class="card-title"><span>₸19,900 /</span> в месяц</p>
+                                                <p class="card-title"><span>₸19,900 /</span> дар як моҳ</p>
                                                 <button type="button" class="btn btn-outline-success btn-click"
-                                                        data-open-modal="#formModal">Выбрать тариф
+                                                        data-open-modal="#formModal">Интихоби тариф
                                                 </button>
                                             </th>
                                             <th scope="col">
                                                 <p class="font-weight-bold" style="font-size:24px ">Про</p>
-                                                <p class="card-title"><span>₸29,900 /</span> в месяц</p>
+                                                <p class="card-title"><span>₸29,900 /</span> дар як моҳ</p>
                                                 <button type="button" class="btn btn-outline-success btn-click"
-                                                        data-open-modal="#formModal">Выбрать тариф
+                                                        data-open-modal="#formModal">Интихоби тариф
                                                 </button>
                                             </th>
                                         </tr>
@@ -559,7 +520,7 @@
                                             <th scope="col">
                                             </th>
                                             <th scope="col">
-                                                <p class="font-weight-bold" style="font-size:12px ">Старт</p>
+                                                <p class="font-weight-bold" style="font-size:12px ">Оғоз</p>
                                             </th>
                                             <th scope="col">
                                                 <p class="font-weight-bold" style="font-size:12px ">Стандарт</p>
@@ -571,13 +532,13 @@
                                     </thead>
                                     <tbody>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Финансовая отчетность</th>
+                                            <th scope="col">Ҳисоботи молиявӣ</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Фискализация платежей</td>
+                                            <td>Фискализатсияи пардохтҳо</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -621,7 +582,7 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Показатели по магазинам</th>
+                                            <th scope="col">Нишондиҳандаҳо аз рӯи мағозаҳо</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
@@ -671,7 +632,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>За месяц</td>
+                                            <td>Дар як мох</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -715,13 +676,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Статистика продаж</th>
+                                            <th scope="col">Омори фурӯш</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>По товарам</td>
+                                            <td>Аз рӯи маҳсулот</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                         xmlns="http://www.w3.org/2000/svg">
@@ -765,7 +726,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>По чекам</td>
+                                            <td>Бо чекхо</td>
                                             <td>
                                                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -809,7 +770,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>По категориям</td>
+                                            <td>Аз рӯи категориям</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -852,7 +813,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>По поставщикам</td>
+                                            <td>Аз ҷониби таъминкунандагон</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -895,7 +856,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>По покупателям</td>
+                                            <td>Аз ҷониби харидорон</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -938,142 +899,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Сравнение товаров</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr class="thead-green tarrif-head">
-                                            <th scope="col">Отчеты</th>
-                                            <th scope="col"></th>
-                                            <th scope="col"></th>
-                                            <th scope="col"></th>
-                                        </tr>
-                                        <tr>
-                                            <td>По сменам</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>По кассирам</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>По скидкам</td>
+                                            <td>Маҳсулотро муқоиса кунед</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -1116,13 +942,99 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Движение денег</th>
+                                            <th scope="col">Ҳисоботҳо</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Движение денег</td>
+                                            <td>Бо сменахо</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Аз тарафи кассирхо</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Дар бораи тахфифҳо</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -1165,185 +1077,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Прибыли и убытки</th>
+                                            <th scope="col">Ҳаракати пул</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Выручка</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Себестоимость</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Валовая прибыль</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Операционные расходы</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                            fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Чистая прибыль</td>
+                                            <td>Ҳаракати пул</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -1386,13 +1126,234 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">ABC - Анализ</th>
+                                            <th scope="col">Фоида ва зарар</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>ABC анализ</td>
+                                            <td>Даромад</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Нархи арзиш</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Даромади умумӣ</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Хароҷоти амалиётӣ</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Фоидаи соф</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                            fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr class="thead-green tarrif-head">
+                                            <th scope="col">ABC - Таҳлил</th>
+                                            <th scope="col"></th>
+                                            <th scope="col"></th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                        <tr>
+                                            <td>ABC таҳлил</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1433,57 +1394,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Продажи</th>
+                                            <th scope="col">Фурӯш</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Отмененный товар</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Продажи</td>
+                                            <td>Элемент бекор карда шудааст</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -1527,7 +1444,51 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Платежи</td>
+                                            <td>Фурӯш</td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Пардохтҳо</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1568,13 +1529,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Закупки</th>
+                                            <th scope="col">Харид</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Приемка</td>
+                                            <td>Қабул</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1615,7 +1576,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Возврат поставщикам</td>
+                                            <td>Бозгашт ба таъминкунандагон</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1656,7 +1617,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Платежи</td>
+                                            <td>Пардохтҳо</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1697,7 +1658,7 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Товары</th>
+                                            <th scope="col">Мол</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
@@ -1747,7 +1708,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Быстрые товары</td>
+                                            <td>Маҳсулоти зуд</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -1791,7 +1752,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Склад</td>
+                                            <td>Анбор</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1832,7 +1793,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Списание / Оприходование</td>
+                                            <td>Хатмӣ / Қабулӣ</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1914,7 +1875,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Перемещение</td>
+                                            <td>Ҷобаҷокунӣ</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -1955,7 +1916,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Импорт товаров</td>
+                                            <td>Воридоти мол</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -1999,13 +1960,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Финансы</th>
+                                            <th scope="col">Молия</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Обзор по счетам</td>
+                                            <td>Шарҳи ҳисоб</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -2050,7 +2011,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Перемещение</td>
+                                            <td>Ҷобаҷокунӣ</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2089,7 +2050,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Импорт товаров</td>
+                                            <td>Воридоти мол</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2130,13 +2091,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Контрагенты</th>
+                                            <th scope="col">Тарафхои мукобил</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Покупатели</td>
+                                            <td>харидорон</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -2180,7 +2141,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Поставщики</td>
+                                            <td>Таъминкунандагон</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -2224,59 +2185,15 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Управление</th>
+                                            <th scope="col">Назорат</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Пользователи</td>
+                                            <td>Истифодабарандагон</td>
                                             <td>
-                                                <span class="custom-td-text">Только просмотр </br></span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                     xmlns="http://www.w3.org/2000/svg">
-                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
-                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-                                                        <rect width="24" height="24" fill="#D9D9D9"/>
-                                                    </mask>
-                                                    <g mask="url(#mask0_1047_5785)">
-                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
-                                                              fill="#2DBE60"/>
-                                                    </g>
-                                                </svg>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Управление чеком</td>
-                                            <td>
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                <span class="custom-td-text">Танҳо дидан </br></span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
                                                           maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2318,9 +2235,53 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Управление кассами</td>
+                                            <td>Идоракунии тафтиш</td>
                                             <td>
-                                                <span class="custom-td-text">Без web-кассы </br> </span>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                            <td>
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                     xmlns="http://www.w3.org/2000/svg">
+                                                    <mask id="mask0_1047_5785" style="mask-type:alpha"
+                                                          maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <rect width="24" height="24" fill="#D9D9D9"/>
+                                                    </mask>
+                                                    <g mask="url(#mask0_1047_5785)">
+                                                        <path d="M9.55048 18.1909L3.65918 12.2996L5.28145 10.6773L9.55048 14.9463L18.7195 5.77734L20.3418 7.39962L9.55048 18.1909Z"
+                                                              fill="#2DBE60"/>
+                                                    </g>
+                                                </svg>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Идоракунии хазинаи хазина</td>
+                                            <td>
+                                                <span class="custom-td-text">Бе кассаи веб </br> </span>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                                      xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5785" style="mask-type:alpha"
@@ -2363,7 +2324,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Типы расходов</td>
+                                            <td>Намудҳои хароҷот</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2404,7 +2365,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Настройка разрешений</td>
+                                            <td>Танзими иҷозатҳо</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -2448,7 +2409,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Подписка</td>
+                                            <td>Обуна</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -2492,7 +2453,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Приложение</td>
+                                            <td>Ариза</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
@@ -2536,7 +2497,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Справочник</td>
+                                            <td>Номгӯй</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2577,13 +2538,13 @@
                                             </td>
                                         </tr>
                                         <tr class="thead-green tarrif-head">
-                                            <th scope="col">Дополнительный функционал</th>
+                                            <th scope="col">Функсияи иловагӣ</th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                             <th scope="col"></th>
                                         </tr>
                                         <tr>
-                                            <td>Консультанты</td>
+                                            <td>Машваратчиён</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2620,7 +2581,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Размерная линейка</td>
+                                            <td>Ҷадвали андоза</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2657,7 +2618,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Распаковка / упаковка</td>
+                                            <td>Кушодан / бастабандӣ</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2694,7 +2655,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Производство</td>
+                                            <td>Истехсолот</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2731,7 +2692,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Фотографии товаров</td>
+                                            <td>Суратҳои маҳсулот</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2768,7 +2729,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Система лояльности</td>
+                                            <td>Системаи вафодорӣ</td>
                                             <td>
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <mask id="mask0_1047_5803" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
@@ -2815,12 +2776,12 @@
                  aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-sm modal-xl">
                     <div class="modal-content container">
-                        <h1>Стоимость тарифа
+                        <h1>Арзиши тариф
                             <button type="button" class="close close-tarif" aria-label="Close">
                                 <span aria-hidden="true"></span>
                             </button>
                         </h1>
-                        <p>Выберите тариф</p>
+                        <p>Тарофаро интихоб кунед</p>
                         <div id="request-form" class="request-form">
                             <input type="hidden" name="type" value="Заявка на демо-доступ"/>
                             <input id="modal-form__token" type="hidden" name="_token"
@@ -2828,39 +2789,38 @@
                             <div class="margin-40">
                                 <div class="select-icon"></div>
                                 <select id="tarifSelect" name="tarif" class="request-form__input">
-                                    <option value="start" selected>Старт</option>
+                                    <option value="start" selected>Оғоз</option>
                                     <option value="standard">Стандарт</option>
                                     <option value="pro" disabled>Про</option>
                                 </select>
-                            </div>
-                            <div class="text-option start-options">
-                                <p>Доп. магазин - недоступно</p>
-                                <p>Доп. касса - недоступно</p>
-                            </div>
-                            <div class="text-option standard-options">
-                                <p>Доп. магазин - ₸2,900 / в месяц</p>
-                                <p>Доп. касса - ₸2,900 / в месяц</p>
-                            </div>
-                            <div class="margin-30">
-                                <p>Кол-во касс</p>
-                                <input type="text" name="count_cashier" value="1"
-                                       class="request-form__input" disabled/>
-                                <span class="info info-start">Кол-во касс не может быть больше 1</span>
-                                <span class="info info-standard">Кол-во касс не может быть меньше 1</span>
-                            </div>
-                            <div class="margin-50">
-                                <p>Кол-во торговых точек</p>
-                                <input type="text" name="count_tt" value="1"
-                                       class="request-form__input" disabled/>
-                                <span class="info info-start">Кол-во ТТ не может быть больше 1</span>
-                                <span class="info info-standard">Кол-во ТТ не может быть меньше 1</span>
-                            </div>
-                            <div class="margin-30 total-block">
-                                <p>Ежемесячно:</p>
-                                <p><span class="total-price">6 900 </span>₸</p>
-                            </div>
-                            <button type="button" class="btn btn-success" data-open-modal="#formModal">Подключить
-                                тариф
+                                </div>
+                                <div class="text-option start-options">
+                                    <p>Магазини иловагӣ - дастнорас</p>
+                                    <p>Кассаи иловагӣ - дастнорас</p>
+                                </div>
+                                <div class="text-option standard-options">
+                                    <p>Магазини иловагӣ - ₸2,900 / дар моҳ</p>
+                                    <p>Кассаи иловагӣ - ₸2,900 / дар моҳ</p>
+                                </div>
+                                <div class="margin-30">
+                                    <p>Миқдори кассаҳо</p>
+                                    <input type="text" name="count_cashier" value="1"
+                                           class="request-form__input" disabled/>
+                                    <span class="info info-start">Миқдори кассаҳо наметавонад аз 1 зиёд бошад</span>
+                                    <span class="info info-standard">Миқдори кассаҳо наметавонад аз 1 кам бошад</span>
+                                </div>
+                                <div class="margin-50">
+                                    <p>Миқдори нуқтаҳои савдо</p>
+                                    <input type="text" name="count_tt" value="1"
+                                           class="request-form__input" disabled/>
+                                    <span class="info info-start">Миқдори нуқтаҳои савдо наметавонад аз 1 зиёд бошад</span>
+                                    <span class="info info-standard">Миқдори нуқтаҳои савдо наметавонад аз 1 кам бошад</span>
+                                </div>
+                                <div class="margin-30 total-block">
+                                    <p>Ҳар моҳ:</p>
+                                    <p><span class="total-price">6 900 </span>₸</p>
+                                </div>
+                                <button type="button" class="btn btn-success" data-open-modal="#formModal">Пайваст кардани тариф
                             </button>
                         </div>
                     </div>
@@ -2873,23 +2833,23 @@
                         <button type="button" class="close close-form" aria-label="Close">
                             <span aria-hidden="true"></span>
                         </button>
-                        <h1>Оставьте заявку</h1>
-                        <p>Мы свяжемся с Вами как можно скорее!</p>
+                        <h1>Дархост гузоред</h1>
+                        <p>Мо ҳарчи зудтар бо шумо тамос мегирем!</p>
                         <form id="contact-form-target" class="contact-form" action="" method="post">
-                            <input type="hidden" name="type" value="Заявка на демо-доступ"/>
+                            <input type="hidden" name="type" value="Дархост барои дастрасии намоишӣ"/>
                             <input id="modal-form__token" type="hidden" name="_token"
                                    value="<?php echo csrf_token(); ?>"/>
                             <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region"
                                    value=""/>
-                            <span data-error-message class="request-form__error-message" style="display:none">Ошибка! Заполните все поля формы.</span>
-                            <span class="request-form__error-message" data-error-message-cache style="display:none">Этот номер ранее был уже отправлен</span>
+                            <span data-error-message class="request-form__error-message" style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+                            <span class="request-form__error-message" data-error-message-cache style="display:none">Ин рақам аллакай фиристода шудааст</span>
                             <div class="margin-30">
-                                <label for="nameTitle">Имя</label>
-                                <input title="Имя" id="nameTitle" type="text" name="name" class="request-form__input"
-                                       placeholder="Введите имя"/>
+                                <label for="nameTitle">Ном</label>
+                                <input title="Ном" id="nameTitle" type="text" name="name" class="request-form__input"
+                                       placeholder="Номро ворид кунед"/>
                             </div>
                             <div class="margin-30">
-                                <label for="phoneTitle">Номер телефона</label>
+                                <label for="phoneTitle">Рақами телефон</label>
                                 <input title="Телефон" id="phoneTitle" type="text" name="phone" data-phone-mask
                                        class="request-form__input" placeholder="+7 (___) ___ __ __"/>
                             </div>
@@ -2897,6 +2857,32 @@
                                 <div class="select-icon"></div>
                                 <select title="ваш город" name="city" class="request-form__input">
                                     <option value="" disabled selected>@lang('contact.your_city')</option>
+                                    <option value="DUS">Душанбе</option>
+                                    <option value="TRS">Турсунзода</option>
+                                    <option value="VHD">Ваҳдат</option>
+                                    <option value="GSR">Ҳисор</option>
+                                    <option value="NRK">Норак</option>
+                                    <option value="RGN">Роғун</option>
+                                    <option value="KHD">Хуҷанд</option>
+                                    <option value="ISR">Истаравшан</option>
+                                    <option value="PNJ">Панҷакент</option>
+                                    <option value="ISF">Исфара</option>
+                                    <option value="KNB">Конибодом</option>
+                                    <option value="BST">Бустон</option>
+                                    <option value="GLS">Гулистон</option>
+                                    <option value="IST">Истиқлол</option>
+                                    <option value="BHT">Бохтар</option>
+                                    <option value="KLB">Кӯлоб</option>
+                                    <option value="FRH">Фархор</option>
+                                    <option value="JLB">Ҷалолиддин Балхӣ</option>
+                                    <option value="KBD">Қубодиён</option>
+                                    <option value="SHT">Шаҳритус</option>
+                                    <option value="LVK">Леваканд</option>
+                                    <option value="NRB">Нуробод</option>
+                                    <option value="KRG">Хоруғ</option>
+                                    <option value="VND">Ванҷ</option>
+                                    <option value="RSH">Рушон</option>
+                                    <option value="MRG">Мурғоб</option>
                                     <option value="U11">Аксай ЗКО</option>
                                     <option value="AKU">Актау</option>
                                     <option value="AKT">Актобе</option>
@@ -2937,7 +2923,7 @@
                                     <option value="OSH">Ош (Кыргызстан)</option>
                                 </select>
                             </div>
-                            <input type="submit" value="Оставить заявку" class="request-form__btn"/>
+                            <input type="submit" value="Дархост гузоред" class="request-form__btn"/>
                         </form>
                     </div>
                 </div>
@@ -3000,13 +2986,6 @@
         }
     </style>
     <script>
-        // $('.btn-link').click(function () {
-        //     $('#myModal').fadeIn(200).addClass('show');
-        // });
-
-        // $('.btn-click').click(function () {
-        //     $('#formModal').fadeIn(200).addClass('show');
-        // });
 
         $('.close-form').click(function (e) {
             $('#formModal').fadeOut(400).removeClass('show');

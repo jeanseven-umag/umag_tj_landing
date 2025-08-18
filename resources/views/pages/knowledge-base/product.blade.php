@@ -10,7 +10,7 @@
     <button class="fa fa-search"  type="sumbit"></button>
     <input class="base-search" type="text" placeholder="@lang('knowledge-base.find_answers')" name="search" id="search">
   </form>
-  <h1 class="base-category">Товары</h1>
+  <h1 class="base-category">Маҳсулотҳо</h1>
   <h3 class="base-platform">@lang('knowledge-base.choose_platform')</h3>
   <div class="tabs_platform">
     <div class="tabs_platform__nav">
@@ -22,9 +22,9 @@
       <div class="tabs_platform__item" id="tab_platform_1">
         <div class="underTabs_platform">
           <div class="underTabs_platform__nav">
-{{--            <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_1">Вопросы-ответы</button>--}}
+{{--            <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_1">Саволҳо-ҷавобҳо</button>--}}
             <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_2">@lang('knowledge-base.instruction') </button>
-{{--            <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_3">Видео-уроки</button>--}}
+{{--            <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_3">Дарсҳои видеоӣ</button>--}}
           </div>
           <div class="underTabs_platform__content">
             <div class="underTabs_platform__item" id="underTab_platformWeb_1">

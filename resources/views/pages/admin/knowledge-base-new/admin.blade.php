@@ -15,19 +15,19 @@
 @extends('layouts.admin')
 @section('content')
 <div class="header-title">
-    <h1>Таблица базы знаний (NEW)</h1>
-    <a href="{{ URL::route('knowledge-categories') }}">Категорий база знаний</a>
-    <a class="btn btn-success" href="{{ URL::route('new.admin.create') }}" role="button">Создать</a>
+    <h1>Ҷадвали маҳзани дониш (НАВ)</h1>
+    <a href="{{ URL::route('knowledge-categories') }}">Категорияҳои маҳзани дониш</a>
+    <a class="btn btn-success" href="{{ URL::route('new.admin.create') }}" role="button">Эҷод кунед</a>
 </div>
 <table class="table">
     <thead>
     <tr>
         <th width="5%">#</th>
-        <th width="50%">Название</th>
-        <th width="10%">Ссылка</th>
-        <th width="10%">Всем виден</th>
-        <th width="10%">Статус</th>
-        <th width="15%" class="text-right">Действия</th>
+        <th width="50%">Ном</th>
+        <th width="10%">Истиснод</th>
+        <th width="10%">Ба ҳама намоён</th>
+        <th width="10%">Мақом</th>
+        <th width="15%" class="text-right">Амалҳо</th>
     </tr>
     </thead>
     <tbody>
@@ -38,24 +38,24 @@
             <td><p>{{ $post->link }}</p></td>
             <td><p>
                 @if($post->is_public == 1)
-                    Да
+                    Бале
                 @elseif($post->is_public == 0)
-                    Нет
+                    Не
                 @endif
             </p></td>
             <td>
                 <p>@if($post->status == 'published')
-                        Опубликован
+                        Нашр шудааст
                     @elseif($post->status == 'draft')
-                        Черновик
+                        Лоиҳа
                     @elseif($post->status == 'soon')
-                        Скоро
+                        Ба зудӣ
                     @endif
                 </p>
             </td>
             <td class="text-right">
-                <a href="{{ URL::route('new.admin.remove', $post->id) }}" class="btn btn-xs btn-danger">Удалить</a>
-                <a href="{{ URL::route('new.admin.edit', $post->id) }}" class="btn btn-xs btn-primary">Изменить</a>
+                <a href="{{ URL::route('new.admin.remove', $post->id) }}" class="btn btn-xs btn-danger">Нест кардан</a>
+                <a href="{{ URL::route('new.admin.edit', $post->id) }}" class="btn btn-xs btn-primary">Таҳрир кардан</a>
             </td>
         </tr>
     <?php endforeach; ?>

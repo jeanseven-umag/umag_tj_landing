@@ -91,26 +91,26 @@
         </div>
         {{--        <div class="row row_middle mob-row_reverse">--}}
         {{--            <div class="col-auto col-mob-100">--}}
-        {{--                <a data-open-modal="#equipment-modal" class="request-btn">Оставить заявку</a>--}}
-        {{--                <button type="button" class="request-btn" data-open-modal="#equipment-modal">Оставить заявку</button>--}}
+        {{--                <a data-open-modal="#equipment-modal" class="request-btn">Дархост гузоред</a>--}}
+        {{--                <button type="button" class="request-btn" data-open-modal="#equipment-modal">Дархост гузоред</button>--}}
         {{--            </div>--}}
         {{--            <div class="col-auto invert-wrapper">--}}
         {{--                <div class="col-auto result">--}}
         {{--                    <div class="fix-price">--}}
-        {{--                        <span class="result__annual"><span data-calculator-result-annual>55200</span> <small>тг/год</small></span>--}}
-        {{--                        <span class="result__monthly"><span data-calculator-result-monthly>4600</span> тг/месяц</span>--}}
+        {{--                        <span class="result__annual"><span data-calculator-result-annual>55200</span> <small>тг/сол</small></span>--}}
+        {{--                        <span class="result__monthly"><span data-calculator-result-monthly>4600</span> тг/моҳ</span>--}}
         {{--                    </div>--}}
         {{--                </div>--}}
         {{--                <div class="col-auto support">--}}
         {{--                    <div class="fix-price">--}}
-        {{--                        <span class="result__annual"><span data-calculator-result-support>30 000</span> <small>тг/установка</small></span>--}}
-        {{--                        <span class="result__monthly">единоразовый платеж</span>--}}
+        {{--                        <span class="result__annual"><span data-calculator-result-support>30 000</span> <small>тг/насб</small></span>--}}
+        {{--                        <span class="result__monthly">пардохти яквақта</span>--}}
         {{--                    </div>--}}
         {{--                </div>--}}
         {{--                <div class="col-auto final">--}}
         {{--                    <div class="fix-price">--}}
-        {{--                        <span class="result__annual"> <span data-calculator-result-final>0</span> <small>тг/год</small></span>--}}
-        {{--                        <span class="result__monthly">итоговый платеж</span>--}}
+        {{--                        <span class="result__annual"> <span data-calculator-result-final>0</span> <small>тг/сол</small></span>--}}
+        {{--                        <span class="result__monthly">пардохти ниҳоӣ</span>--}}
         {{--                    </div>--}}
         {{--                </div>--}}
         {{--            </div>--}}
@@ -124,8 +124,8 @@
                     <img src="/img/home-page/banner.png" alt="">
                 </div>
                 <div class="banner-text">
-                    <p>новинка:</br>специальное предложение для владельцев </br>карт Visa Business</p>
-                    <div class="sub-title">Оплати картой Visa Business и получи 10% скидки!</div>
+                    <p>Навоварӣ:</br> пешниҳоди махсус барои соҳибони </br>кортҳои Visa Business</p>
+                    <div class="sub-title">Бо корт Visa Business пардохт кунед ва 10% тахфиф гиред!</div>
                     <button type="submit"><a href="/info">@lang('home.new_btn')</a></button>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                         <p class="price-title">
                             @lang('product_price.phone_consultation')
                         </p>
-                        <p class="price-info-text">По всем интересующим вас вопросам, наша команда вас проконсультирует</p>
+                        <p class="price-info-text">Барои ҳама саволҳои шумо, дастаи мо ба шумо маслиҳат медиҳад</p>
                     </div>
                     <div class="price-logo">
                         <svg width="92" height="90" viewBox="0 0 92 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@
                         <p class="price-title">
                             @lang('product_price.equipment_setup')
                         </p>
-                        <p class="price-info-text">Специалисты выезжают к вам на точку и настраивают все необходимое оборудование</p>
+                        <p class="price-info-text">Мутахассисон ба чои шумо омада, тамоми тачхизоти заруриро монтаж мекунанд</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -194,9 +194,9 @@
                 <div class="col-33-2 col-mob-100 sides-padding-20 price-bl">
                     <div class="price-txt-bl">
                         <p class="price-title">
-                            Установка необходимого ПО
+                            Насб кардани нармафзори зарурӣ
                         </p>
-                        <p class="price-info-text">Помимо установки оборудования наши специалисты помогут в настройке необходимого программного обеспечения</p>
+                        <p class="price-info-text">Мутахассисони мо ба гайр аз насби тачхизот ба шумо дар сохтани программахои зарурй ёрй мерасонанд.</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -236,9 +236,9 @@
                 <div class="col-33-2 col-mob-100 sides-padding-20 price-bl">
                     <div class="price-txt-bl">
                         <p class="price-title">
-                            Обучение сотрудников магазина
+                            Омузиши коркунони магазин
                         </p>
-                        <p class="price-info-text">Мы полностью обучим всем необходимым навыкам для владения программой Umag</p>
+                        <p class="price-info-text">Мо пурра ба шумо тамоми малакаҳои заруриро барои истифодаи барномаи Umag меомӯзем</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -263,8 +263,7 @@
                         <p class="price-title">
                             @lang('product_price.departure_specialist')<br>
                         </p>
-                        <p class="price-info-text">Наши коллеги окажут вам поддержку при любых
-                            неполадках</p>
+                        <p class="price-info-text">Ҳамкорони мо дар сурати пайдо шудани мушкилот ба шумо кумак хоҳанд кард</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -319,7 +318,7 @@
                         <p class="price-title">
                             @lang('product_price.technical_support')
                         </p>
-                        <p class="price-info-text">Полное сопровождение и поддержка 24/7</p>
+                        <p class="price-info-text">Дастгирии пурра ва кӯмаки 24/7</p>
                     </div>
                     <div class="price-logo">
                         <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -10,7 +10,7 @@
     <button class="fa fa-search"  type="sumbit"></button>
     <input class="base-search" type="text" placeholder="@lang('knowledge-base.find_answers')" name="search" id="search">
   </form>
-  <h1 class="base-category">Продажи</h1>
+  <h1 class="base-category">Фурӯш</h1>
   <h3 class="base-platform">@lang('knowledge-base.choose_platform')</h3>
   <div class="tabs_platform">
     <div class="tabs_platform__nav">

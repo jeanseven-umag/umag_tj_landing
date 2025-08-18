@@ -22,7 +22,7 @@
       <div class="tabs_platform__item" id="tab_platform_1">
         <div class="underTabs_platform">
           <div class="underTabs_platform__nav">
-{{--            <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_1">Вопросы-ответы</button>--}}
+{{--            <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_1">Саволҳо-ҷавобҳо</button>--}}
             <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_2">@lang('knowledge-base.instruction') </button>
             <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_3">@lang('knowledge-base.video_lessons')</button>
           </div>

@@ -15,15 +15,15 @@
 @extends('layouts.admin')
 @section('content')
 <div class="header-title">
-    <h1>Таблица Вопросы-ответы</h1>
-    <a class="btn btn-success" href="{{ URL::route('faq_admin.create') }}" role="button">Создать</a>
+    <h1>Ҷадвали Саволҳо-Ҷавобҳо</h1>
+    <a class="btn btn-success" href="{{ URL::route('faq_admin.create') }}" role="button">Эҷод кардан</a>
 </div>
 <table class="table">
     <thead>
     <tr>
         <th width="10%">#</th>
-        <th width="60%">Название</th>
-        <th width="30%" class="text-right">Действия</th>
+        <th width="60%">Ном</th>
+        <th width="30%" class="text-right">Амалиётҳо</th>
     </tr>
     </thead>
     <tbody>
@@ -32,8 +32,8 @@
             <td>{{$index + 1}}</td>
             <td><a href="{{ URL::route('faq_admin.show', $faq->id) }}">{{ $faq->question }}</a></td>
             <td class="text-right">
-                <a href="{{ URL::route('faq_admin.remove', $faq->id) }}" class="btn btn-xs btn-danger">Удалить</a>
-                <a href="{{ URL::route('faq_admin.edit', $faq->id) }}" class="btn btn-xs btn-primary">Изменить</a>
+                <a href="{{ URL::route('faq_admin.remove', $faq->id) }}" class="btn btn-xs btn-danger">Ҳазф кардан</a>
+                <a href="{{ URL::route('faq_admin.edit', $faq->id) }}" class="btn btn-xs btn-primary">Тағйир додан</a>
             </td>
         </tr>
     <?php endforeach; ?>

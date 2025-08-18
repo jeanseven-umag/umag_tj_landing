@@ -8,7 +8,7 @@
                 <a href="/request-form" class="green-request">@lang('product_automation.try_free')</a>
             </div>
             <div class="top-right">
-                <img src="/img/home-page/business-type_7_hover.svg" alt="график прогаммы umag">
+                <img src="/img/home-page/business-type_7_hover.svg" alt="ҷадвали барномаи umag">
                 <style>
                     li.for-active.for-active-7{background: #e4e4e4}
                     @media(min-width: 767px){.top-right img {width: auto; height: 31rem; margin-top: 40px; margin-bottom: 35px }.top-right {justify-content: center}}
@@ -37,7 +37,7 @@
 @endsection
 @section('review')
 <p>@lang('product_automation.review_info_accessories')</p>
-<p>Алмас Искаков <br/>Магазин сотовых аксессуаров г. Алматы</p>
+<p>Алмас Искаков <br/>Мағозаи лавозимоти мобилӣ дар Алмаато</p>
 @endsection
 @section('iframe')
     <style>
@@ -45,6 +45,6 @@
     </style>
     <picture>
         <source type="image/webp" srcset="/img/accessories-store-page/top-header-phone.webp">
-        <img src="/img/accessories-store-page/top-header-phone.png" alt="магазин спиртных напитков umag">
+        <img src="/img/accessories-store-page/top-header-phone.png" alt="магазини спирти Умаг">
     </picture>
 @endsection

@@ -15,14 +15,14 @@
 @extends('layouts.admin')
 @section('content')
 <div class="header-title">
-    <h1>Таблица интеграции</h1>
-    <a class="btn btn-success" href="{{ URL::route('amo-integration.create') }}" role="button">Создать</a>
+    <h1>Ҷадвали ҳамгироӣ</h1>
+    <a class="btn btn-success" href="{{ URL::route('amo-integration.create') }}" role="button">Сохтан</a>
 </div>
 <table class="table">
     <thead>
     <tr>
         <th width="10%">#</th>
-        <th width="60%">Название</th>
+        <th width="60%">Ном</th>
     </tr>
     </thead>
     <tbody>

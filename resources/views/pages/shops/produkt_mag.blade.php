@@ -5,19 +5,19 @@
             <div class="container sides-padding-40">
                 <div class="header-content-left">
                     <div class="header-content-left-top">
-                        <div class="title" id="title">Мощные <br>инструменты для управления <br>Вашим <span class="dropdown" id="dropdown">продуктовым </span>магазином</div>
+                        <div class="title" id="title">Асбобҳои пурқувват барои идоракунии <br>мағозаи <span class="dropdown" id="dropdown">маҳсулотии </span>Шумо</div>
                     </div>
                     <div>
                         <div class="sticky-request-btn-wrap">
-                            <a href="/request-form" class="sticky-request-btn" data-sticky-btn>Начать бесплатно</a>
+                            <a href="/request-form" class="sticky-request-btn" data-sticky-btn>Оғоз кунед ройгон</a>
                         </div>
                     </div>
                 </div>
                 <div class="header-content-right">
                     <div class="play-button"></div>
                     <div class="header-content-right-bar">
-                        <div class="quote-text">До UMAG мы работали на калькуляторе <br>и это было не удобно во всех отношениях</div>
-                        <div class="quote-author">— Айгуль Идиришова<br><span>Магазин “Султан” г. Алматы</span></div>
+                        <div class="quote-text">Пеш UMAG мо бо ҳисобкунак кор мекардем <br>ва ин дар ҳама ҷиҳатҳо нороҳат буд</div>
+                        <div class="quote-author">— Айгул Идиришова<br><span>Мағозаи “Султан” ш. Алмато</span></div>
                     </div>
                 </div>
             </div>

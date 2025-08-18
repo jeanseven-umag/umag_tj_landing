@@ -6,96 +6,93 @@
             @csrf
             <input name="id" type="hidden" value="{{$post->id}}">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Название</label>
-                <input name="title" type="text" value="{{$post->title}}" class="form-control @error('title') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите название">
+                <label for="exampleFormControlInput1">Ном</label>
+                <input name="title" type="text" value="{{$post->title}}" class="form-control @error('title') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номро ворид кунед">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Второе название</label>
-                <input name="title_second" type="text" value="{{$post->title_second}}" class="form-control @error('title_second') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите второе название">
+                <label for="exampleFormControlInput1">Номи дуюм</label>
+                <input name="title_second" type="text" value="{{$post->title_second}}" class="form-control @error('title_second') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номи дуюмро ворид кунед">
             </div>
             <div class="form-group">
-                <label for="link">Ссылка на английском*</label>
-                <input name="link" type="text" value="{{$post->link}}" class="form-control @error('link') is-invalid @enderror" id="link" placeholder="Введите ссылку" required readonly>
+                <label for="link">Суроға ба англисӣ*</label>
+                <input name="link" type="text" value="{{$post->link}}" class="form-control @error('link') is-invalid @enderror" id="link" placeholder="Суроғаро ворид кунед" required readonly>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput2">Категория*</label>
                 <select name="category_id" class="form-control @error('category_id') is-invalid @enderror">
-                    <option value="">Выберите категорию</option>
+                    <option value="">Категорияро интихоб кунед</option>
                     @foreach($categories as $category)
                         <option value="{{ $category->id }}" {{$post->category_id == $category->id  ? 'selected' : ''}}>{{ $category->name }}</option>
                     @endforeach
                 </select>
             </div>
             <div class="form-group">
-                <label for="read_time">Время прочтения</label>
-                <input name="read_time" type="text" value="{{$post->read_time}}" class="form-control @error('read_time') is-invalid @enderror" id="read_time" placeholder="Введите время прочтения">
+                <label for="read_time">Вақти хондан</label>
+                <input name="read_time" type="text" value="{{$post->read_time}}" class="form-control @error('read_time') is-invalid @enderror" id="read_time" placeholder="Вақти хонданро ворид кунед">
             </div>
             <div class="form-group">
-                <label for="description">Описание</label>
+                <label for="description">Тавсиф</label>
                 <textarea name="description" class="summernote_desc form-control @error('description') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="web_content">Контент WEB</label>
+                <label for="web_content">Мазмуни WEB</label>
                 <textarea name="web_content" class="web_content form-control @error('web_content') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="ios_content">Контент IOS</label>
+                <label for="ios_content">Мазмуни IOS</label>
                 <textarea name="ios_content" class="ios_content form-control @error('ios_content') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="android_content">Контент Android</label>
+                <label for="android_content">Мазмуни Android</label>
                 <textarea name="android_content" class="android_content form-control @error('android_content') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="video_url">URL для видеоурока</label>
+                <label for="video_url">URL барои дарси видеоӣ</label>
                 <input name="video_url" value="{{$post->video_url}}"class="form-control @error('video_url') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="faq_web">Часто задаваемых вопросов WEB</label>
+                <label for="faq_web">Саволҳои маъмул WEB</label>
                 <textarea name="faq_web" class="summernote_faq form-control @error('faq_web') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="faq_ios">Часто задаваемых вопросов IOS</label>
+                <label for="faq_ios">Саволҳои маъмул IOS</label>
                 <textarea name="faq_ios" class="summernote_faq_ios form-control @error('faq_ios') is-invalid @enderror"></textarea>
             </div>
 
             <div class="form-group">
-                <label for="faq_android">Часто задаваемых вопросов Android</label>
+                <label for="faq_android">Саволҳои маъмул Android</label>
                 <textarea name="faq_android" class="summernote_faq_android form-control @error('faq_android') is-invalid @enderror"></textarea>
             </div>
-
-            
 
             <div class="form-group">
                 <label for="status">Статус</label>
                 <select name="status" class="form-control @error('status') is-invalid @enderror">
-                    <option value="draft" {{ $post->status == 'draft' ? 'selected' : '' }}>Черновик</option>
-                    <option value="published" {{ $post->status == 'published' ? 'selected' : '' }}>Опубликована</option>
-                    <option value="soon" {{ $post->status == 'soon' ? 'selected' : '' }}>Скоро</options>
+                    <option value="draft" {{ $post->status == 'draft' ? 'selected' : '' }}>Қарорнавис</option>
+                    <option value="published" {{ $post->status == 'published' ? 'selected' : '' }}>Нашр шудааст</option>
+                    <option value="soon" {{ $post->status == 'soon' ? 'selected' : '' }}>Ба зудӣ</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="is_soon">Скоро (Выберите если инструкция не готова)</label>
+                <label for="is_soon">Ба зудӣ (Интихоб кунед агар дастур омода нест)</label>
                 <input type="checkbox" id="is_soon" name="is_soon" value="1" {{ $post->is_soon ? 'checked' : '' }}>
             </div>
 
             <div class="form-group">
-                <label for="is_public">Видимость</label>
+                <label for="is_public">Намояндагӣ</label>
                 <select name="is_public" class="form-control @error('is_public') is-invalid @enderror">
-                    <option value="0" {{ $post->is_public == 0 ? 'selected' : '' }}>Только авторизованным пользователям</option>
-                    <option value="1" {{ $post->is_public == 1 ? 'selected' : '' }}>Всем виден</option>
+                    <option value="0" {{ $post->is_public == 0 ? 'selected' : '' }}>Танҳо барои корбарони авторизатсияшуда</option>
+                    <option value="1" {{ $post->is_public == 1 ? 'selected' : '' }}>Барои ҳама намоён</option>
                 </select>
             </div>
 
-
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кардан</button>
         </form>
     </div>
 </div>

@@ -12,7 +12,7 @@
                 <a href="/request-form" class="green-request">@lang('product_automation.try_free')</a>
             </div>
             <div class="top-right snt-h-img">
-                <img src="/img/snt.png" alt="график прогаммы umag">
+                <img src="/img/snt.png" alt="ҷадвали барномаи umag">
                 <style>
                     @media(min-width: 767px){.top-right img {width: auto; height: 31rem; margin-top: 40px; margin-bottom: 35px }.top-right {justify-content: center}}
                     @media(max-width: 767px){.top-right img {height: 31rem!important; margin-top: 25px; margin-bottom:0px; position: relative}}

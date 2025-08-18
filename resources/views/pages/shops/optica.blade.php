@@ -8,7 +8,7 @@
                 <a href="/request-form" class="green-request">@lang('product_automation.try_free')</a>
             </div>
             <div class="top-right">
-                <img src="/img/home-page/business-type_8_hover.svg" alt="график прогаммы umag">
+                <img src="/img/home-page/business-type_8_hover.svg" alt="ҷадвали барномаи umag">
                 <style>
                     li.for-active.for-active-8{background: #e4e4e4}
                     @media(min-width: 767px){.top-right img {width: auto; height: 31rem; margin-top: 40px; margin-bottom: 35px }.top-right {justify-content: center}}
@@ -37,13 +37,13 @@
 @endsection
 @section('review')
 <p>@lang('product_automation.review_info_optics')</p>
-<p>Татьяна Журавлева <br/>Салон оптики г. Кызылорда</p>
+<p>Татьяна Журавлева <br/>Салони оптикй дар Кизилурда</p>
 @endsection
 @section('iframe')
     <style>.review-flex.iframe-flex * {margin: 0 auto;height: 100%}</style>
     <picture>
         <source type="image/webp" srcset="/img/optics-store-page/top-header-phone.webp">
         <source srcset="/img/optics-store-page/top-header-phone.jpg">
-        <img src="/img/optics-store-page/top-header-phone.jpg" alt="магазин спиртных напитков umag">
+        <img src="/img/optics-store-page/top-header-phone.jpg" alt="магазини спирти Умаг">
     </picture>
 @endsection

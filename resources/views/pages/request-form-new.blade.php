@@ -19,7 +19,7 @@
     <div id="form-container" class="container_half-right">
         <form id="request-form-new" method="POST" action="{{ route('contact.store') }}" class="request-form-new">
             @csrf
-            <input type="hidden" name="type" value="Заявка на демо-доступ" />
+            <input type="hidden" name="type" value="Дархости дастрасии намоишӣ" />
             
             <!-- Error and success messages -->
             <div class="error-messages">
@@ -35,46 +35,72 @@
             </div>
 
             <div class="margin-20">
-                <select title="ваш город" name="city" class="request-form__input" required id="request-form__input-select">
-                <option value="" disabled selected>@lang('contact.your_city')</option>
-                        <option value="U11">Аксай ЗКО</option>
-                        <option value="AKU">Актау</option>
-                        <option value="AKT">Актобе</option>
-                        <option value="ALA">Алматы</option>
-                        <option value="ATR">Атырау</option>
-                        <option value="U10">Аягоз</option>
-                        <option value="BXH">Балхаш</option>
-                        <option value="U05">Жанаозен</option>
-                        <option value="U09">Жаркент</option>
-                        <option value="ZHE">Жезказган</option>
-                        <option value="U01">Жетысай</option>
-                        <option value="U08">Капчагай</option>
-                        <option value="KAR">Караганда</option>
-                        <option value="KOK">Кокшетау</option>
-                        <option value="KOS">Костанай</option>
-                        <option value="U06">Кульсары</option>
-                        <option value="KYZ">Кызылорда</option>
-                        <option value="U04">Лисаковск</option>
-                        <option value="AST">Астана</option>
-                        <option value="PAV">Павлодар</option>
-                        <option value="PET">Петропавловск</option>
-                        <option value="U03">Рудный</option>
-                        <option value="KGF">Сатпаев</option>
-                        <option value="PLX">Семей</option>
-                        <option value="TAL">Талдыкорган</option>
-                        <option value="TAR">Тараз</option>
-                        <option value="U07">Темиртау</option>
-                        <option value="HSA">Туркестан</option>
-                        <option value="URA">Уральск</option>
-                        <option value="UKK">Усть-Каменогорск</option>
-                        <option value="U02">Шардара</option>
-                        <option value="CIT">Шымкент</option>
-                        <option value="EKB">Экибастуз</option>
-                        <option value="UZB">Ташкент (Узбекистан)</option>
-                        <option value="UZB">Самарканд (Узбекистан)</option>
-                        <option value="NUK">Нукус (Узбекистан)</option>
-                        <option value="BSH">Бишкек (Кыргызстан)</option>
-                        <option value="OSH">Ош (Кыргызстан)</option>
+                <select title="шаҳри шумо" name="city" class="request-form__input" required id="request-form__input-select">
+                    <option value="" disabled selected>@lang('contact.your_city')</option>
+                    <option value="DUS">Душанбе</option>
+                    <option value="TRS">Турсунзода</option>
+                    <option value="VHD">Ваҳдат</option>
+                    <option value="GSR">Ҳисор</option>
+                    <option value="NRK">Норак</option>
+                    <option value="RGN">Роғун</option>
+                    <option value="KHD">Хуҷанд</option>
+                    <option value="ISR">Истаравшан</option>
+                    <option value="PNJ">Панҷакент</option>
+                    <option value="ISF">Исфара</option>
+                    <option value="KNB">Конибодом</option>
+                    <option value="BST">Бустон</option>
+                    <option value="GLS">Гулистон</option>
+                    <option value="IST">Истиқлол</option>
+                    <option value="BHT">Бохтар</option>
+                    <option value="KLB">Кӯлоб</option>
+                    <option value="FRH">Фархор</option>
+                    <option value="JLB">Ҷалолиддин Балхӣ</option>
+                    <option value="KBD">Қубодиён</option>
+                    <option value="SHT">Шаҳритус</option>
+                    <option value="LVK">Леваканд</option>
+                    <option value="NRB">Нуробод</option>
+                    <option value="KRG">Хоруғ</option>
+                    <option value="VND">Ванҷ</option>
+                    <option value="RSH">Рушон</option>
+                    <option value="MRG">Мурғоб</option>
+                    <option value="U11">Аксаи ЗКО</option>
+                    <option value="AKU">Актау</option>
+                    <option value="AKT">Актобе</option>
+                    <option value="ALA">Алмато</option>
+                    <option value="ATR">Атирау</option>
+                    <option value="U10">Аягоз</option>
+                    <option value="BXH">Балхаш</option>
+                    <option value="U05">Жанаозен</option>
+                    <option value="U09">Жаркент</option>
+                    <option value="ZHE">Жезказган</option>
+                    <option value="U01">Жетисой</option>
+                    <option value="U08">Капчағай</option>
+                    <option value="KAR">Қарағанда</option>
+                    <option value="KOK">Кокшетау</option>
+                    <option value="KOS">Костанай</option>
+                    <option value="U06">Кулсари</option>
+                    <option value="KYZ">Қизилорда</option>
+                    <option value="U04">Лисаковск</option>
+                    <option value="AST">Астана</option>
+                    <option value="PAV">Павлодар</option>
+                    <option value="PET">Петропавловск</option>
+                    <option value="U03">Рудний</option>
+                    <option value="KGF">Сатпаев</option>
+                    <option value="PLX">Семей</option>
+                    <option value="TAL">Талдикорган</option>
+                    <option value="TAR">Тараз</option>
+                    <option value="U07">Темиртау</option>
+                    <option value="HSA">Туркистон</option>
+                    <option value="URA">Уралск</option>
+                    <option value="UKK">Уст-Каменогорск</option>
+                    <option value="U02">Шардара</option>
+                    <option value="CIT">Шимкент</option>
+                    <option value="EKB">Экибастуз</option>
+                    <option value="UZB">Ташкент (Узбекистан)</option>
+                    <option value="UZB">Самарканд (Узбекистан)</option>
+                    <option value="NUK">Нукус (Узбекистан)</option>
+                    <option value="BSH">Бишкек (Кыргызстан)</option>
+                    <option value="OSH">Ош (Кыргызстан)</option>
                 </select>
             </div>
 
@@ -96,8 +122,8 @@
                 <!-- SVG content -->
             </svg>
         </p>
-        <h1>ваша заявка принята!</h1>
-        <p>спасибо, мы свяжемся с вами через некоторое время.</p>
+        <h1>Дархости шумо қабул шуд!</h1>
+        <p>Ташаккур, мо ба шумо баъд аз муддате тамос мегирем.</p>
     </div>
 </div>
 
@@ -183,7 +209,7 @@
                 $('#success-message').show();
             },
             error: function(xhr) {
-                let errorHtml = '<span class="request-form__error-message">Ошибка! Заполните все поля формы.</span>';
+                let errorHtml = '<span class="request-form__error-message">Хато! Ҳамаи майдонҳои формаро пур кунед.</span>';
                 $('.error-messages').html(errorHtml);
             }
         });

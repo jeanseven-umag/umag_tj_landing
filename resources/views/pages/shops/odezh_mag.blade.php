@@ -8,7 +8,7 @@
                 <a href="/request-form" class="green-request">@lang('product_automation.try_free')</a>
             </div>
             <div class="top-right">
-                <img src="/img/home-page/business-type_3_hover.svg" alt="график прогаммы umag">
+                <img src="/img/home-page/business-type_3_hover.svg" alt="ҷадвали барномаи umag">
                 <style>
                     li.for-active.for-active-3{background: #e4e4e4}
                     @media(min-width: 767px){.top-right img {width: auto; height: 31rem; margin-top: 40px; margin-bottom: 35px }.top-right {justify-content: center}}
@@ -37,7 +37,7 @@
 @endsection
 @section('review')
 <p>@lang('product_automation.review_info_clothing')</p>
-<p>Аружан Исенбаева <br/> Магазин “Almaty Kostyum” г. Алматы</p>
+<p>Аружан Исенбаева <br/>Магазини «Алматы Костюм» Алмаато</p>
 @endsection
 @section('iframe')
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wkyhcCqkje8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

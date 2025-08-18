@@ -1,18 +1,18 @@
 @extends('layouts.admin')
 @section('content')
 <div class="top-header-container">
-<h3>Редактирование категорий (База знаний)</h3>
+<h3>Таҳрири категорияҳо (Маҳзани дониш)</h3>
     <div class="top-wrap">
         <form action="{{ route('new.admin.category-store')}}" method="POST">
             @csrf
             <input name="id" type="hidden" value="{{$category->id}}">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Название</label>
-                <input name="title" type="text" value="{{$category->name}}" class="form-control @error('name') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите название">
+                <label for="exampleFormControlInput1">Ном</label>
+                <input name="title" type="text" value="{{$category->name}}" class="form-control @error('name') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номро ворид кунед">
             </div>
             
 
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кунед</button>
         </form>
     </div>
 </div>

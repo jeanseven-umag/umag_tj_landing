@@ -1,12 +1,12 @@
 @extends('layouts.admin')
 @section('content')
-    <h1>Опросы</h1>
-    <a href="{{ route('surveys.create') }}" class="btn btn-primary">Создать новый опрос</a>
+    <h1>Пурсишҳо</h1>
+    <a href="{{ route('surveys.create') }}" class="btn btn-primary">Эҷоди пурсиши нав</a>
     
     @if(session('success'))
         <div class="alert alert-success">{{ session('success') }}</div>
     @endif
-    <a href="/survey-results" class="btn btn-success">Резултаты опроса</a>
+    <a href="/survey-results" class="btn btn-success">Натиҷаҳои пурсиш</a>
     <table class="table">
         <thead>
             <tr>

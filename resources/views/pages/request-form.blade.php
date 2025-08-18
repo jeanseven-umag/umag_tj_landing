@@ -23,9 +23,39 @@
                 <span data-error-message="" class="request-form__error-message" style="display:none">Ошибка! Заполните все поля формы.</span>
                 <div class="margin-20">
                 <div class="select-icon"></div>
-                    <select title="ваш город" name="city" class="request-form__input"
-                    id="request-form__input-select" onchange="getValueSelect()">>
+                    <select
+                        title="шаҳри шумо"
+                        name="city"
+                        class="request-form__input"
+                        id="request-form__input-select"
+                        onchange="getValueSelect()">
                         <option value="" disabled selected>@lang('contact.your_city')</option>
+                        <option value="DUS">Душанбе</option>
+                        <option value="TRS">Турсунзода</option>
+                        <option value="VHD">Ваҳдат</option>
+                        <option value="GSR">Ҳисор</option>
+                        <option value="NRK">Норак</option>
+                        <option value="RGN">Роғун</option>
+                        <option value="KHD">Хуҷанд</option>
+                        <option value="ISR">Истаравшан</option>
+                        <option value="PNJ">Панҷакент</option>
+                        <option value="ISF">Исфара</option>
+                        <option value="KNB">Конибодом</option>
+                        <option value="BST">Бустон</option>
+                        <option value="GLS">Гулистон</option>
+                        <option value="IST">Истиқлол</option>
+                        <option value="BHT">Бохтар</option>
+                        <option value="KLB">Кӯлоб</option>
+                        <option value="FRH">Фархор</option>
+                        <option value="JLB">Ҷалолиддин Балхӣ</option>
+                        <option value="KBD">Қубодиён</option>
+                        <option value="SHT">Шаҳритус</option>
+                        <option value="LVK">Леваканд</option>
+                        <option value="NRB">Нуробод</option>
+                        <option value="KRG">Хоруғ</option>
+                        <option value="VND">Ванҷ</option>
+                        <option value="RSH">Рушон</option>
+                        <option value="MRG">Мурғоб</option>
                         <option value="U11">Аксай ЗКО</option>
                         <option value="AKU">Актау</option>
                         <option value="AKT">Актобе</option>

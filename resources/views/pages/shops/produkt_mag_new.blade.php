@@ -9,7 +9,7 @@
                 <a href="/request-form" class="green-request">@lang('product_automation.try_free')</a>
             </div>
             <div class="top-right">
-                <img src="/img/product.jpg" alt="данные по продуктовому магазину umag">
+                <img src="/img/product.jpg" alt="маълумоти мағозаи хӯрокворӣ umag">
                 <div class="under-image">
                     <h4 class="col-title">@lang('product_automation.database_goods')</h4>
                     <p>@lang('product_automation.database_goods_desc')</p>
@@ -42,7 +42,7 @@
 @endsection
 @section('review')
 <p>@lang('product_automation.review_info_grocery')</p>
-<p>Айгуль Идиришова <br/> Магазин “Султан” г. Алматы</p>
+<p>Айгуль Идиришова <br/> Магазини «Султон»-и Алмаато</p>
 @endsection
 @section('iframe')
     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9bEN6fDQwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

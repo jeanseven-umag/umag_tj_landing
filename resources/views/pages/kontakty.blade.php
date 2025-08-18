@@ -4,133 +4,159 @@
 <div id="lead-catcher-modal" class="lead-catcher-modal" style="display:none" data-close-modal="#lead-catcher-modal">
         <div class="lead-catcher-modal__box" data-modal-box>
             <form id="lead-catcher-form" method="post" action="" class="lead-catcher-form">
-                <input type="hidden" name="type" value="Пойманный лид" />
+                <input type="hidden" name="type" value="лиди гирифташуда" />
                 <input id="modal-form__id" type="hidden" name="id" value="" />
                 <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
                 <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" /> <span title="Закрыть" class="lead-catcher-form__close" data-close-modal="#lead-catcher-modal"></span>
-				<input id="modal-form__city" type="hidden" name="region" value="" />
-				<p class="lead-catcher-form__caption"> У вас есть вопросы? </p>
-                <p class="lead-catcher-form__lead"> Оставьте свой телефон, мы свяжемся с вами
-                    <br/> и ответим на любые возникшие вопросы! </p>
-                <div class="row row_nowrap mob-row_wrap sides-margin-minus-10">
-                <div class="col-auto col-mob-100 sides-padding-10">
-                  <select title="Ваш город" name="city" class="lead-catcher-form__input" id="lead-catcher__input-select">
-                      <option value="" disabled selected>@lang('contact.your_city')</option>
-                      <option value="U11">Аксай ЗКО</option>
-                      <option value="AKU">Актау</option>
-                      <option value="AKT">Актобе</option>
-                      <option value="ALA">Алматы</option>
-                      <option value="ATR">Атырау</option>
-                      <option value="U10">Аягоз</option>
-                      <option value="BXH">Балхаш</option>
-                      <option value="U05">Жанаозен</option>
-                      <option value="U09">Жаркент</option>
-                      <option value="ZHE">Жезказган</option>
-                      <option value="U01">Жетысай</option>
-                      <option value="U08">Капчагай</option>
-                      <option value="KAR">Караганда</option>
-                      <option value="KOK">Кокшетау</option>
-                      <option value="KOS">Костанай</option>
-                      <option value="U06">Кульсары</option>
-                      <option value="KYZ">Кызылорда</option>
-                      <option value="U04">Лисаковск</option>
-                      <option value="AST">Астана</option>
-                      <option value="PAV">Павлодар</option>
-                      <option value="PET">Петропавловск</option>
-                      <option value="U03">Рудный</option>
-                      <option value="KGF">Сатпаев</option>
-                      <option value="PLX">Семей</option>
-                      <option value="TAL">Талдыкорган</option>
-                      <option value="TAR">Тараз</option>
-                      <option value="U07">Темиртау</option>
-                      <option value="HSA">Туркестан</option>
-                      <option value="URA">Уральск</option>
-                      <option value="UKK">Усть-Каменогорск</option>
-                      <option value="U02">Шардара</option>
-                      <option value="CIT">Шымкент</option>
-                      <option value="EKB">Экибастуз</option>
-                      <option value="UZB">Ташкент (Узбекистан)</option>
-                      <option value="UZB">Самарканд (Узбекистан)</option>
-                      <option value="NUK">Нукус (Узбекистан)</option>
-                      <option value="BSH">Бишкек (Кыргызстан)</option>
-                      <option value="OSH">Ош (Кыргызстан)</option>
-                  </select>
-              </div>
-              <div class="col-auto col-mob-100 sides-padding-10">
-                <input id="lead-catcher-modal__phone" type="text" name="phone" class="lead-catcher-form__input"  placeholder="Телефон"/>
-              </div>
-                    <div class="col-auto col-mob-100 sides-padding-10">
-                        <input type="submit" value="Позвонить мне" class="lead-catcher-form__btn"> </div>
-                </div><span class="lead-catcher-form__error-message" data-error-message style="display:none">Ошибка! Заполните все поля формы.</span> <span class="lead-catcher-form__info-message" data-info-message style="display:none">Заявка успешно отравлена!</span> </form>
+        <input id="modal-form__city" type="hidden" name="region" value="" /> 
+        <p class="lead-catcher-form__caption"> Шумо савол доред? </p>
+        <p class="lead-catcher-form__lead"> Рақами телефони худро гузоред, мо бо шумо тамос мегирем
+          <br/> ва ба ҳама саволҳои шумо ҷавоб медиҳем! </p>
+        <div class="row row_nowrap mob-row_wrap sides-margin-minus-10">
+        <div class="col-auto col-mob-100 sides-padding-10">
+          <select title="Шаҳри шумо" name="city" class="lead-catcher-form__input" id="lead-catcher__input-select">
+            <option value="" disabled selected>@lang('contact.your_city')</option>
+            <option value="DUS">Душанбе</option>
+            <option value="TRS">Турсунзода</option>
+            <option value="VHD">Ваҳдат</option>
+            <option value="GSR">Ҳисор</option>
+            <option value="NRK">Норак</option>
+            <option value="RGN">Роғун</option>
+            <option value="KHD">Хуҷанд</option>
+            <option value="ISR">Истаравшан</option>
+            <option value="PNJ">Панҷакент</option>
+            <option value="ISF">Исфара</option>
+            <option value="KNB">Конибодом</option>
+            <option value="BST">Бустон</option>
+            <option value="GLS">Гулистон</option>
+            <option value="IST">Истиқлол</option>
+            <option value="BHT">Бохтар</option>
+            <option value="KLB">Кӯлоб</option>
+            <option value="FRH">Фархор</option>
+            <option value="JLB">Ҷалолиддин Балхӣ</option>
+            <option value="KBD">Қубодиён</option>
+            <option value="SHT">Шаҳритус</option>
+            <option value="LVK">Леваканд</option>
+            <option value="NRB">Нуробод</option>
+            <option value="KRG">Хоруғ</option>
+            <option value="VND">Ванҷ</option>
+            <option value="RSH">Рушон</option>
+            <option value="MRG">Мурғоб</option>
+            <option value="U11">Аксай ЗКО</option>
+            <option value="AKU">Актау</option>
+            <option value="AKT">Актобе</option>
+            <option value="ALA">Алматы</option>
+            <option value="ATR">Атырау</option>
+            <option value="U10">Аягоз</option>
+            <option value="BXH">Балхаш</option>
+            <option value="U05">Жанаозен</option>
+            <option value="U09">Жаркент</option>
+            <option value="ZHE">Жезказган</option>
+            <option value="U01">Жетысай</option>
+            <option value="U08">Капчагай</option>
+            <option value="KAR">Караганда</option>
+            <option value="KOK">Кокшетау</option>
+            <option value="KOS">Костанай</option>
+            <option value="U06">Кульсары</option>
+            <option value="KYZ">Кызылорда</option>
+            <option value="U04">Лисаковск</option>
+            <option value="AST">Астана</option>
+            <option value="PAV">Павлодар</option>
+            <option value="PET">Петропавловск</option>
+            <option value="U03">Рудный</option>
+            <option value="KGF">Сатпаев</option>
+            <option value="PLX">Семей</option>
+            <option value="TAL">Талдыкорган</option>
+            <option value="TAR">Тараз</option>
+            <option value="U07">Темиртау</option>
+            <option value="HSA">Туркестан</option>
+            <option value="URA">Уральск</option>
+            <option value="UKK">Усть-Каменогорск</option>
+            <option value="U02">Шардара</option>
+            <option value="CIT">Шымкент</option>
+            <option value="EKB">Экибастуз</option>
+            <option value="UZB">Ташкент (Узбекистон)</option>
+            <option value="UZB">Самарканд (Узбекистон)</option>
+            <option value="NUK">Нукус (Узбекистон)</option>
+            <option value="BSH">Бишкек (Қирғизистон)</option>
+            <option value="OSH">Ош (Қирғизистон)</option>
+          </select>
         </div>
+        <div class="col-auto col-mob-100 sides-padding-10">
+        <input id="lead-catcher-modal__phone" type="text" name="phone" class="lead-catcher-form__input"  placeholder="Телефон"/>
+        </div>
+          <div class="col-auto col-mob-100 sides-padding-10">
+            <input type="submit" value="Ба ман занг занед" class="lead-catcher-form__btn"> </div>
+        </div><span class="lead-catcher-form__error-message" data-error-message style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span> <span class="lead-catcher-form__info-message" data-info-message style="display:none">Дархост бо муваффақият фиристода шуд!</span> </form>
     </div>
+  </div>
 <div class="contact-page">
-	<div class="container sides-padding-40">
-		<h1>@lang('contact.title')</h1>
-		<p class="lead">@lang('contact.desc')</p>
-		<hr>
-		<h1 class="center full-text">@lang('contact.care_service')</h1>
-		<div class="row sides-margin-minus-30">
-			<div class="col-33-3 col-mob-100 sides-padding-30">
-				<p class="city-contact">
-					<strong>Алматы</strong>
-					Email: <a href="mailto:service@umag.kz">service@umag.kz</a><br>
-                    @lang('contact.address'): пр. Жибек жолы, 135, 2 и 3 блок
-					АТК «Жибек Жолы», 7 этаж
-				</p>
-			</div>
-		</div>
-		<hr/>
-		<div class="m-5rem snt-fourth" id="faq">
-        <h1 class="center full-text">Франчайзи</h1>
-            <h2 id="abenzi"></h2>
-      <select name="country" id="contact-page__country-select" class="contact-page__country-select">
-        <option value="" disabled selected>@lang('contact.country')</option>
-        <option value="0">@lang('contact.country_kz')</option>
-        <option value="1">@lang('contact.country_kg')</option>
-        <option value="2">@lang('contact.country_uz')</option>
-      </select>
-    <select name="city" id="contact-page__city-select" class="contact-page__city-select">
-      <option value="" disabled selected>@lang('contact.city')</option>
+  <div class="container sides-padding-40">
+    <h1>@lang('contact.title')</h1>
+    <p class="lead">@lang('contact.desc')</p>
+    <hr>
+    <h1 class="center full-text">@lang('contact.care_service')</h1>
+    <div class="row sides-margin-minus-30">
+      <div class="col-33-3 col-mob-100 sides-padding-30">
+        <p class="city-contact">
+          <strong>Алматы</strong>
+          Email: <a href="mailto:service@umag.kz">service@umag.kz</a><br>
+          @lang('contact.address'): пр. Жибек жолы, 135, 2 и 3 блок
+          АТК «Жибек Жолы», 7 этаж
+        </p>
+      </div>
+    </div>
+    <hr/>
+    <div class="m-5rem snt-fourth" id="faq">
+    <h1 class="center full-text">Франчайзи</h1>
+      <h2 id="abenzi"></h2>
+    <select name="country" id="contact-page__country-select" class="contact-page__country-select">
+    <option value="" disabled selected>@lang('contact.country')</option>
+    <option value="0">@lang('contact.country_kz')</option>
+    <option value="1">@lang('contact.country_kg')</option>
+    <option value="2">@lang('contact.country_uz')</option>
     </select>
+  <select name="city" id="contact-page__city-select" class="contact-page__city-select">
+    <option value="" disabled selected>@lang('contact.city')</option>
+  </select>
 
-    <div class="flex contact-page__tabs flex-wrap" id="default-cards">
-      @foreach ($contacts as $contact)
-        <div class="answer contact-page__card">
-            @if($contact->status == 0)
-                <div class="contact-page__card-icon brilliant"></div>
-            @elseif($contact->status == 2)
-                <div class="contact-page__card-icon silver"></div>
-            @elseif($contact->status == 3 || $contact->status == 4)
-                <div class="contact-page__card-icon rank-default"></div>
-            @else
-                <div class="contact-page__card-icon"></div>
-            @endif
-          <div class="contact-page__desc-list">
-            <ul>
-              @foreach ($contact->lists as $list)
-                <li>{{$list}}</li>
-              @endforeach
-            </ul>
-          </div>
-          <p class="contact-page__card-title">Компания: "{{$contact->name}}" </p>
-          <div class="flex contact-page__card-info">
-            @if ($contact->status == 0)
-                  <p class="contact-page__card-rank rank-brilliant">Бриллиантовый партнер</p>
-            @elseif ($contact->status == 1)
-              <p class="contact-page__card-rank">Золотой партнер</p>
-            @elseif ($contact->status == 2)
-              <p class="contact-page__card-rank rank-silver">Серебряный партнер</p>
-            @else
-              <p></p>
-            @endif
-            <p class="contact-page__card-city">{{$contact->cities_name}}</p>
-          </div>
-          <p class="contact-page__card-text">Телефон: <span class="city-contact__show-phone" data-phone="+{{$contact->phone}}">Показать</span></p>
-          <p class="contact-page__card-text">@lang('contact.address'): {{$contact->address}}</p>
-		  <span class="contact-page__card-button" data-open-modal="#equipment-modal">@lang('contact.contact_us')</span>
-{{--          <span class="contact-page__card-button" data-id="{{$contact->integration_id}}" data-city="{{$contact->cities_name}}" data-open-modal="#lead-catcher-modal">связаться с компанией</span>--}}
-{{--		  <span class="contact-page__card-button" data-id="${value['integration_id']}" data-city="${value['cities_name']}" data-open-modal="#lead-catcher-modal">связаться с компанией</span>--}}
+  <div class="flex contact-page__tabs flex-wrap" id="default-cards">
+    @foreach ($contacts as $contact)
+    <div class="answer contact-page__card">
+      @if($contact->status == 0)
+        <div class="contact-page__card-icon brilliant"></div>
+      @elseif($contact->status == 2)
+        <div class="contact-page__card-icon silver"></div>
+      @elseif($contact->status == 3 || $contact->status == 4)
+        <div class="contact-page__card-icon rank-default"></div>
+      @else
+        <div class="contact-page__card-icon"></div>
+      @endif
+      <div class="contact-page__desc-list">
+      <ul>
+        @foreach ($contact->lists as $list)
+        <li>{{$list}}</li>
+        @endforeach
+      </ul>
+      </div>
+      <p class="contact-page__card-title">Ширкат: "{{$contact->name}}" </p>
+      <div class="flex contact-page__card-info">
+      @if ($contact->status == 0)
+          <p class="contact-page__card-rank rank-brilliant">Шарики бриллиантӣ</p>
+      @elseif ($contact->status == 1)
+        <p class="contact-page__card-rank">Шарики тиллоӣ</p>
+      @elseif ($contact->status == 2)
+        <p class="contact-page__card-rank rank-silver">Шарики нуқрагӣ</p>
+      @else
+        <p></p>
+      @endif
+      <p class="contact-page__card-city">{{$contact->cities_name}}</p>
+      </div>
+      <p class="contact-page__card-text">Телефон: <span class="city-contact__show-phone" data-phone="+{{$contact->phone}}">Нишон додан</span></p>
+      <p class="contact-page__card-text">@lang('contact.address'): {{$contact->address}}</p>
+      <span class="contact-page__card-button" data-open-modal="#equipment-modal">@lang('contact.contact_us')</span>
+{{--          <span class="contact-page__card-button" data-id="{{$contact->integration_id}}" data-city="{{$contact->cities_name}}" data-open-modal="#lead-catcher-modal">бо ширкат тамос гиред</span>--}}
+{{--		  <span class="contact-page__card-button" data-id="${value['integration_id']}" data-city="${value['cities_name']}" data-open-modal="#lead-catcher-modal">бо ширкат тамос гиред</span>--}}
 		</div>
       @endforeach
     </div>
@@ -443,16 +469,15 @@
 		}
 	</style>
 
-
 		<hr>
 		<div class="row row_middle contact-form">
 			<div class="col-40 col-mob-100">
-				<form id="contact-form" action="" method="post">
-					<input type="hidden" name="type" value="Обратная связь">
-					<input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
-                	<input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
-					<span class="contact-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span>
-					<span class="contact-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+        <form id="contact-form" action="" method="post">
+          <input type="hidden" name="type" value="Алоқа">
+          <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
+          <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
+          <span class="contact-form__error-message" data-error-message="" style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+          <span class="contact-form__info-message" data-info-message="" style="display:none">Дархост бо муваффақият фиристода шуд!</span>
 					<div class="margin-20">
 						<input title="Имя" type="text" name="name" class="contact-form__input" placeholder="@lang('contact.name')">
 					</div>
@@ -460,44 +485,70 @@
 						<div class="select-icon"></div>
 						<select title="ваш город" name="city" id="selectCity" class="contact-form__input">
 							<option value="" disabled selected>@lang('contact.your_city')</option>
-                            <option value="U11">Аксай ЗКО</option>
-                            <option value="AKU">Актау</option>
-                            <option value="AKT">Актобе</option>
-                            <option value="ALA">Алматы</option>
-                            <option value="ATR">Атырау</option>
-                            <option value="U10">Аягоз</option>
-                            <option value="BXH">Балхаш</option>
-                            <option value="U05">Жанаозен</option>
-                            <option value="U09">Жаркент</option>
-                            <option value="ZHE">Жезказган</option>
-                            <option value="U01">Жетысай</option>
-                            <option value="U08">Капчагай</option>
-                            <option value="KAR">Караганда</option>
-                            <option value="KOK">Кокшетау</option>
-                            <option value="KOS">Костанай</option>
-                            <option value="U06">Кульсары</option>
-                            <option value="KYZ">Кызылорда</option>
-                            <option value="U04">Лисаковск</option>
-                            <option value="AST">Астана</option>
-                            <option value="PAV">Павлодар</option>
-                            <option value="PET">Петропавловск</option>
-                            <option value="U03">Рудный</option>
-                            <option value="KGF">Сатпаев</option>
-                            <option value="PLX">Семей</option>
-                            <option value="TAL">Талдыкорган</option>
-                            <option value="TAR">Тараз</option>
-                            <option value="U07">Темиртау</option>
-                            <option value="HSA">Туркестан</option>
-                            <option value="URA">Уральск</option>
-                            <option value="UKK">Усть-Каменогорск</option>
-                            <option value="U02">Шардара</option>
-                            <option value="CIT">Шымкент</option>
-                            <option value="EKB">Экибастуз</option>
-                            <option value="UZB">Ташкент (Узбекистан)</option>
-                            <option value="UZB">Самарканд (Узбекистан)</option>
-                            <option value="NUK">Нукус (Узбекистан)</option>
-                            <option value="BSH">Бишкек (Кыргызстан)</option>
-                            <option value="OSH">Ош (Кыргызстан)</option>
+              <option value="DUS">Душанбе</option>
+              <option value="TRS">Турсунзода</option>
+              <option value="VHD">Ваҳдат</option>
+              <option value="GSR">Ҳисор</option>
+              <option value="NRK">Норак</option>
+              <option value="RGN">Роғун</option>
+              <option value="KHD">Хуҷанд</option>
+              <option value="ISR">Истаравшан</option>
+              <option value="PNJ">Панҷакент</option>
+              <option value="ISF">Исфара</option>
+              <option value="KNB">Конибодом</option>
+              <option value="BST">Бустон</option>
+              <option value="GLS">Гулистон</option>
+              <option value="IST">Истиқлол</option>
+              <option value="BHT">Бохтар</option>
+              <option value="KLB">Кӯлоб</option>
+              <option value="FRH">Фархор</option>
+              <option value="JLB">Ҷалолиддин Балхӣ</option>
+              <option value="KBD">Қубодиён</option>
+              <option value="SHT">Шаҳритус</option>
+              <option value="LVK">Леваканд</option>
+              <option value="NRB">Нуробод</option>
+              <option value="KRG">Хоруғ</option>
+              <option value="VND">Ванҷ</option>
+              <option value="RSH">Рушон</option>
+              <option value="MRG">Мурғоб</option>
+              <option value="U11">Аксай ЗКО</option>
+              <option value="AKU">Актау</option>
+              <option value="AKT">Актобе</option>
+              <option value="ALA">Алматы</option>
+              <option value="ATR">Атырау</option>
+              <option value="U10">Аягоз</option>
+              <option value="BXH">Балхаш</option>
+              <option value="U05">Жанаозен</option>
+              <option value="U09">Жаркент</option>
+              <option value="ZHE">Жезказган</option>
+              <option value="U01">Жетысай</option>
+              <option value="U08">Капчагай</option>
+              <option value="KAR">Караганда</option>
+              <option value="KOK">Кокшетау</option>
+              <option value="KOS">Костанай</option>
+              <option value="U06">Кульсары</option>
+              <option value="KYZ">Кызылорда</option>
+              <option value="U04">Лисаковск</option>
+              <option value="AST">Астана</option>
+              <option value="PAV">Павлодар</option>
+              <option value="PET">Петропавловск</option>
+              <option value="U03">Рудный</option>
+              <option value="KGF">Сатпаев</option>
+              <option value="PLX">Семей</option>
+              <option value="TAL">Талдыкорган</option>
+              <option value="TAR">Тараз</option>
+              <option value="U07">Темиртау</option>
+              <option value="HSA">Туркестан</option>
+              <option value="URA">Уральск</option>
+              <option value="UKK">Усть-Каменогорск</option>
+              <option value="U02">Шардара</option>
+              <option value="CIT">Шымкент</option>
+              <option value="EKB">Экибастуз</option>
+              <option value="UZB">Ташкент (Узбекистан)</option>
+              <option value="UZB">Самарканд (Узбекистан)</option>
+              <option value="NUK">Нукус (Узбекистан)</option>
+              <option value="BSH">Бишкек (Кыргызстан)</option>
+              <option value="OSH">Ош (Кыргызстан)</option>
 						</select>
 					</div>
 					<div class="margin-20">
@@ -550,20 +601,4 @@
             inputPhone.mask("+7 (555) 555 55 55");
         }
     });
-
-    // const leadSelectCountry = $("#contact-page__country-select");
-    // const leadInputPhone = $("#lead-catcher-modal__phone");
-	//
-	// leadSelectCountry.change(function () {
-    //     if ($(this).val() === "1") {
-    //         leadInputPhone.placeholder='+996 (___) ___ ___';
-    //         leadInputPhone.mask("+996 (555) 555 555");
-    //     } else if ($(this).val() === "2") {
-    //         leadInputPhone.placeholder='+998 (___) __ __ __';
-    //         leadInputPhone.mask("+998 555 555 555");
-    //     } else if ($(this).val() === "0"){
-    //         leadInputPhone.placeholder='+7 (___) ___ __ __';
-    //         leadInputPhone.mask("+7 (555) 555 55 55");
-    //     }
-    // });
 </script>@stop

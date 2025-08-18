@@ -301,7 +301,7 @@
         <span title="Закрыть" class="close" data-close-modal="request-modal"></span>
 
         <div class="caption">
-            <img src="/img/umag-logo-circle-slide.svg" alt="UMAG Умный магазин">
+            <img src="/img/umag-logo-circle-slide.svg" alt="Мағозаи Smart UMAG">
         </div>
 
         <form id="modal-form-fran">
@@ -309,43 +309,50 @@
             <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
             <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
             <input id="modal-form__wor" class="modal-form__select_option" type="hidden" name="wor_name" value="" />
-            <span id="modal-form-message-success" class="message-info" style="margin-bottom: 20px; display: none">Ваша заявка отправлена! Мы перезвоним Вам в ближайшее время!</span>
-            <span class="message-error" style="margin-bottom: 20px; display: none">Ошибка! Заполните все поля формы.</span>
+            <span id="modal-form-message-success" class="message-info" style="margin-bottom: 20px; display: none">Дархости шумо фиристода шуд! Мо ба шумо дар наздиктарин вақт занг мезанем!</span>
+            <span class="message-error" style="margin-bottom: 20px; display: none">Хато! Ҳамаи майдонҳои формаро пур кунед.</span>
 
             <div class="margin-20">
-                <label>@lang('franchise.fio')<span class="important">*</span></label>
-                <input id="modal-name" type="text" name="name" class="input" placeholder="Ваше имя" />
+            <label>@lang('franchise.fio')<span class="important">*</span></label>
+            <input id="modal-name" type="text" name="name" class="input" placeholder="Номи шумо" />
             </div>
 
             <div class="margin-20">
-                <label>Email<span class="important">*</span></label>
-                <input id="modal-mail" type="text" name="mail" class="input" placeholder="example@mail.ru">
+            <label>Email<span class="important">*</span></label>
+            <input id="modal-mail" type="text" name="mail" class="input" placeholder="example@mail.ru">
             </div>
 
             <div class="city-select-wrapper margin-20">
-                <label>@lang('franchise.city')<span class="important">*</span></label>
-                <select id="modal-city" name="city" class="input" size="1">
-                    <optgroup label="Казахстан">
+            <label>@lang('franchise.city')<span class="important">*</span></label>
+            <select id="modal-city" name="city" class="input" size="1">
+                    <optgroup label="Точикистон">
                         <option value="" disabled selected>@lang('franchise.city_office')</option>
-                        <option value="AKU">Актау</option>
-                        <option value="AKT">Актобе</option>
-                        <option value="ALA">Алматы</option>
-                        <option value="ATR">Атырау</option>
-                        <option value="ZHE">Жезказган</option>
-                        <option value="KAR">Караганда</option>
-                        <option value="KOK">Кокшетау</option>
-                        <option value="KOS">Костанай</option>
-                        <option value="KYZ">Кызылорда</option>
-                        <option value="AST">Астана</option>
-                        <option value="PAV">Павлодар</option>
-                        <option value="PET">Петропавловск</option>
-                        <option value="PLX">Семей</option>
-                        <option value="TAL">Талдыкорган</option>
-                        <option value="TAR">Тараз</option>
-                        <option value="HSA">Туркестан</option>
-                        <option value="URA">Уральск</option>
-                        <option value="UKK">Усть-Каменогорск</option>
-                        <option value="CIT">Шымкент</option>
+                        <option value="DUS">Душанбе</option>
+                        <option value="TRS">Турсунзода</option>
+                        <option value="VHD">Ваҳдат</option>
+                        <option value="GSR">Ҳисор</option>
+                        <option value="NRK">Норак</option>
+                        <option value="RGN">Роғун</option>
+                        <option value="KHD">Хуҷанд</option>
+                        <option value="ISR">Истаравшан</option>
+                        <option value="PNJ">Панҷакент</option>
+                        <option value="ISF">Исфара</option>
+                        <option value="KNB">Конибодом</option>
+                        <option value="BST">Бустон</option>
+                        <option value="GLS">Гулистон</option>
+                        <option value="IST">Истиқлол</option>
+                        <option value="BHT">Бохтар</option>
+                        <option value="KLB">Кӯлоб</option>
+                        <option value="FRH">Фархор</option>
+                        <option value="JLB">Ҷалолиддин Балхӣ</option>
+                        <option value="KBD">Қубодиён</option>
+                        <option value="SHT">Шаҳритус</option>
+                        <option value="LVK">Леваканд</option>
+                        <option value="NRB">Нуробод</option>
+                        <option value="KRG">Хоруғ</option>
+                        <option value="VND">Ванҷ</option>
+                        <option value="RSH">Рушон</option>
+                        <option value="MRG">Мурғоб</option>
                     </optgroup>
                     <option value="KGZ" style="font-weight: 600;">Кыргызстан</option>
                     <option value="UZB" style="font-weight: 600;">Узбекистан</option>
@@ -361,9 +368,9 @@
                     <option value="" disabled selected>@lang('franchise.activity_choose')</option>
                     <option value="var_1">@lang('franchise.business_owner')</option>
                     <option value="var_2">@lang('franchise.individual_entrepreneur')</option>
-                    <option value="var_3">Топ менеджер</option>
+                    <option value="var_3">Менеҷери боло</option>
                     <option value="var_4">@lang('franchise.your_variant')</option>
-                    <input id="modal-custom" type="text" name="custom" class="input" placeholder="Введите ваш вариант" style="display: none">
+                    <input id="modal-custom" type="text" name="custom" class="input" placeholder="Варианти худро ворид кунед" style="display: none">
                 </select>
             </div>
             <div class="margin-20">

@@ -9,7 +9,7 @@
         <button class="fa fa-search"  type="sumbit"></button>
         <input class="base-search" type="text" placeholder="@lang('knowledge-base.find_answers')" name="search" id="search">
     </form>
-    <h1 class="base-category">Результаты поиска по запросу "{{Request::input('search')}}":</h1>
+    <h1 class="base-category">Натиҷаи ҷустуҷӯ барои дархости "{{Request::input('search')}}":</h1>
     @if(!$faqs->isEmpty() or !$posts->isEmpty() or !$videos->isEmpty())
         <div class="underTabs_platform">
             <div class="underTabs_platform__nav">

@@ -11,7 +11,7 @@
     <input class="base-search" type="text" placeholder="@lang('knowledge-base.find_answers')" name="search" id="search">
   </form>
   <h1 class="base-category">Касса</h1>
-  <h3 class="base-platform">Выберите категорию:</h3>
+  <h3 class="base-platform">Категорияро интихоб кунед:</h3>
   <div class="underTabs_platform">
     <div class="underTabs_platform__nav">
       <button class="underTabs_platform__nav-btn" type="button" data-tab="#underTab_platformWeb_1">@lang('knowledge-base.faq')</button>

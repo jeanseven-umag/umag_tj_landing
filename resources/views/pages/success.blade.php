@@ -18,11 +18,11 @@
                     html +=
                         '<div class="col-25 col-mob-100 sides-padding-15">' +
                             '<article>' +
-                                '<a title="Перейти на статью" href="' + data[i].url + '" rel="noreferrer" target="_blank" class="post-img-link">' +
+                                '<a title="Ба мақола равед" href="' + data[i].url + '" rel="noreferrer" target="_blank" class="post-img-link">' +
                                 '<img src="'+ data[i].image +'" alt="umag media post" />' +
                             '</a>' +
                             '<h1><a href="' + data[i].url + '" rel="noreferrer" target="_blank">' + data[i].title + '</a></h1>' +
-                            '<p class="review_count"> '+ data[i].count_view +' просмотров | '+ data[i].time_diff +' назад </p>' +
+                            '<p class="review_count"> '+ data[i].count_view +' назари | '+ data[i].time_diff +' баргашт </p>' +
                         '</article>' +
                     '</div>';
             }
@@ -45,13 +45,13 @@
                 </g>
             </svg>
         </p>
-		<h1>ваша заявка принята!</h1>
-		<p>спасибо, мы свяжемся с вами через некоторое время.</p>
+		<h1>аризаи шумо қабул шуд!</h1>
+        <p>ташаккур, мо дар муддати каме бо шумо тамос хоҳем гирифт.</p>
 	</div>
 </div>
 <section id="blog" class="blog" style="display: block;">
 	<div class="container sides-padding-40">
-		<h1>смотрите обзор оборудования</h1>
+		<h1>баррасии таҷҳизотро бинед</h1>
 		<div id="blog-articles" class="row sides-margin-minus-15"></div>
 	</div>
 </section>
@@ -59,13 +59,12 @@
     <div class="left-side">
         <img src="/img/media_logo.png" alt="umag media">
         <h2 class="how-to-create">
-            как построить бизнес<br/>
-            в Казахстане?!
+            чӣ тавр сохтани тиҷорат?
         </h2>
     </div>
     <div class="right-side">
-        <span class="mini-info">все самое полезное о ритейле</span>
-        <a href="https://media.umag.kz/">перейти</a>
+        <span class="mini-info">ҳама маълумоти муфидтарин дар бораи чакана</span>
+        <a href="https://media.umag.kz/">равед</a>
     </div>
 </section>
 

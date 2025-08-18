@@ -71,8 +71,8 @@
                 <img src="/img/home-page/banner.png" alt="">
             </div>
             <div class="banner-text">
-                <p>новинка:</br>специальное предложение для владельцев </br>карт Visa Business</p>
-                <div class="sub-title">Оплати картой Visa Business и получи 10% скидки!</div>
+                <p>Навоварӣ:</br>Пешниҳоди махсус барои соҳибони </br>кортҳои Visa Business</p>
+                <div class="sub-title">Бо корт Visa Business пардохт кунед ва 10% тахфиф гиред!</div>
                 <button type="submit"><a href="/info">@lang('home.new_btn')</a></button>
             </div>
         </div>
@@ -82,45 +82,44 @@
     <div class="row flat-container flat-container-new" id="umag_form_section">
         <div class="contact-form-flex">
             <div class="form-block">
-                <form id="request-form" action="" method="post"> <input type="hidden" name="type" value="Заявка на демо-доступ"> <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" /> <input id="modal-form__select" class="modal-form__select_option" type="hidden"
-                        name="region" value="" /> <span class="request-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span> <span class="request-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+                <form id="request-form" action="" method="post">
+                    <input type="hidden" name="type" value="Дархост барои дастрасии демо">
+                    <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
+                    <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
+                    <span class="request-form__error-message" data-error-message="" style="display:none">Хато! Лутфан ҳамаи майдонҳоро пур кунед.</span>
+                    <span class="request-form__info-message" data-info-message="" style="display:none">Дархост бо муваффақият фиристода шуд!</span>
 
                     <div class="input-group">
                         <div class="select-icon"></div><select title="Ваш город" name="city" class="input select-city">
                             <option value="" disabled selected>@lang('home.your_city')</option>
-                            <option value="U11">Аксай ЗКО</option>
-                            <option value="AKU">Актау</option>
-                            <option value="AKT">Актобе</option>
                             <option value="ALA">Алматы</option>
-                            <option value="ATR">Атырау</option>
-                            <option value="U10">Аягоз</option>
-                            <option value="BXH">Балхаш</option>
-                            <option value="U05">Жанаозен</option>
-                            <option value="U09">Жаркент</option>
-                            <option value="ZHE">Жезказган</option>
-                            <option value="U01">Жетысай</option>
-                            <option value="U08">Капчагай</option>
-                            <option value="KAR">Караганда</option>
-                            <option value="KOK">Кокшетау</option>
-                            <option value="KOS">Костанай</option>
-                            <option value="U06">Кульсары</option>
-                            <option value="KYZ">Кызылорда</option>
-                            <option value="U04">Лисаковск</option>
                             <option value="AST">Астана</option>
-                            <option value="PAV">Павлодар</option>
-                            <option value="PET">Петропавловск</option>
-                            <option value="U03">Рудный</option>
-                            <option value="KGF">Сатпаев</option>
-                            <option value="PLX">Семей</option>
-                            <option value="TAL">Талдыкорган</option>
-                            <option value="TAR">Тараз</option>
-                            <option value="U07">Темиртау</option>
-                            <option value="HSA">Туркестан</option>
-                            <option value="URA">Уральск</option>
-                            <option value="UKK">Усть-Каменогорск</option>
-                            <option value="U02">Шардара</option>
-                            <option value="CIT">Шымкент</option>
-                            <option value="EKB">Экибастуз</option>
+                            <option value="DUS">Душанбе</option>
+                            <option value="TRS">Турсунзода</option>
+                            <option value="VHD">Ваҳдат</option>
+                            <option value="GSR">Ҳисор</option>
+                            <option value="NRK">Норак</option>
+                            <option value="RGN">Роғун</option>
+                            <option value="KHD">Хуҷанд</option>
+                            <option value="ISR">Истаравшан</option>
+                            <option value="PNJ">Панҷакент</option>
+                            <option value="ISF">Исфара</option>
+                            <option value="KNB">Конибодом</option>
+                            <option value="BST">Бустон</option>
+                            <option value="GLS">Гулистон</option>
+                            <option value="IST">Истиқлол</option>
+                            <option value="BHT">Бохтар</option>
+                            <option value="KLB">Кӯлоб</option>
+                            <option value="FRH">Фархор</option>
+                            <option value="JLB">Ҷалолиддин Балхӣ</option>
+                            <option value="KBD">Қубодиён</option>
+                            <option value="SHT">Шаҳритус</option>
+                            <option value="LVK">Леваканд</option>
+                            <option value="NRB">Нуробод</option>
+                            <option value="KRG">Хоруғ</option>
+                            <option value="VND">Ванҷ</option>
+                            <option value="RSH">Рушон</option>
+                            <option value="MRG">Мурғоб</option>
                             <option value="UZB">Ташкент (Узбекистан)</option>
                             <option value="UZB">Самарканд (Узбекистан)</option>
                             <option value="NUK">Нукус (Узбекистан)</option>
@@ -143,7 +142,7 @@
                     <source type="image/webp" srcset="/img/home-page/nout.webp" media="(max-width: 767px)" />
                     <source type="image/png" srcset="/img/home-page/nout.png" media="(max-width: 767px)" />
                     <source type="image/png" srcset="/img/new/comp.png" media="(min-width: 767px)" />
-                    <source type="image/webp" srcset="/img/new/comp.webp" media="(min-width: 767px)" /> <img src="/img/home-page/comp.png" alt="Скриншот программы" /> </picture>
+                    <source type="image/webp" srcset="/img/new/comp.webp" media="(min-width: 767px)" /> <img src="/img/home-page/comp.png" alt="Скриншот аз барнома" /> </picture>
             </div>
             <div class="flex-green right-flex">
                 <h3 class="green-h3">@lang('home.possibility')</h3> <a href="/vozmozhnosti-programmy-umag" class="learn-more__arrow"></a> </div>
@@ -192,18 +191,49 @@
                 </div>
             </div>
         </div>
-        <div class="container sides-padding-40 no-desk"> <a href="/equipment" class="view-all-link">Все оборудование</a> </div>
+        <div class="container sides-padding-40 no-desk"> <a href="/equipment" class="view-all-link">Хамаи тачхизот</a> </div>
     </div>
 </section>
 <div id="equipment-modal" class="modal" style="display:none" data-close-modal="#equipment-modal">
     <div class="modal__box" data-modal-box>
-        <form id="modal-form" method="post" action="" class="modal-form"> <input id="modal-form__type" type="hidden" name="type" value="" /> <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" /> <input id="modal-form__select" class="modal-form__select_option" type="hidden"
-                name="region" value="" />
-            <p id="modal-form__caption" class="modal-form__caption"></p><span class="modal-form__error-message" data-error-message style="display:none">Ошибка! Заполните все поля формы.</span> <span class="modal-form__info-message" data-info-message style="display:none">Заявка успешно отравлена!</span>
+        <form id="modal-form" method="post" action="" class="modal-form">
+            <input id="modal-form__type" type="hidden" name="type" value="" />
+            <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
+            <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
+            <p id="modal-form__caption" class="modal-form__caption"></p>
+            <span class="modal-form__error-message" data-error-message style="display:none">
+                Хато! Лутфан ҳамаи майдонҳоро пур кунед.</span>
+            <span class="modal-form__info-message" data-info-message style="display:none">Дархост бо муваффақият фиристода шуд!</span>
 
     <div class="margin-20">
         <select title="Ваш город" name="city" id="selectCity" class="modal-form__input select-city">
             <option value="" disabled selected>@lang('home.your_city')</option>
+            <option value="DUS">Душанбе</option>
+            <option value="TRS">Турсунзода</option>
+            <option value="VHD">Ваҳдат</option>
+            <option value="GSR">Ҳисор</option>
+            <option value="NRK">Норак</option>
+            <option value="RGN">Роғун</option>
+            <option value="KHD">Хуҷанд</option>
+            <option value="ISR">Истаравшан</option>
+            <option value="PNJ">Панҷакент</option>
+            <option value="ISF">Исфара</option>
+            <option value="KNB">Конибодом</option>
+            <option value="BST">Бустон</option>
+            <option value="GLS">Гулистон</option>
+            <option value="IST">Истиқлол</option>
+            <option value="BHT">Бохтар</option>
+            <option value="KLB">Кӯлоб</option>
+            <option value="FRH">Фархор</option>
+            <option value="JLB">Ҷалолиддин Балхӣ</option>
+            <option value="KBD">Қубодиён</option>
+            <option value="SHT">Шаҳритус</option>
+            <option value="LVK">Леваканд</option>
+            <option value="NRB">Нуробод</option>
+            <option value="KRG">Хоруғ</option>
+            <option value="VND">Ванҷ</option>
+            <option value="RSH">Рушон</option>
+            <option value="MRG">Мурғоб</option>
             <option value="U11">Аксай ЗКО</option>
             <option value="AKU">Актау</option>
             <option value="AKT">Актобе</option>
@@ -247,7 +277,7 @@
     <div class="margin-20">
       <input title="Телефон" type="text" name="phone" id="inputPhone" class="modal-form__input input-phone" disabled />
      </div>
-    <input type="submit" value="Отправить" class="modal-form__btn"> </form>
+    <input type="submit" value="Фиристодан" class="modal-form__btn"> </form>
 </div>
 </div>
 <link rel="stylesheet" type="text/css" href="/landing-resources/lib/lightgallery/css/lightgallery.css" />

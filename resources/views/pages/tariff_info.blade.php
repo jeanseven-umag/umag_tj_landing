@@ -3,7 +3,7 @@
 @section('content')
     <section class="tariff-page block-1">
         <div class="container">
-            <h1 class="sides-padding-40 title-page">Новые тарифы для пользователей Umag 2024</h1>
+            <h1 class="sides-padding-40 title-page">Тарифҳои нав барои корбарони Umag 2024</h1>
             <div class="banner-block">
                 <div class="banner-icon">
                     <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,42 +18,42 @@
                     </svg>
                 </div>
                 <div class="banner-text">
-                    <h1 class="title">Важные изменения в тарифах Umag</h1>
+                    <h1 class="title">Тағйироти муҳим дар тарифҳои Umag</h1>
                     <p>
-                        Так как вы уже пользовались Umag некоторое время, Ваш баланс не изменится до конца вашего расчетного периода, а так же вам будут начислены бонусы в зависимости от вашего тарифа.
+                        Азбаски шумо аллакай муддате аз Umag истифода мебаред, бақияи шумо то анҷоми давраи ҳисобии шумо тағйир намеёбад, инчунин ба шумо бонусҳо вобаста ба тарифатон дода мешаванд.
                     </p>
-                    <p>Не беспокойтесь, изменения вступят в силу лишь после окончания вашего расчетного периода.</p>
+                    <p>Нигарон набошед, тағйиротҳо танҳо пас аз анҷоми давраи ҳисобии шумо эътибор пайдо мекунанд.</p>
                 </div>
                 <div class="banner-button">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScoT4jt35fJ0lTc0WroLPE25nib5THnG1WBBI8RtfWEwBpagg/viewform"
                             class="btn btn-link btn-lg btn-block">
-                        Связаться с нами
+                        Бо мо тамос гиред
                     </a>
                 </div>
             </div>
             <div class="row sides-padding-20 info-blocks">
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Почему мы меняем тарифы?</h1>
-                        <p>Есть несколько причин для изменения цен: <br>
-                        1. <span class="bolder-text-heading">Ценообразование</span> программы происходит на основании анализа текущего рынка.Мы также хотим подчеркнуть, что цены отражают динамику рынка, оставаясь конкурентноспособными.
+                    <h1 class="sides-padding-40 title-page">Чаро мо тарифҳоро тағйир медиҳем?</h1>
+                        <p>Якчанд сабаб барои тағйири нархҳо вуҷуд дорад: <br>
+                        1. <span class="bolder-text-heading">Ташаккули нархгузорӣ</span> барномаи UMAG бар асоси таҳлили бозори ҷорӣ сурат мегирад. Мо инчунин мехоҳем таъкид намоем, ки нархҳо динамикаи бозорро инъикос мекунанд ва рақобатпазир мемонанд.
                     </p>
                     <p>
-                        2. По результатам исследования выявлено, что определенному количеству клиентов не требуется весь функционал UMAG. В связи с этим, мы разработали <span class="bolder-text-heading">более доступный тарифный план</span> для таких клиентов. Теперь вы можете получить доступ к основным функциям по тарифу «Старт» всего за 6900 тенге. Также имеется тариф «Стандарт», подходящий большинству торговых точек. В конце первого квартала мы планируем запустить новый тариф с улучшенным функционалом и добавлением новых возможностей.
+                        2. Аз натиҷаи тадқиқот маълум шуд, ки ба қисми муштариён тамоми функсионали UMAG лозим нест. Аз ин рӯ, мо <span class="bolder-text-heading">тарифномаи дастрас</span> барои чунин муштариён таҳия кардем. Акнун шумо метавонед ба функсияҳои асосӣ бо тариф «Старт» ҳамагӣ бо 6900 тенге дастрасӣ пайдо кунед. Ҳамчунин, тариф «Стандарт» барои аксари нуқтаҳои савдо мувофиқ аст. Дар охири семоҳаи аввал мо нақша дорем, ки тарифномаи навро бо функсионали беҳтар ва имкониятҳои нав пешниҳод намоем.
                     </p>
                 </div>
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Правила перевода</h1>
+                    <h1 class="sides-padding-40 title-page">Қоидаҳои гузариш</h1>
                     <p>
-                        С 1 марта вступают в силу новые тарифные планы. Все текущие клиенты будут автоматически переведены на тариф "Стандарт". После перевода Вы сможете изменить тариф в личном кабинете либо обратившись к Вашему франчайзи.
+                        Аз 1 март тарифҳои нав амал мекунанд. Ҳамаи муштариёни ҷорӣ ба таври автоматӣ ба тариф «Стандарт» мегузаранд. Пас аз гузариш шумо метавонед тарифро дар кабинети шахсӣ ё тавассути франчайзи худ тағйир диҳед.
                     </p>
                 </div>
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Кого затронут изменения и когда их ждать:</h1>
-                    <p>1. Активные компании будут переведены на тариф «Стандарт» в дату следующего списания (в марте). С датой списания можно
-                        <a href="https://web.umag.kz/store/0/subscription" class="btn btn-link" style="text-decoration: underline;">ознакомиться в личном кабинете </a>в разделе подписка;
+                    <h1 class="sides-padding-40 title-page">Киро тағйиротҳо фаро мегиранд ва кай интизор шудан лозим аст:</h1>
+                    <p>1. Ширкатҳои фаъол дар санаи навбатии ҳисоббарорӣ (дар моҳи март) ба тариф «Стандарт» мегузаранд. Санаи ҳисоббарориро метавонед
+                        <a href="https://web.umag.kz/store/0/subscription" class="btn btn-link" style="text-decoration: underline;">дар кабинети шахсӣ </a>дар бахши обуна бинед;
                     </p>
                     <p>
-                        2. Заблокированные (неактивные) компании, находящиеся на тарифном плане «Старый» будут переведены на тариф «Стандарт» 1 марта 2024 года.
+                        2. Ширкатҳои баста (ғайрифаъол), ки дар тарифномаи «Кӯҳна» ҳастанд, 1 марти соли 2024 ба тариф «Стандарт» мегузаранд.
                     </p>
                     <div style="text-align: center" class="imb-block">
                         <svg width="485" height="274" viewBox="0 0 485 274" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -68,12 +68,12 @@
                     </div>
                 </div>
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Система начисления бонусов или как будут начисляться бонусы</h1>
+                    <h1 class="sides-padding-40 title-page">Системаи ҳисобкунии бонусҳо ё чӣ гуна бонусҳо ҳисоб карда мешаванд</h1>
                     <p>
-                        При начислении бонусов учитывается баланс клиента и статус его компании  на 22 января 2024 года.
+                        Ҳангоми ҳисобкунии бонусҳо бақияи муштарӣ ва статуси ширкати ӯ дар санаи 22 январи соли 2024 ба назар гирифта мешавад.
                     </p>
                     <p>
-                        Сумма бонусов определяется датой окончания тарифа. Клиенту начисляется та сумма бонусов, которая необходима для сохранения даты окончания тарифа. Изменения в тарифе и балансе после 22 января 2024 года не влияют на сумму бонусного начисления (как зачисление бонусов и денежных средств на баланс, так и изменение тарифного плана).
+                        Маблағи бонусҳо аз рӯи санаи анҷоми тариф муайян карда мешавад. Муштарӣ ҳамон қадар бонус мегирад, ки барои нигоҳ доштани санаи анҷоми тариф лозим аст. Тағйирот дар тариф ва бақия пас аз 22 январи соли 2024 ба маблағи бонус таъсир намерасонанд (ҳам ворид кардани бонус ва маблағ ба бақия, ҳам тағйири тариф).
                     </p>
                     <div class="banner-block banner-block__inner">
                         <div class="inner-icon">
@@ -89,48 +89,48 @@
                             </svg>
                         </div>
                         <p>
-                            Обратите внимание, при смене тарифа «Стандарт» на «Старт» до даты окончания действия тарифа, бонусы будут аннулированы.
+                            Лутфан, таваҷҷӯҳ намоед: агар шумо тарифро аз «Стандарт» ба «Старт» то санаи анҷоми тариф иваз кунед, бонусҳо бекор карда мешаванд.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Ограничение периода начисления бонусов</h1>
+                    <h1 class="sides-padding-40 title-page">Маҳдудияти давраи ҳисобкунии бонусҳо</h1>
                     <p>
-                        Максимальный срок начисления бонусов – до 22 января 2025 года включительно.
+                        Мӯҳлати максималии ҳисобкунии бонусҳо – то 22 январи соли 2025 (ҳамроҳ).
                     </p>
                 </div>
 
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Клиенты, которые не получат бонусы:</h1>
+                    <h1 class="sides-padding-40 title-page">Мизоҷоне, ки бонус намегиранд:</h1>
                     <p>
-                        1. Компании, с балансом равным менее 2 расчетным периодам на дату 22 января 2024 года.
+                        1. Ширкатҳое, ки бақияашон камтар аз 2 давраи ҳисоббарорӣ дар санаи 22 январи 2024 мебошад.
                     </p>
                     <p>
-                        2. Компании, совершившие возврат баланса с 23 января 2024.
+                        2. Ширкатҳое, ки аз 23 январи 2024 баргардонидани бақияро анҷом додаанд.
                     </p>
                     <p>
-                        3. Не активные компании на 22 января 2024 года.
+                        3. Ширкатҳои ғайрифаъол дар санаи 22 январи 2024.
                     </p>
                 </div>
 
                 <div class="banner-block banner-block__green">
                     <div class="info-text">
-                        <h1 class="title">Спасибо за пользование программой Umag!</h1>
+                        <h1 class="title">Ташаккур барои истифодаи барномаи Umag!</h1>
                         <p>
-                            Наша команда усердно работает над улучшением Umag и мы ценим Ваш вклад в работе с продуктом. Если у Вас есть отзывы или предложения по работе новых тарифов мы будем рады их услышать.
+                            Дастаи мо пайваста барои беҳтар кардани Umag кор мекунад ва мо саҳми шуморо дар истифодаи маҳсулот қадр мекунем. Агар шумо фикру пешниҳодҳо оид ба тарифҳои нав доред, мо бо хушнудӣ онҳоро мешунавем.
                         </p>
                     </div>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScoT4jt35fJ0lTc0WroLPE25nib5THnG1WBBI8RtfWEwBpagg/viewform"
                             class="btn btn-outline-light btn-lg btn-block">
-                        Связаться с нами
+                        Бо мо тамос гиред
                     </a>
                 </div>
                 <div class="col-60 col-mob-100">
-                    <h1 class="sides-padding-40 title-page">Подробнее о новых тарифах</h1>
+                    <h1 class="sides-padding-40 title-page">Маълумоти бештар дар бораи тарифҳои нав</h1>
                     <p>
-                        Для того что бы сравнить новые и существующие тарифы и получить более развернутую информацию тарифах вы можете перейти в
-                        <a href="/ceny" class="btn btn-link">Раздел тарифы.</a>
+                        Барои муқоисаи тарифҳои нав ва мавҷуда ва гирифтани маълумоти муфассал, метавонед ба
+                        <a href="/ceny" class="btn btn-link">Қисми тарифҳо</a> гузаред.
                     </p>
                 </div>
                 <div class="modal fade bd-example-modal-sm" id="formModal" tabindex="-1" role="dialog"
@@ -140,23 +140,23 @@
                             <button type="button" class="close close-form" aria-label="Close">
                                 <span aria-hidden="true"></span>
                             </button>
-                            <h1>Оставьте заявку</h1>
-                            <p>Мы свяжемся с Вами как можно скорее!</p>
+                            <h1>Дархост гузоред</h1>
+                            <p>Мо ҳарчи зудтар бо шумо тамос мегирем!</p>
                             <form id="contact-form-target" class="contact-form" action="" method="post">
-                                <input type="hidden" name="type" value="Заявка на демо-доступ"/>
+                                <input type="hidden" name="type" value="Дархост барои дастрасии демо"/>
                                 <input id="modal-form__token" type="hidden" name="_token"
                                        value="<?php echo csrf_token(); ?>"/>
                                 <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region"
                                        value=""/>
-                                <span data-error-message class="request-form__error-message" style="display:none">Ошибка! Заполните все поля формы.</span>
-                                <span class="request-form__error-message" data-error-message-cache style="display:none">Этот номер ранее был уже отправлен</span>
+                                <span data-error-message class="request-form__error-message" style="display:none">Хато! Ҳамаи майдонҳоро пур кунед.</span>
+                                <span class="request-form__error-message" data-error-message-cache style="display:none">Ин рақам аллакай пештар фиристода шудааст</span>
                                 <div class="margin-30">
-                                    <label for="nameTitle">Имя</label>
-                                    <input title="Имя" id="nameTitle" type="text" name="name" class="request-form__input"
-                                           placeholder="Введите имя"/>
+                                    <label for="nameTitle">Ном</label>
+                                    <input title="Ном" id="nameTitle" type="text" name="name" class="request-form__input"
+                                           placeholder="Номро ворид кунед"/>
                                 </div>
                                 <div class="margin-30">
-                                    <label for="phoneTitle">Номер телефона</label>
+                                    <label for="phoneTitle">Рақами телефон</label>
                                     <input title="Телефон" id="phoneTitle" type="text" name="phone" data-phone-mask
                                            class="request-form__input" placeholder="+7 (___) ___ __ __"/>
                                 </div>
@@ -164,6 +164,32 @@
                                     <div class="select-icon"></div>
                                     <select title="ваш город" name="city" class="request-form__input">
                                         <option value="" disabled selected>@lang('contact.your_city')</option>
+                                        <option value="DUS">Душанбе</option>
+                                        <option value="TRS">Турсунзода</option>
+                                        <option value="VHD">Ваҳдат</option>
+                                        <option value="GSR">Ҳисор</option>
+                                        <option value="NRK">Норак</option>
+                                        <option value="RGN">Роғун</option>
+                                        <option value="KHD">Хуҷанд</option>
+                                        <option value="ISR">Истаравшан</option>
+                                        <option value="PNJ">Панҷакент</option>
+                                        <option value="ISF">Исфара</option>
+                                        <option value="KNB">Конибодом</option>
+                                        <option value="BST">Бустон</option>
+                                        <option value="GLS">Гулистон</option>
+                                        <option value="IST">Истиқлол</option>
+                                        <option value="BHT">Бохтар</option>
+                                        <option value="KLB">Кӯлоб</option>
+                                        <option value="FRH">Фархор</option>
+                                        <option value="JLB">Ҷалолиддин Балхӣ</option>
+                                        <option value="KBD">Қубодиён</option>
+                                        <option value="SHT">Шаҳритус</option>
+                                        <option value="LVK">Леваканд</option>
+                                        <option value="NRB">Нуробод</option>
+                                        <option value="KRG">Хоруғ</option>
+                                        <option value="VND">Ванҷ</option>
+                                        <option value="RSH">Рушон</option>
+                                        <option value="MRG">Мурғоб</option>
                                         <option value="U11">Аксай ЗКО</option>
                                         <option value="AKU">Актау</option>
                                         <option value="AKT">Актобе</option>
@@ -204,7 +230,7 @@
                                         <option value="OSH">Ош (Кыргызстан)</option>
                                     </select>
                                 </div>
-                                <input type="submit" value="Оставить заявку" class="request-form__btn"/>
+                                <input type="submit" value="Дархост гузоред" class="request-form__btn"/>
                             </form>
                         </div>
                     </div>

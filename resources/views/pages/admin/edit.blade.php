@@ -6,13 +6,13 @@
             @csrf
             <input name="id" type="hidden" value="{{$post->id}}">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Название</label>
-                <input name="title" type="text" value="{{$post->title}}" class="form-control @error('title') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Введите название">
+                <label for="exampleFormControlInput1">Ном</label>
+                <input name="title" type="text" value="{{$post->title}}" class="form-control @error('title') is-invalid @enderror" id="exampleFormControlInput1" placeholder="Номро ворид кунед">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput2">Категория*</label>
                 <select name="category_id" class="form-control @error('category_id') is-invalid @enderror">
-                    <option value="">Выберите категорию</option>
+                    <option value="">Категорияро интихоб кунед</option>
                     @foreach($categories as $category)
                         <option value="{{ $category->id }}" {{$post->category_id == $category->id  ? 'selected' : ''}}>{{ $category->name }}</option>
                     @endforeach
@@ -21,14 +21,14 @@
             <div class="form-group">
                 <label for="exampleFormControlInput3">Платформа*</label>
                 <select name="platform_id" class="form-control @error('platform_id') is-invalid @enderror">
-                    <option value="">Выберите платформу</option>
+                    <option value="">Платформаро интихоб кунед</option>
                     @foreach($platforms as $platform)
                         <option value="{{ $platform->id }}" {{$post->platform_id == $platform->id  ? 'selected' : ''}}>{{ $platform->name }}</option>
                     @endforeach
                 </select>
             </div>
             <textarea name="summernoteInput" class="summernote"></textarea>
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кардан</button>
         </form>
     </div>
 </div>

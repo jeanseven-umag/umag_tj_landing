@@ -15,15 +15,15 @@
 @extends('layouts.admin')
 @section('content')
 <div class="header-title">
-    <h1>Таблица Видео-уроки</h1>
-    <a class="btn btn-success" href="{{ URL::route('video_admin.create') }}" role="button">Создать</a>
+    <h1>Ҷадвали Видео-дурсҳо</h1>
+    <a class="btn btn-success" href="{{ URL::route('video_admin.create') }}" role="button">Сохтан</a>
 </div>
 <table class="table">
     <thead>
     <tr>
         <th width="10%">#</th>
-        <th width="60%">Название</th>
-        <th width="30%" class="text-right">Действия</th>
+        <th width="60%">Ном</th>
+        <th width="30%" class="text-right">Амалиётҳо</th>
     </tr>
     </thead>
     <tbody>
@@ -32,8 +32,8 @@
             <td>{{$index + 1}}</td>
             <td><a href="{{ URL::route('video_admin.show', $video->id) }}">{{ $video->title }}</a></td>
             <td class="text-right">
-                <a href="{{ URL::route('video_admin.remove', $video->id) }}" class="btn btn-xs btn-danger">Удалить</a>
-                <a href="{{ URL::route('video_admin.edit', $video->id) }}" class="btn btn-xs btn-primary">Изменить</a>
+                <a href="{{ URL::route('video_admin.remove', $video->id) }}" class="btn btn-xs btn-danger">Нест кардан</a>
+                <a href="{{ URL::route('video_admin.edit', $video->id) }}" class="btn btn-xs btn-primary">Тағйир додан</a>
             </td>
         </tr>
     <?php endforeach; ?>

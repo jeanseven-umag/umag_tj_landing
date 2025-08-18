@@ -1,32 +1,32 @@
 @extends('layouts.admin')
 @section('content')
-<h1>Создать опросник</h1>
+<h1>Саволнома эҷод кунед</h1>
 
 <form action="{{ route('surveys.store') }}" method="POST">
     @csrf
 
     <div class="form-group">
-        <label for="title">Название опроса *</label>
+        <label for="title">Номи саволнома *</label>
         <input type="text" name="title" id="title" class="form-control" required>
     </div>
 
     <div class="form-group">
-        <label for="description">Описание</label>
+        <label for="description">Тавсиф</label>
         <textarea name="description" id="description" class="form-control"></textarea>
     </div>
 
-    <h3>Варианты опроса</h3>
+    <h3>Вариантҳои саволнома</h3>
 
     <div id="options-wrapper">
         <div class="form-group option-group">
-            <label for="options[]">Вариант 1</label>
+            <label for="options[]">Варианти 1</label>
             <input type="text" name="options[]" class="form-control" required>
         </div>
     </div>
 
-    <button type="button" class="btn btn-secondary mt-2" id="add-option">Добавить вариант</button>
+    <button type="button" class="btn btn-secondary mt-2" id="add-option">Вариант илова кунед</button>
 
-    <button type="submit" class="btn btn-primary mt-3">Создать опрос</button>
+    <button type="submit" class="btn btn-primary mt-3">Саволномаро эҷод кунед</button>
 </form>
 
 <script>

@@ -5,17 +5,17 @@
         <form action="{{ route('video_admin.store')}}" method="POST">
             @csrf
             <div class="form-group">
-                <label for="TitleLabel">Название*</label>
-                <input name="title" type="text" class="form-control @error('title') is-invalid @enderror" id="TitleLabel" placeholder="Введите название" required>
+                <label for="TitleLabel">Ном*</label>
+                <input name="title" type="text" class="form-control @error('title') is-invalid @enderror" id="TitleLabel" placeholder="Номро ворид кунед" required>
             </div>
             <div class="form-group">
-                <label for="UrlLabel">Ссылка*</label>
-                <input name="url" type="text" class="form-control @error('url') is-invalid @enderror" id="UrlLabel" placeholder="Введите ссылку" required>
+                <label for="UrlLabel">Пайванд*</label>
+                <input name="url" type="text" class="form-control @error('url') is-invalid @enderror" id="UrlLabel" placeholder="Пайвандро ворид кунед" required>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput2">Категория*</label>
                 <select name="category_id" class="form-control @error('category_id') is-invalid @enderror">
-                    <option value="">Выберите категорию</option>
+                    <option value="">Категорияро интихоб кунед</option>
                     @foreach($categories as $category)
                         <option value="{{ $category->id }}">{{ $category->name }}</option>
                     @endforeach
@@ -24,13 +24,13 @@
             <div class="form-group">
                 <label for="exampleFormControlInput3">Платформа*</label>
                 <select name="platform_id" class="form-control @error('platform_id') is-invalid @enderror">
-                    <option value="">Выберите категорию</option>
+                    <option value="">Категорияро интихоб кунед</option>
                     @foreach($platforms as $platform)
                         <option value="{{ $platform->id }}">{{ $platform->name }}</option>
                     @endforeach
                 </select>
             </div>
-            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="submit" class="btn btn-success">Захира кардан</button>
         </form>
     </div>
 </div>

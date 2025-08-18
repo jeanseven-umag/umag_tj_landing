@@ -110,18 +110,44 @@
                     <input type="hidden" name="type" value="Заявка на демо-доступ">
                     <input id="modal-form__token" type="hidden" name="_token" value="<?php echo csrf_token(); ?>" />
                     <input id="modal-form__select" class="modal-form__select_option" type="hidden" name="region" value="" />
-					<span class="request-form__error-message" data-error-message="" style="display:none">Ошибка! Заполните все поля формы.</span>
-					<span class="request-form__info-message" data-info-message="" style="display:none">Заявка успешно отравлена!</span>
+					<span class="request-form__error-message" data-error-message="" style="display:none">Хатогӣ! Лутфан ҳамаи майдонҳои формаро пур кунед.</span>
+					<span class="request-form__info-message" data-info-message="" style="display:none">Ариза бомуваффақият фиристода шуд!</span>
 					<div class="input-group">
-						<input title="Имя" type="text" name="name" placeholder="@lang('product_capabilities.name_client')">
+						<input title="Ном" type="text" name="name" placeholder="@lang('product_capabilities.name_client')">
 					</div>
 					<div class="input-group">
 						<input title="Телефон" type="text" name="phone" data-phone-mask="" placeholder="+7 (___) ___ __ __">
 					</div>
 					<div class="input-group">
 						<div class="select-icon"></div>
-						<select title="Ваш город" name="city" class="input">
+						<select title="Шаҳри шумо" name="city" class="input">
 							<option value="" disabled selected>@lang('home.your_city')</option>
+							<option value="DUS">Душанбе</option>
+							<option value="TRS">Турсунзода</option>
+							<option value="VHD">Ваҳдат</option>
+							<option value="GSR">Ҳисор</option>
+							<option value="NRK">Норак</option>
+							<option value="RGN">Роғун</option>
+							<option value="KHD">Хуҷанд</option>
+							<option value="ISR">Истаравшан</option>
+							<option value="PNJ">Панҷакент</option>
+							<option value="ISF">Исфара</option>
+							<option value="KNB">Конибодом</option>
+							<option value="BST">Бустон</option>
+							<option value="GLS">Гулистон</option>
+							<option value="IST">Истиқлол</option>
+							<option value="BHT">Бохтар</option>
+							<option value="KLB">Кӯлоб</option>
+							<option value="FRH">Фархор</option>
+							<option value="JLB">Ҷалолиддин Балхӣ</option>
+							<option value="KBD">Қубодиён</option>
+							<option value="SHT">Шаҳритус</option>
+							<option value="LVK">Леваканд</option>
+							<option value="NRB">Нуробод</option>
+							<option value="KRG">Хоруғ</option>
+							<option value="VND">Ванҷ</option>
+							<option value="RSH">Рушон</option>
+							<option value="MRG">Мурғоб</option>
 							<option value="U11">Аксай ЗКО</option>
 							<option value="AKU">Актау</option>
 							<option value="AKT">Актобе</option>
