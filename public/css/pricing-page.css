@@ -1,0 +1,284 @@
+/*Price Box*/
+.banner-block-flex{background-color:#8F98DF; display:flex; align-items:center;justify-content:flex-start;width:100%; min-height: 500px}
+.banner-text{color: #fff; font-size: 24px; width: 800px; }
+.banner-text p {margin-bottom: 20px; line-height: 31px }
+.banner-text .sub-title {font-size: 39px; line-height: 52px; margin-bottom: 40px }
+.banner-text button {background-color: #0a0e14; font-size: 29px; color: #fff; cursor: pointer; border-radius: 5px; }
+.banner-text button a {padding: 20px 100px; display: flex}
+.price{
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.price__col { width: 100%; -webkit-box-flex: 0; -ms-flex: 0 0 48%; flex: 0 0 48%; max-width: 48%; }
+.price__box{
+    background-color: #F4F4F4;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.price__title{
+    color: #404040;
+    font-size: 30px;
+}
+.price__time{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+}
+.price__wrap{
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.price__setup{
+    text-align: left;
+    font-size: 22px;
+    font-weight: 400;
+}
+.price__setup small {
+    color: rgba(64, 64, 64, 0.8);
+    font-weight: 300;
+}
+.price__final{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+ }
+.price__payment{
+    font-size: 30px;
+    font-weight: 600;
+}
+.price__ribbon{
+    left: -82px;
+    position: absolute;
+    top: 12px;
+    height: 90px;
+    width: 280px;
+    background-color: #66CE76;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    transform: rotate(-45deg);
+    padding-top: 10px;
+}
+.w100{
+    width: 100%;
+}
+.fsize{ font-size: 120px }
+.pricing-banner{
+    margin: 74px auto -89px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wp-banner{
+    width: 100%;
+    height: 180px;
+}
+.text-banner{
+    position:absolute;
+    top: 17%;
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+
+}
+.banner-wrap{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.line-banner{
+    width: 0px;
+    height: 36px;
+    border: 2px solid #66CE76;
+    margin: 10px 55px 0;
+}
+@media only screen and (max-width: 1600px) {
+    .text-banner{ font-size: 25px }
+    .wp-banner{ height: 160px }
+}
+@media only screen and (max-width: 800px) {
+    .text-banner{ font-size: 17px }
+    .wp-banner{ height: 150px }
+}
+@media only screen and (max-width: 550px) {
+    .text-banner{ font-size: 14px }
+    .wp-banner{ height: 140px }
+    .visa{ width: 84px; height: 50px }
+    .mastercard{ width: 84px; height: 50px }
+    .line-banner{ height: 30px }
+}
+@media only screen and (max-width: 470px) {
+    .text-banner{ font-size: 12px }
+    .wp-banner{ height: 120px }
+    .visa{ width: 74px; height: 40px }
+    .mastercard{ width: 74px; height: 40px }
+    .line-banner{ height: 24px }
+}
+@media only screen and (max-width: 420px) {
+    .text-banner{ font-size: 10px }
+    .wp-banner{ height: 100px }
+    .visa{ width: 64px; height: 30px }
+    .mastercard{ width: 64px; height: 30px }
+    .line-banner{ height: 18px }
+}
+
+@media only screen and (max-width: 1120px) {
+    .price__wrap{ max-width: 340px }
+}
+@media only screen and (max-width: 767px) {
+    .price__col { width: 100%; -webkit-box-flex: 0; -ms-flex: 0 1 auto; flex: 0 1 auto; max-width: 100%; margin-bottom: 40px }
+    .price { margin-bottom: 0 }
+    .dnone { display: none }
+    .price__wrap{ max-width: 480px }
+    .pricing-banner{ margin: 91px auto -89px; }
+}
+@media only screen and (max-width: 600px) {
+    .price__wrap{ max-width: 380px }
+    .price__ribbon {height: 60px; width: 250px; font-size: 17px }
+    .price__title{ font-size: 25px }
+    .price__time, .price__setup{ font-size: 20px }
+}
+/* =====================================================================================================================
+ ** Block 1
+ */
+ .block-1 {padding-top: 15.0rem;padding-bottom: 5rem;font-size: 2.8rem;color: #404040;}
+ .block-1 h1 {font-size: 5rem;font-weight: 400;color: #404040;margin: 0 0 2.5rem;text-transform: lowercase;}
+ .block-1 .lead {color: #000000;font-size: 3rem;margin: 0 0 5.5rem;font-family: "circe_lig";}
+ .block-1 .calculator {margin-bottom: 4rem;}
+ .block-1 .calculator label {display: block;margin-bottom: 1.5rem;text-transform: lowercase;/* font-family: "circe_lig"; */}
+ .block-1 .calculator__unit-price { display: block; font-size: 2.0rem; color: #9B9B9B }
+ .block-1 .calculator__input { position: relative; margin-bottom: 3.5rem }
+ .block-1 .calculator__input-plus,
+ .block-1 .calculator__input-minus {
+     position: absolute; width: 3.8rem; height: 3.8rem; border: 2px solid #66CE76; border-radius: 50%; top: 50%;
+     margin-top: -1.9rem; cursor: pointer }
+ .block-1 .calculator__input-plus { right: 2.0rem; background: url("/img/pricing-page/plus-icon.svg") no-repeat center }
+ .block-1 .calculator__input-minus { left: 2.0rem; background: url("/img/pricing-page/minus-icon.svg") no-repeat center }
+ .block-1 .calculator__input input {
+     display: block; width: 100%; font-size: 3.6rem; color: #404040; border: none; height: 9.0rem; text-align: center;
+     background-color: #F4F4F4; border-radius: 7px; padding: 0 7.0rem; outline: 0 }
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button { -webkit-appearance: none }
+ input[type=number] { -moz-appearance:textfield }
+ .block-1 .request-btn:hover {background: #21b1ff}
+ .block-1 .request-btn { text-align:center; display: inline-block; outline: 0; height: 10rem; border: none; color: #FFF; background-color: #66CE76; border-radius: 8px; font-size: 2.8rem; font-weight: 500; cursor: pointer; line-height: 10rem; text-transform: lowercase; text-decoration: none; padding: 0 7.7rem; transition: 0.2s }
+ .block-1 .result { padding-left: 8.5rem }
+ .block-1 .result__annual { font-size: 22px; margin-bottom: 0.8rem; font-weight: 600 }
+
+ .block-1 .result__annual small { font-size: 2.4rem; font-weight: 400 }
+ .block-1 .result__monthly { display: block; font-size: 2.0rem; color: #808080 }
+ .col-auto.support {margin: 0 5rem;padding: 0 3rem;border-left: 1px solid;border-right: 1px solid;border-color: #b3b3b3}
+ .invert-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+ @media(max-width: 1300px){
+    .block-1 .result__annual {
+        font-size: 3rem;
+    }
+}
+@media(max-width: 1400px) and (min-width: 1301px){
+    .block-1 .result__annual {
+        font-size: 3.8rem;
+    }
+}
+@media(max-width: 1700px) and (min-width: 1575px){
+    .block-1 .result__annual {
+        font-size: 3.8rem;
+    }
+}
+
+ @media only screen and (max-width: 767px) {
+     .block-1 { padding-top: 20.0rem; padding-bottom: 8.0rem }
+     .block-1 h1 { margin: 0 0 2.0rem }
+     .block-1 .lead { margin: 0 0 9.5rem }
+     .block-1 .calculator { margin-bottom: 2.5rem }
+     .block-1 .calculator label { display: block; margin-bottom: 1.5rem }
+     .block-1 .calculator__unit-price { margin-bottom: 5.5rem }
+     .block-1 .calculator__input { margin-bottom: 1.5rem }
+     .block-1 .calculator__input-plus,
+     .block-1 .calculator__input-minus { width: 6.0rem; height: 6.0rem; margin-top: -3.0rem }
+     .block-1 .calculator__input input { height: 13.5rem; padding: 0 10.0rem }
+     .block-1 .request-btn {width: 100%; text-align: center; height: 13.5rem; line-height: 13.5rem; font-size: 3.4rem; font-weight: 400 }
+     .block-1 .result { padding-left: 0; padding-bottom: 0rem; margin-bottom: 8rem; }
+     .block-1 .result__annual { font-size: 4.0rem; margin-bottom: 1.2rem }
+     .block-1 .result__annual small { font-size: 4.0rem }
+     .block-1 .result__monthly { font-size: 3.0rem }
+     .col-auto.invert-wrapper {flex-direction: column;width: 100%;background: #f9f9f9;padding: 5rem;margin-bottom: 8rem;border-radius: 5px}
+    .col-auto.support {padding: 0;margin: 0;border: none;margin-bottom: 8rem}
+    .block-1 .calculator__unit-price {font-size: 2.5rem}
+ }
+
+@media only screen and (max-width: 600px) {
+    .block-1 .result__annual { font-size: 3.5rem }
+}
+ /* =====================================================================================================================
+  ** Block 2
+  */
+ .block-2 {
+     padding-top: 5rem;
+     padding-bottom: 0;
+     font-size: 3.0rem;
+     color: #000000;
+     background-color: #f9f9f9;
+     text-align: center;
+     margin: 0 5rem;
+     margin-bottom: 5rem;
+}
+ .block-2 h1 {font-size: 3.6rem;font-weight: 400;color: inherit;margin: 0 0 5rem;text-transform: lowercase;}
+ 
+ .block-2 .include {
+     padding-top: 8.5rem;
+     margin: 0 0 6rem;
+     line-height: 1.5;
+     background-repeat: no-repeat;
+     background-position: center top;
+     text-transform: lowercase;
+     font-size: 2rem;
+     }
+ .block-2 .include_1 { background-image: url(/img/pricing-page/include-1.svg) }
+ .block-2 .include_2 { background-image: url(/img/pricing-page/include-2.svg) }
+ .block-2 .include_3 { background-image: url(/img/pricing-page/include-3.svg) }
+ .block-2 .include_4 { background-image: url(/img/pricing-page/include-4.svg) }
+ .block-2 .include_5 { background-image: url(/img/pricing-page/include-5.svg)}
+ .block-2 .include_6 { background-image: url(/img/pricing-page/include-6.svg) }
+ 
+ @media only screen and (max-width: 1579px) {
+     .block-2 .include { padding-top: 100px }
+ }
+ 
+ @media only screen and (max-width: 767px) {
+     .block-2 { padding-top: 8.0rem; padding-bottom: 4.0rem }
+     .block-2 h1 { font-size: 5rem; margin: 0 0 12.0rem }
+ 
+     .block-2 .include { padding-top: 100px; margin: 0 0 14.0rem; font-size: 3rem; }
+     .block-2 .include br { display: none }
+ }

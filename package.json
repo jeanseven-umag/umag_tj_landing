@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/.bin/webpack --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/.bin/webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/.bin/webpack --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.24.7",
+        "axios": "^0.19",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^7.0.3",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.0",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.8",
+        "sass-loader": "^11.1.1",
+        "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@mantine/core": "^6.0.17",
+        "@mantine/form": "^6.0.17",
+        "@mantine/hooks": "^7.14.0",
+        "@tabler/icons-react": "^3.17.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-imask": "^7.6.1",
+        "react-router-dom": "^6.26.1",
+        "react-select-async-paginate": "^0.7.6",
+        "use-debounce": "^10.0.3"
+    }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Group_977" data-name="Group 977" transform="translate(0 0.127)">
+    <path id="play-button" d="M15.091,6.331,5.992.055A.314.314,0,0,0,5.5.313V12.864a.314.314,0,0,0,.492.258l9.1-6.275a.314.314,0,0,0,0-.516Z" transform="translate(8.007 10.298)" fill="red"/>
+    <g id="Ellipse_36" data-name="Ellipse 36" transform="translate(0 -0.127)" fill="none" stroke="#000" stroke-width="1">
+      <circle cx="17" cy="17" r="17" stroke="none"/>
+      <circle cx="17" cy="17" r="16.5" fill="none"/>
+    </g>
+  </g>
+</svg>

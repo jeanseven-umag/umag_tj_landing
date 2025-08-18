@@ -1,0 +1,548 @@
+.ceny-page {
+    padding: 80px 0 170px;
+}
+
+.banner-block {
+    background: linear-gradient(96.85deg, #2EA558 58.72%, rgba(45, 190, 96, 0) 128.01%);
+    border-radius: 10px;
+    margin-bottom: 32px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 30px;
+}
+.banner-block.banner-2 {
+    background: #2DBE60;
+}
+
+.banner-block.banner-2::after {
+    display: none;
+}
+
+.banner-block.banner-2 button {
+    width: 200px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2DBE60;
+}
+
+.banner-block.banner-2 .info-text {
+    width: 80%;
+    margin-right: 10px;
+}
+
+.banner-block.banner-2 .info-text {
+    width: 80%;
+}
+
+.banner-block h1.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.banner-block ul li {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.banner-block::after {
+    display: block;
+    content: "";
+    background-image: url(/img/tariff-banner.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.info-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    color: #0978EF;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.ceny-page .card-bl {
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.card .card-header {
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    background: #2DBE60;
+    color: #FFFFFF;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1.title-page {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.ceny-page .card {
+    border-radius: 10px;
+}
+
+.ceny-page .card-opacity {
+    opacity: 0.7;
+}
+
+.card-body .text-option {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #828282;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.card-body .text-option p {
+    margin-bottom: 0;
+    line-height: 18px;
+}
+
+.card-body .text-option p:last-child {
+    margin-top: 12px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 28px;
+}
+
+.card-title span {
+    color: #2DBE60;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card-body .btn-lg {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.card-body .btn-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0978EF;
+}
+
+.card-footer, .card-body {
+    padding: 20px;
+}
+
+.card-footer ul li p {
+    margin: 0;
+}
+
+.card-footer ul li:nth-child(2) {
+    margin: 20px 0;
+}
+
+/*.modal-dialog {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    max-width: 100vh;*/
+/*}*/
+
+/*.modal-content {*/
+/*    height: auto;*/
+/*    min-height: 100%;*/
+/*    border-radius: 0;*/
+/*    padding: 40px;*/
+/*    width: 100%;*/
+/*}*/
+.col-23 {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 23.5%;
+    flex: 0 0 23.5%;
+    max-width: 23.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.col-29 {
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 29.5%;
+    flex: 0 0 29.5%;
+    max-width: 29.5%;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.modal-content p {
+    font-size: 24px;
+}
+
+.modal-content p.card-title {
+    margin-top: 12px;
+    color: #828282;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.modal-content p.card-title span {
+    color: #3D3B40;
+    font-size: 24px;
+}
+
+.modal-content .btn {
+    width: 90%;
+    margin-bottom: 24px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+.has-search .form-control {
+    padding-right: 2.375rem;
+}
+
+.modal-content .form-group {
+    position: relative;
+    margin-bottom: 24px;
+    width: 80%;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    width: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.modal-content .form-control {
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.modal-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button.close {
+    top: 20px;
+}
+
+#formModal h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 30px;
+    color: #0a0e14;
+    text-transform: capitalize;
+}
+
+#formModal label {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+#formModal p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #828282;
+    margin-bottom: 30px;
+}
+
+#formModal .modal-content, #chooseTarif .modal-content  {
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#formModal .modal-sm, #chooseTarif .modal-sm {
+    width: 428px;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.block-1 .text {
+    margin: 0;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 3rem
+}
+
+.margin-20 {
+    position: relative
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px
+}
+
+.select-icon {
+    display: inline-block;
+    width: 2.5%;
+    width: 4%;
+    height: 12%;
+    position: absolute;
+    top: 46%;
+    right: 7%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+.block-1 .request-form__input {
+    display: block;
+    width: 100%;
+    font-size: 2.5rem;
+    color: #303030;
+    height: 8rem;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 3.5rem;
+    outline: 0;
+    border: 1px solid #BDBDBD
+}
+
+.block-1 .request-form__btn {
+    display: block;
+    width: 100%;
+    outline: 0;
+    height: 8rem;
+    border: none;
+    color: #fff;
+    background-color: #2DBE60;
+    border-radius: 10px;
+    font-size: 2.9rem;
+    font-weight: 500;
+    cursor: pointer
+}
+
+.block-1 .request-form__btn[disabled] {
+    cursor: not-allowed;
+    opacity: .6
+}
+
+.block-1 .request-form__error-message {
+    display: block;
+    margin-bottom: 2rem;
+    background-color: #ff5860;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: .8rem 1.5rem
+}
+
+.block-1 .request-form__info-message {
+    display: block;
+    margin-bottom: 2rem;
+    background-color: #4fdf7b;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: .8rem 1.5rem
+}
+
+.block-1.block-banner .text {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-transform: initial
+}
+
+.block-1.block-banner ul {
+    padding-left: 40px;
+    color: #fff;
+    margin-bottom: 20px
+}
+
+.block-1.block-banner h5 {
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+.block-1.block-banner .block-1__left {
+    padding-top: 20rem;
+    padding-bottom: 15rem
+}
+
+.block-1.block-banner .container_half-right {
+    width: 100%;
+}
+
+.block-1.block-banner .block-1__right {
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+#chooseTarif .text-option {
+    color: #828282;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#chooseTarif .modal-content p {
+    font-size: 20px;
+}
+
+#chooseTarif .text-option p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 0;
+}
+#chooseTarif .text-option p:first-child {
+    margin-bottom: 12px;
+}
+#chooseTarif .info {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #828282;
+    margin-top: 8px;
+    display: block;
+}
+
+#chooseTarif .total-block {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px;
+    background: linear-gradient(0deg, #EDEDED, #EDEDED),
+    linear-gradient(0deg, #BDBDBD, #BDBDBD);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#chooseTarif .total-block p {
+    margin-bottom: 0;
+}
+
+.request-form__input:disabled {
+    background: linear-gradient(0deg, #EDEDED, #EDEDED),
+    linear-gradient(0deg, #BDBDBD, #BDBDBD);
+}
+.card-body .info {
+    color: #828282;
+}
+#chooseTarif h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#chooseTarif .modal-content {
+    padding: 20px 40px;
+}
+#chooseTarif .close {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+#chooseTarif .btn-success {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+}
+.isMobile {
+    display: none;
+}
+
+.tarrif-head{
+    background-color: #2DBE60;
+    color: #ffffff;
+}
+
+.padding-l12{
+    padding-left:12px;
+}
+
+.custom-td-text {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: -25px;
+}
+
+@media only screen and (max-width:767px) {
+    #formModal .modal-sm, #chooseTarif .modal-sm {
+        width: auto;
+    }
+    #formModal .modal-content, #chooseTarif .modal-content {
+        padding: 10px;
+    }
+    .col-mob-100 {
+        margin-bottom: 20px;
+    }
+    .isDesktop {
+        display: none;
+    }
+    .isMobile {
+        display: table-row;
+    }
+    .table .thead-green th {
+        font-size: 12px;
+    }
+
+    .compare-table-list td {
+        font-size: 12px;
+    }
+
+    .compare-table-list td:first-child, .table .thead-green th:first-child {
+        width: 15%;
+    }
+
+    .table .thead-green  {
+        padding: 0;
+    }
+    .banner-block::after {
+        background-position-y: bottom;
+        right: 0;
+    }
+}

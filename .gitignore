@@ -1,0 +1,63 @@
+# idea
+# .idea
+# Idea Default ignored files
+.idea/shelf/
+.idea/workspace.xml
+.idea/misc.xml
+.idea/.name
+# Datasource local storage ignored files
+.idea/dataSources
+.idea/dataSources.local.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests/
+
+# SQL Lite
+database/*.sqlite
+database/*.sqlite-journal
+
+# Bootstrap cache
+bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+
+# Public storage
+public/storage/*
+
+# Storage app
+storage/app/*
+!storage/app/public/.gitkeep
+
+# Storage framework
+storage/framework/cache/*
+!storage/framework/cache/data/.gitkeep
+storage/framework/sessions/*
+!storage/framework/sessions/.gitkeep
+storage/framework/testing/*
+!storage/framework/testing/.gitkeep
+storage/framework/views/*
+!storage/framework/views/.gitkeep
+storage/framework/logs/*
+!storage/framework/logs/.gitkeep
+storage/framework/config.php
+storage/framework/routes.php
+storage/framework/schedule-*
+storage/framework/compiled.php
+storage/framework/services.json
+storage/framework/events.scanned.php
+storage/framework/routes.scanned.php
+storage/framework/down
+storage/logs/*
+storage/logs/
+# env
+.env
+.env.save
+
+# misc
+.editorconfig
+.gitattributes
+.styleci.yml
+.htaccess
+/node_modules
+/vendor
+vendor/*
+config/*
+!README.md

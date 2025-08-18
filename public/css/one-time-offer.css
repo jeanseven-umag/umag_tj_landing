@@ -1,0 +1,105 @@
+/* =====================================================================================================================
+ ** Header
+ */
+ body { background-color: #494949; }
+ .header { background: #494949; position: static; padding: 60px 80px 0; }
+ @media only screen and (max-width: 1579px) {
+    .header { padding: 40px 80px 0; }
+}
+@media only screen and (max-width: 767px) {
+    .header { padding: 20px 40px 0; }
+}
+/* =====================================================================================================================
+ ** Block 1
+ */
+ main { background-color: #494949; }
+.block-1 { padding-top: 5.0rem; padding-bottom: 12rem; font-size: 2.8rem; color: #404040; }
+.block-1 .note { color: #222222; font-size: 2.5rem; padding: 0 50px; height: 48px; display: flex; justify-content: center;
+                 align-items: center; margin: 0 auto 5rem; background-color: #FFC633; border-radius: 5px; max-width: 1344px;
+                 background-image: url("/landing-resources/img/idea.png"); background-position: center left 12px; background-repeat: no-repeat; }
+.block-1 .note p { margin: 0; text-align: center; }
+.block-1 h1 { font-size: 4.4rem; font-weight: 400; color: #ffffff; margin: 0 0 6rem; text-align: center; }
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none }
+input[type=number] { -moz-appearance:textfield }
+select { -webkit-appearance: none; -moz-appearance: none; text-indent: 1px; text-overflow: ''; }
+
+@media only screen and (max-width: 1579px) {
+    .block-1 h1 { font-size: 26px; }
+    .block-1 .note { max-width: 700px; font-size: 13px; height: 30px; background-image: none; padding: 0; }
+}
+@media only screen and (max-width: 767px) {
+    .block-1 { padding-top: 5.0rem; padding-bottom: 6.0rem; }
+    .block-1 h1 { margin: 0 0 3.0rem; padding-top: 20rem; font-size: 19px; line-height: 30px; }
+    .block-1 h1 br { display: none; }
+    .block-1 .note { position: absolute; left: 0; max-width: 335px; min-width: 300px; border-top-left-radius: 0; border-bottom-left-radius: 0; padding: 10px 20px 10px 40px;
+                     height: auto; min-height: 80px; font-size: 15px; background-image: url(/landing-resources/img/idea.png); background-position: top 10px left 11px;
+                     -webkit-background-size: 8%; background-size: 8%; margin: 0; }
+    .block-1 .note p { text-align: left; }                     
+}
+
+/* =====================================================================================================================
+ ** Block 2
+ */
+.block-2 {
+    padding-top: 5.0rem; padding-bottom: 5rem; font-size: 3.0rem; color: #FFFFFF;
+    background-color: #F9F9F9; text-align: center; background-repeat: no-repeat; background-image: url("/landing-resources/img/equipment/product_003_big.webp"); -webkit-background-size: 650px;
+    background-size: 650px; background-position: top 125% left 22%; }
+.block-2 h1 { font-size: 4.4rem; font-weight: 400; color: #000; margin: 0 0 5.0rem }
+.block-2 h1 span { font-weight: 700; }
+.block-2 .note-attention { display: flex; justify-content: center; align-items: center; color: #fff; font-size: 2.5rem; line-height: 30px; font-weight: 500;
+                           height: 86px; background-color: #D03A3A; border-radius: 5px; max-width: 931px; margin: 0 auto 3rem; }
+.block-2 .note-form-wrap { display: flex; justify-content: flex-end; align-items: center; padding: 3rem 10.8rem; }
+.block-2 .note-form { max-width: 555px; width: 40%; margin-top: 2rem; }
+.block-2 .request-form__error-message { display: block; margin-bottom: 2.0rem; color: #ff5860; font-size: 2.2rem; }
+.block-2 .request-form__info-message { display: block; margin-bottom: 2.0rem; color: #4fdf7b; font-size: 2.2rem; }
+.block-2 .input-group { width: 100%; height: 85px; position: relative; margin-bottom: 2rem; }
+.block-2 .input-group:last-child { margin-top: 4rem; }
+.block-2 .input-group input,
+.block-2 .input-group select {
+    width: 100%; height: 100%; background-color: #fff; border-radius: 10px; border: 1px solid transparent; outline: none;
+    padding: 1em 2em 1em 1em; font-size: 2.2rem; line-height: 1.4em; color: #404040; transition: border .2s }
+.block-2 .input-group .select-icon {
+    display: inline-block; width: 4%; height: 12%; position: absolute; top: 47%; right: 10%; background-image: url(/landing-resources/img/opportunities-page/select-icon.svg);
+    background-repeat: no-repeat; background-position: center; -webkit-background-size: cover; background-size: cover; }
+.block-2 .input-group button {
+    width: 100%; height: 100%; border: none; background-color: #21B1FF; border-radius: 10px; font-size: 2.9rem; line-height: 1.4em;
+    color: #fff; cursor: pointer; transition: background-color .2s; }
+.block-2 .input-group input:hover,
+.block-2 .input-group select:hover { border: 1px solid #78cfff; }
+.block-2 .input-group input:focus,
+.block-2 .input-group select:focus { border: 1px solid #78cfff; }
+
+
+@media only screen and (max-width: 1579px) {
+    .block-2 { -webkit-background-size: 450px; background-size: 450px; background-position: top 125% left 12%; }
+    .block-2 h1 { text-align: center; font-size: 24px; }
+    .block-2 .note-attention { max-width: 700px; height: 30px; font-size: 12px; }
+    .block-2 .note-attention br { display: none; }
+    .block-2 .note-form { max-width: 350px; width: 45%; }
+    .block-2 .note-form-wrap { padding: 3rem 23rem; }
+    .block-2 .input-group { height: 60px; }
+    .block-2 .input-group:last-child { margin-top: 3rem; }
+}
+
+@media only screen and (max-width: 767px) {
+    .block-2 { padding-top: 5.0rem; padding-bottom: 4.0rem; -webkit-background-size: 300px; background-size: 300px; background-position: top 47% left 40%; }
+    .block-2 h1 { font-size: 17px; margin: 0 0 5.0rem }
+    .block-2 h1 br { display: none; }
+    .block-2 .note-attention { height: auto; font-size: 15px; padding: 10px; width: 90%; line-height: 22px; }
+    .block-2 .note-form-wrap { padding: 32rem 3rem 0; justify-content: center; }
+    .block-2 .note-form { width: 100%; }
+}
+
+/* =====================================================================================================================
+ ** Footer
+ */
+.footer { display: flex; justify-content: center; align-items: center; height: 130px; background-color: #303030; color: #7A7A7A; font-size: 3rem; }
+@media only screen and (max-width: 1579px) {
+    .footer { height: 84px; font-size: 14px; }
+}
+@media only screen and (max-width: 767px) {
+    .footer { margin-bottom: 0; height: 63px; padding: 0 15px; font-size: 12px; text-align: left; }
+}

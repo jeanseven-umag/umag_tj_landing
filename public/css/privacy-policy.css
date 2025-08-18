@@ -1,0 +1,81 @@
+.header-sidebar ul{display:none!important}
+main{margin-left:0!important}
+.container-policy{
+    padding: 113px 150px 90px;
+    margin: 0 auto;
+}
+.policy-title{
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+.policy-desc{
+    margin: 20px auto 24px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+.policy-paragraph{
+    list-style-type: none;
+    margin: 24px 0;
+    padding: 0;
+}
+.policy-subparagraph{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.policy-paragraph__item{
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0;
+}
+.policy-subparagraph__item{
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0;
+}
+.policy-infoText{
+    font-weight: 400;
+    font-size: 15px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.last-update{
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.last-update span{
+    font-weight: 700;
+}
+@media only screen and (max-width: 1024px){
+    .container-policy{
+        padding: 130px 100px 90px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container-policy{
+        padding: 135px 80px 90px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .container-policy{
+        padding: 97px 16px 90px;
+    }
+}

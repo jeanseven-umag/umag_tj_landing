@@ -1,0 +1,56 @@
+.contact-page{font-size:2.4rem;background-color:#f9f9f9;color:#000;padding:15.5rem 0 8.5rem}
+.margin-20{position:relative}
+select{-webkit-appearance:none;-moz-appearance:none;text-indent:1px}
+.select-icon{display:inline-block;width:2.5%;width:4%;height:12%;position:absolute;top:46%;right:7%;background-image:url(/img/opportunities-page/select-icon.svg);background-repeat:no-repeat;background-position:center;-webkit-background-size:cover;background-size:cover}
+.contact-page h1{margin:0 0 2.5rem;font-size:4rem;font-weight:400;text-transform:lowercase}
+.contact-page .lead{color:#666;font-size:3rem;margin:0 0 6rem}
+.contact-page .city-contact{line-height:1.8;color:#666;margin:0 0 4.5rem}
+.contact-page .city-contact strong{color:#000;font-weight:400;display:block}
+.contact-page .city-contact__show-phone{white-space:nowrap;cursor:pointer;color:#2D8259}
+.contact-page .city-contact__show-phone:hover{text-decoration:underline}
+.contact-page .city-contact__show-phone_showed{cursor:default;color:inherit}
+.contact-page .city-contact__show-phone_showed:hover{text-decoration:none}
+.contact-page hr{display:block;border-top:none;border-bottom:1px solid #696969;margin:4rem 0 5.5rem}
+.contact-page .contact-form__input{display:block;width:100%;font-size:2.5rem;color:#303030;border:none;height:8.6rem;background-color:#ececec;border-radius:10px;padding:0 3.5rem;outline:0}
+.contact-page textarea.contact-form__input{padding:2.5rem 3.5rem;resize:vertical;border-bottom-right-radius:5px;height:auto}
+.contact-page .contact-form__btn{display:block;width:100%;outline:0;height:10.2rem;border:none;color:#fff;background-color:#21B1FF;border-radius:10px;font-size:2.9rem;font-weight:500;cursor:pointer;text-transform:lowercase}
+.contact-page .contact-form__btn[disabled]{cursor:not-allowed;opacity:.6}
+.contact-page .contact-form__error-message{display:block;margin-bottom:2rem;color:#ff5860;font-size:2.2rem}
+.contact-page .contact-form__info-message{display:block;margin-bottom:2rem;color:#4fdf7b;font-size:2.2rem}
+.contact-page .contact-form__text{padding-left:14%}
+.contact-page .contact-form__p1{font-size:3.6rem;color:#666;margin:0 0 6rem;text-transform:lowercase}
+.contact-page .contact-form__p2{font-size:4rem;line-height:1.4;margin:0 0 6rem}
+.contact-page .contact-form__p3{font-size:2.6rem;color:#666;text-transform:lowercase}
+.contact-page__country-select, .contact-page__city-select {
+  width: 42rem;
+  height: auto;
+  background-color: #fff!important;
+  border-radius: 10px;
+  border: 1px solid #939393;
+  outline: none;
+  transition: .2s;
+  padding: 1em 2em 1em 1em;
+  font-size: 2.2rem;
+  line-height: 1.4em;
+  color: #404040;
+  cursor: pointer;}
+.contact-page__country-select {margin-right: 30px}
+.contact-page__tabs {margin-top: 50px; display: none; flex-wrap: wrap}
+@media only screen and (max-width: 1579px) {
+.contact-page .contact-form__text{padding-left:11%}
+}
+@media only screen and (max-width: 767px) {
+.contact-page{padding:20rem 0 6rem}
+.contact-page .city-contact{margin:0 0 3rem}
+.contact-page hr{margin:5rem 0}
+.contact-page .contact-form{flex-direction:column-reverse;-webkit-flex-direction:column-reverse}
+.contact-page .contact-form__input{border-radius:7px}
+.contact-page .contact-form__btn{border-radius:7px}
+.contact-page .contact-form__text{padding-left:0}
+.contact-page .contact-form__p1{margin:0 0 3.5rem}
+.contact-page .contact-form__p2{font-size:4.6rem;margin:0 0 8.5rem}
+.contact-page .contact-form__p3{display:none}
+.opportunities-container{min-height:300px;height:55vh}
+.opportunities-container .container .opportunities-mascot{max-width:180px;max-height:180px}
+.opportunities-container .container .opportunities-title{font-size:24px;text-align:center}
+}

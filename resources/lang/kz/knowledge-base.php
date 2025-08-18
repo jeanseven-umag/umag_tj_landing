@@ -1,0 +1,21 @@
+<?php
+return [
+    'choose_section' => 'Бөлімді таңдаңыз:',
+    'acceptance' => 'Қабылдау',
+    'revision' => 'Тексеру',
+    'reports' => 'Есептер',
+    'loyalty_system' => 'Бейілділік жүйесі',
+    'subscription' => 'Жазылу',
+    'finance' => 'Қаражат',
+    'goods' => 'Тауарлар',
+    'sales' => 'Сатылымдар',
+    'directory' => 'Анықтамалық ',
+    'cash_register' => 'Касса',
+    'help' => 'Сізге қалай көмектесе аламыз?',
+    'find_answers' => 'Жауаптарын табу',
+    'top_questions' => 'Үздік 5 сұрақ және нұсқаулар:',
+    'faq' => 'Сұрақ-жауап',
+    'instruction' => 'Нұсқаулық',
+    'video_lessons' => 'Бейне-сабақтар',
+    'choose_platform' => 'Платформаны таңдаңыз:',
+];
