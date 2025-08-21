@@ -46,17 +46,16 @@ export const MediaBlock = () => {
           <Flex pos="relative" direction="column" align="center">
             <img className="media-new-img" src={tag} alt="new" />
             <Text ta="center" mx={20} className="media-caption">
-              База знаний Umag
+              Пойгоҳи дониш Umag
             </Text>
             <Text m="20px" className="media-text">
-              Статьи, инструкции и формы документов для тех, кто начинает вести
-              бизнес и хочет во всем разобраться
+              Мақолаҳо, дастурҳо ва шаклҳои ҳуҷҷатҳо барои онҳое, ки тиҷоратро оғоз мекунанд ва мехоҳанд ҳама чизро фаҳманд
             </Text>
             <div className="searcher-article-input">
               <AsyncSelect
                 w="100%"
                 mah={300}
-                placeholder="Поиск по базе статей"
+                placeholder="Ҷустуҷӯ дар пойгоҳи мақолаҳо"
                 value={selected}
                 search={search}
                 loadOptions={loadOptions}

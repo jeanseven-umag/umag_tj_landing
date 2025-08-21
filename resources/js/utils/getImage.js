@@ -11,29 +11,29 @@ import walletImg from "../../../public/img/knowledge-img/wallet.png";
 
 export const getImage = (categoryName) => {
   switch (categoryName) {
-    case "Главная":
+    case "Асосӣ": //Главная
       return mainImg;
-    case "Отчеты":
+    case "Ҳисоботҳо": //Отчеты
       return reportImg;
-    case "Продажи":
+    case "Фурӯш:": //Продажи
       return salesImg;
-    case "Закупки":
+    case "Харидҳо": //Закупки
       return purchasesImg;
-    case "Товары":
+    case "Мол": //Товары
       return bookImg;
-    case "Контрагенты":
+    case "Тарафҳо": //Контрагенты
       return manImg;
-    case "Управление":
+    case "Идоракунӣ": //Управление
       return settingsImg;
-    case "Финансы":
+    case "Молия": //Финансы
       return cashImg;
-    case "Профиль":
+    case "Профиль": //Профиль
       return penImg;
-    case "Подписка":
+    case "Обуна": //Подписка
       return walletImg;
-    case "Приемка":
+    case "Қабул": //Приемка
       return bookImg;
-    case "Ревизия":
+    case "Таҷдиди назар": //Ревизия
       return bookImg;
     default:
       return "";
