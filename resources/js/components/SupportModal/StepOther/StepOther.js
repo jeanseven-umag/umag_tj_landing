@@ -4,7 +4,7 @@ export const StepOther = ({ form, firstStep }) => {
   return (
     <div>
       <Text mb={20} className="support-modal-text">
-        Другое (уточните)
+        Дигар (лутфан муайян кунед)
       </Text>
       <Textarea
         styles={{
@@ -21,15 +21,15 @@ export const StepOther = ({ form, firstStep }) => {
             fontWeight: 400,
           },
         }}
-        placeholder="Уточните почему инструкция показалась вам некорректной"
+        placeholder="Лутфан фаҳмонед, ки чаро дастурҳо ба шумо нодуруст менамуданд."
         {...form.getInputProps("other_option_text")}
       />
       <Flex direction="row" gap={10}>
         <button className="support-modal-btn w-100" onClick={() => firstStep()}>
-          Назад
+          Бозгашт
         </button>
         <button className="support-modal-btn w-100" type="submit">
-          Отправить
+          Фиристодан
         </button>
       </Flex>
     </div>

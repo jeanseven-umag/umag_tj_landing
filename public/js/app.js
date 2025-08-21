@@ -21929,29 +21929,29 @@ __webpack_require__.r(__webpack_exports__);
 
 var getImage = function getImage(categoryName) {
   switch (categoryName) {
-    case "Главная":
+    case "Асосӣ": //Главная
       return _public_img_knowledge_img_main_png__WEBPACK_IMPORTED_MODULE_0__["default"];
-    case "Отчеты":
+    case "Ҳисоботҳо"://Отчеты
       return _public_img_knowledge_img_reports_png__WEBPACK_IMPORTED_MODULE_1__["default"];
-    case "Продажи":
+    case "Фурӯш": //Продажи
       return _public_img_knowledge_img_sales_png__WEBPACK_IMPORTED_MODULE_2__["default"];
-    case "Закупки":
+    case "Харидҳо": //Закупки
       return _public_img_knowledge_img_purchases_png__WEBPACK_IMPORTED_MODULE_3__["default"];
-    case "Товары":
+    case "Мол": //Товары
       return _public_img_knowledge_img_book_png__WEBPACK_IMPORTED_MODULE_4__["default"];
-    case "Контрагенты":
+    case "Тарафҳо": //Контрагенты
       return _public_img_knowledge_img_man_png__WEBPACK_IMPORTED_MODULE_5__["default"];
-    case "Управление":
+    case "Идоракунӣ": //Управление
       return _public_img_knowledge_img_settings_png__WEBPACK_IMPORTED_MODULE_6__["default"];
-    case "Финансы":
+    case "Молия": //Финансы
       return _public_img_knowledge_img_cash_png__WEBPACK_IMPORTED_MODULE_7__["default"];
-    case "Профиль":
+    case "Профиль": //Профиль
       return _public_img_knowledge_img_pen_png__WEBPACK_IMPORTED_MODULE_8__["default"];
-    case "Подписка":
+    case "Обуна": //Подписка
       return _public_img_knowledge_img_wallet_png__WEBPACK_IMPORTED_MODULE_9__["default"];
-    case "Приемка":
+    case "Қабул": //Приемка
       return _public_img_knowledge_img_book_png__WEBPACK_IMPORTED_MODULE_4__["default"];
-    case "Ревизия":
+    case "Таҷдиди назар": //Ревизия
       return _public_img_knowledge_img_book_png__WEBPACK_IMPORTED_MODULE_4__["default"];
     default:
       return "";

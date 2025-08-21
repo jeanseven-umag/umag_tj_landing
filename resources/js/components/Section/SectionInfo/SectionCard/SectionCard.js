@@ -23,7 +23,7 @@ export const SectionCard = ({ handleClick, item }) => {
           <Flex direction="column" mb={60}>
             <Flex>
               <Text className="main-tag">
-                {!disabled ? item?.title : "Будет скоро"}
+                {!disabled ? item?.title : "Ба наздикӣ"}
               </Text>
             </Flex>
             <Text my={32} className="main-caption-text">

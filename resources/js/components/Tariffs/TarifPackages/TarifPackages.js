@@ -52,9 +52,9 @@ export const TarifPackages = () => {
           }}
           value={month}
           data={[
-            { label: "1 месяц", value: 1 },
-            { label: "3 месяца", value: 3 },
-            { label: "6 месяцев", value: 6 },
+            { label: "1 моҳ", value: 1 },
+            { label: "3 моҳ", value: 3 },
+            { label: "6 моҳ", value: 6 },
           ]}
           onChange={setMonth}
         />
@@ -73,26 +73,26 @@ export const TarifPackages = () => {
                 <div>
                   <h3 className="tariffs-card-caption">Start</h3>
                   <p className="tariffs-card-subCaption">
-                    Для растущих магазинов
+                    Барои парвариши мағозаҳо
                   </p>
                 </div>
                 <Flex align="center" mb={20}>
                   <Text className="tariffs-card-textBig">6.900 ₸ </Text>
-                  <Text className="tariffs-card-textSmall">/ в месяц</Text>
+                  <Text className="tariffs-card-textSmall">/ дар як моҳ</Text>
                 </Flex>
               </Flex>
               <button className="tariffs-card-btn" onClick={handleTariff}>
-                Выбрать тариф
+                Тарифро интихоб кунед
               </button>
               <Flex direction="column">
                 <p className="tariffs-card-text tariffs-card-face">
-                  Только 1 пользователь
+                  Танҳо 1 корбар
                 </p>
                 <p className="tariffs-card-text tariffs-card-computer">
-                  Только 1 касса
+                  Фақат 1 касса
                 </p>
                 <p className="tariffs-card-text tariffs-card-shop">
-                  Только 1 торговая точка
+                  Танҳо 1 нуқта
                 </p>
               </Flex>
             </Flex>
@@ -112,18 +112,18 @@ export const TarifPackages = () => {
               <Flex direction="column" h="120px" justify="space-between">
                 <Flex align="center">
                   <h3 className="tariffs-card-caption">Standart</h3>
-                  <span className="tariffs-card-tag">Популярный</span>
+                  <span className="tariffs-card-tag">Маъмул</span>
                 </Flex>
                 <p className="tariffs-card-subCaption">
-                  Полная автоматизация магазина
+                  Автоматикунонии пурраи мағоза
                 </p>
                 <Flex align="center" mb={20}>
-                  <Text className="tariffs-card-textMedium">от</Text>
+                  <Text className="tariffs-card-textMedium">аз</Text>
                   <Text className="tariffs-card-textBig">{getSum()}</Text>
                   <Flex direction="column" ml={10}>
-                    <Text className="tariffs-card-textExtraSmall">в месяц</Text>
+                    <Text className="tariffs-card-textExtraSmall">дар як моҳ</Text>
                     <Text className="tariffs-card-textExtraSmall">
-                      при полугодовой оплате
+                      бо пардохти нимсола
                     </Text>
                   </Flex>
                 </Flex>
@@ -132,17 +132,17 @@ export const TarifPackages = () => {
                 className="tariffs-card-btn tariffs-card-btn-active"
                 onClick={handleTariff}
               >
-                Выбрать тариф
+                Тарифро интихоб кунед
               </button>
               <Flex direction="column">
                 <p className="tariffs-card-text tariffs-card-face">
-                  200 пользователей
+                  200 корбар
                 </p>
                 <p className="tariffs-card-text tariffs-card-computer">
-                  Неограниченное кол-во касс
+                  Шумораи номаҳдуди кассаҳо
                 </p>
                 <p className="tariffs-card-text tariffs-card-shop">
-                  Неограниченное кол-во точек
+                  Шумораи номаҳдуди нуқтаҳои савдо
                 </p>
               </Flex>
             </Flex>
@@ -152,7 +152,7 @@ export const TarifPackages = () => {
       <Grid.Col span={12}>
         <Flex justify="center" mb={50}>
           <button className="tariffs-modal-btn" onClick={open}>
-            Сравнить тарифы
+            Тарифҳоро муқоиса кунед
           </button>
         </Flex>
       </Grid.Col>

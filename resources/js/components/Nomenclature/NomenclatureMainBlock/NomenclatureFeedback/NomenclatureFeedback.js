@@ -41,14 +41,14 @@ export const NomenclatureFeedback = ({
         <div className="knowledge-container">
           <Flex className="nomenclature-feedback-block" gap={50}>
             <Text className="nomenclature-feedback-caption">
-              Была ли эта статья полезна?
+              Оё ин мақола муфид буд?
             </Text>
             <Flex gap={20}>
               <Text
                 onClick={() => sendLike("like")}
                 className="nomenclature-feedback-text nomenclature-feedback-button"
               >
-                Да ({getLikeCount()})
+                Бале ({getLikeCount()})
               </Text>
               <Text
                 onClick={() => {
@@ -57,7 +57,7 @@ export const NomenclatureFeedback = ({
                 }}
                 className="nomenclature-feedback-text nomenclature-feedback-button"
               >
-                Нет ({getDislikeCount()})
+                Не ({getDislikeCount()})
               </Text>
             </Flex>
           </Flex>

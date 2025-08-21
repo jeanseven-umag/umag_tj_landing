@@ -26,7 +26,7 @@ export const NomenclatureInstruction = ({ info, active, setActive }) => {
 
   return (
     <>
-      <Text className="nomenclature-instruction">Инструкции:</Text>
+      <Text className="nomenclature-instruction">Дастурҳо:</Text>
       <Flex w="100%" className="nomenclature-info-flex" gap="xs">
         {info?.web_content && (
           <Text
@@ -77,7 +77,7 @@ export const NomenclatureInstruction = ({ info, active, setActive }) => {
             src={active !== "video" ? iconBlue : iconWhite}
             alt="play icon"
           />
-          Видео - урок
+          Видео - дарс
         </Text>
         <Text
           className={`${
@@ -87,7 +87,7 @@ export const NomenclatureInstruction = ({ info, active, setActive }) => {
           } nomenclature-tag`}
           onClick={() => setActive("questions")}
         >
-          Часто задаваемые вопросы
+          Саволҳои зуд-зуд додашаванда
         </Text>
       </Flex>
     </>

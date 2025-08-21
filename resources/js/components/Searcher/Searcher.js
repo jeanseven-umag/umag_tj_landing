@@ -54,14 +54,14 @@ export const Searcher = () => {
           >
             <img className="searcher-logo" src={mediaLogo} />
             <Text className="main-caption-text mobile-display" color="#421C86">
-              Новая база знаний Umag
+              Пойгоҳи нави дониши Umag
             </Text>
           </Flex>
           <div className="searcher-input">
             <AsyncSelect
               w="100%"
               mah={300}
-              placeholder="Поиск по базе статей"
+              placeholder="Дар базаи мақолаҳо ҷустуҷӯ кунед"
               value={selected}
               search={search}
               loadOptions={loadOptions}

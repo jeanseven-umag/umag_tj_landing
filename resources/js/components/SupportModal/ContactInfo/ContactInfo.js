@@ -4,7 +4,7 @@ export const ContactInfo = () => {
   return (
     <Flex id="contactHelper" direction="column" my={20}>
       <Text mb={12} className="contact-info__caption">
-        Менеджер
+        Менеҷер
       </Text>
       <Grid align="center">
         <Grid.Col span={3}>
@@ -16,7 +16,7 @@ export const ContactInfo = () => {
         </Grid.Col>
         <Grid.Col span={9}>
           <Flex direction="column">
-            <Text className="contact-info-name">Менеджер Айдана</Text>
+            <Text className="contact-info-name">Менеҷер Айдана</Text>
             <Text mb={12} className="contact-info">
               aidana@umag.kz
             </Text>

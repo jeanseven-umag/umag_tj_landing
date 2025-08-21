@@ -5,8 +5,8 @@ export const TarifBanner = () => {
   return (
     <Flex direction='column' align='center'>
       <img className="tariffs-banner-img" src={bannerImg} alt="banner" />
-      <h3 className="tariffs-banner-caption">Автоматизируй бизнес выгодно</h3>
-      <p className="tariffs-banner-text"><span className="color-blue">Сэкономь 20%</span> при полугодовой оплате</p>
+      <h3 className="tariffs-banner-caption">Тиҷорати худро ба таври фоиданок автоматӣ кунед</h3>
+      <p className="tariffs-banner-text"><span className="color-blue">Пулро сарфа кунед 20%</span> бо пардохти нимсола</p>
     </Flex>
   )
 }

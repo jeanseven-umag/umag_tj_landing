@@ -11,7 +11,7 @@ export const NomenclatureInfo = ({ readTime, title, description }) => {
                 {title}
               </Text>
               <Text className="nomenclature-subCaption">
-                Время прочтения: ~{readTime || 15} минут
+                Вақти хондан: ~{readTime || 15} дақиқа
               </Text>
             </Flex>
           </Grid.Col>

@@ -4,7 +4,7 @@ export const TarifInfo = () => {
   return (
     <div className="tariffs-info-block">
       <Flex direction="column">
-        <h2 className="tariffs-info-caption">В стоимость входит</h2>
+        <h2 className="tariffs-info-caption">Ба нарх дохил аст</h2>
         <Grid gutter={40}>
           <Grid.Col span={4}>
             <Card
@@ -22,11 +22,10 @@ export const TarifInfo = () => {
                     style={{ height: "230px" }}
                   >
                     <h3 className="tariffs-info-card-caption">
-                      Консультация по телефону
+                      Машварат тавассути телефон
                     </h3>
                     <p className="tariffs-info-card-text">
-                      По всем интересующим вас вопросам, наша команда вас
-                      проконсультирует
+                      Барои ҳамаи саволҳои шумо, дастаи мо ба шумо машварат медиҳад
                     </p>
                     <img
                       className="tariffs-info-card-img"
@@ -54,11 +53,10 @@ export const TarifInfo = () => {
                     style={{ height: "230px" }}
                   >
                     <h3 className="tariffs-info-card-caption">
-                      Настройка оборудования
+                      Танзими таҷҳизот
                     </h3>
                     <p className="tariffs-info-card-text">
-                      Специалисты выезжают к вам на точку и настраивают все
-                      необходимое оборудование
+                      Муттахассисон ба ҷои шумо меоянд ва тамоми таҷҳизоти лозимаро танзим мекунанд
                     </p>
                     <img
                       className="tariffs-info-card-img"
@@ -86,11 +84,10 @@ export const TarifInfo = () => {
                     style={{ height: "230px" }}
                   >
                     <h3 className="tariffs-info-card-caption">
-                      Установка необходимого ПО
+                      Насби нармафзори лозима
                     </h3>
                     <p className="tariffs-info-card-text">
-                      Помимо установки оборудования наши специалисты помогут в
-                      настройке необходимого программного обеспечения
+                      Ғайр аз насби таҷҳизот, мутахассисони мо дар танзими нармафзори лозима кӯмак мекунанд
                     </p>
                     <img
                       className="tariffs-info-card-img"
@@ -118,11 +115,10 @@ export const TarifInfo = () => {
                     style={{ height: "230px" }}
                   >
                     <h3 className="tariffs-info-card-caption">
-                      Обучение сотрудников магазина
+                      Омӯзиши кормандони мағоза
                     </h3>
                     <p className="tariffs-info-card-text">
-                      Мы полностью обучим всем необходимым навыкам для владения
-                      программой Umag
+                      Мо ҳамаи малакаҳои лозимаро барои истифодаи барномаи Umag пурра меомӯзонем
                     </p>
                     <img
                       className="tariffs-info-card-img"
@@ -150,10 +146,10 @@ export const TarifInfo = () => {
                     style={{ height: "230px" }}
                   >
                     <h3 className="tariffs-info-card-caption">
-                      Выезд специалиста
+                      Ба ҷои шумо омадани мутахассис
                     </h3>
                     <p className="tariffs-info-card-text">
-                      Наши коллеги окажут вам поддержку при любых неполадках
+                      Ҳамкорони мо ба шумо дар ҳама гуна мушкилот кӯмак мерасонанд
                     </p>
                     <img
                       className="tariffs-info-card-img"
@@ -181,10 +177,10 @@ export const TarifInfo = () => {
                     style={{ height: "230px" }}
                   >
                     <h3 className="tariffs-info-card-caption">
-                      Техническая поддержка
+                      Дастгирии техникӣ
                     </h3>
                     <p className="tariffs-info-card-text">
-                      Полное сопровождение и поддержка 24/7
+                      Ҳамроҳӣ ва дастгирии пурра 24/7
                     </p>
                     <img
                       className="tariffs-info-card-img"

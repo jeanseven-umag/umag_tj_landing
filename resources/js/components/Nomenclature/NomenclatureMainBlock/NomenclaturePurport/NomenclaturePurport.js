@@ -9,7 +9,7 @@ export const NomenclaturePurport = ({ data, setValue, scrollToElement }) => {
       className="nomenclature-purport-sticky"
     >
       <Text className="nomenclature-purport-text nomenclature-purport-caption">
-        Содержание:
+        Мундариҷа:
       </Text>
       {data?.map((item, index) => (
         <Text

@@ -11,7 +11,7 @@ export const TarifCompareModal = ({ show, close, handleTariff }) => {
       closeOnClickOutside
       closeButtonProps={{ size: 50 }}
       size="80%"
-      title="Сравнение тарифов и функций"
+      title="Муқоисаи тарифҳо ва вазифаҳо"
       withCloseButton
       styles={{
         title: {
@@ -37,7 +37,7 @@ export const TarifCompareModal = ({ show, close, handleTariff }) => {
           <Flex direction="column" justify="flex-end" h="100%">
             <TextInput
               size="xl"
-              placeholder="Поиск функций"
+              placeholder="Ҷустуҷӯи функсияҳо"
               rightSection={<IconSearch size="15px" color="gray" />}
             />
           </Flex>
@@ -47,10 +47,10 @@ export const TarifCompareModal = ({ show, close, handleTariff }) => {
             <p className="tariffs-compareModal-card-caption">Start</p>
             <Flex align="center">
               <p className="tariffs-compareModal-card-text">₸6,900 /</p>
-              <p className="tariffs-compareModal-card-subText">в месяц</p>
+              <p className="tariffs-compareModal-card-subText">дар як моҳ</p>
             </Flex>
             <button className="tariffs-compareModal-card-btn" onClick={handleTariff}>
-              Выбрать тариф
+              Тарофаро интихоб кунед
             </button>
           </Flex>
         </Grid.Col>
@@ -59,10 +59,10 @@ export const TarifCompareModal = ({ show, close, handleTariff }) => {
             <p className="tariffs-compareModal-card-caption">Standart</p>
             <Flex align="center">
               <p className="tariffs-compareModal-card-text">₸19,900 /</p>
-              <p className="tariffs-compareModal-card-subText">в месяц</p>
+              <p className="tariffs-compareModal-card-subText">дар як моҳ</p>
             </Flex>
             <button className="tariffs-compareModal-card-btn" onClick={handleTariff}>
-              Выбрать тариф
+              Тарофаро интихоб кунед
             </button>
           </Flex>
         </Grid.Col>
@@ -71,10 +71,10 @@ export const TarifCompareModal = ({ show, close, handleTariff }) => {
             <p className="tariffs-compareModal-card-caption">Pro</p>
             <Flex align="center">
               <p className="tariffs-compareModal-card-text">₸29,900 /</p>
-              <p className="tariffs-compareModal-card-subText">в месяц</p>
+              <p className="tariffs-compareModal-card-subText">дар як моҳ</p>
             </Flex>
             <button className="tariffs-compareModal-card-btn" onClick={handleTariff}>
-              Выбрать тариф
+              Тарофаро интихоб кунед
             </button>
           </Flex>
         </Grid.Col>

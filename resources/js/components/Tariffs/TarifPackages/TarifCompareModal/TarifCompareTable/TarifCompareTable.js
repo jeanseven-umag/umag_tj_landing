@@ -7,7 +7,7 @@ export const TarifCompareTable = () => {
       <tbody>
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Показатели по магазинам
+            Нишондодҳо оид ба мағозаҳо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -15,7 +15,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            За неделю
+            Барои ҳафта
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -29,7 +29,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            За месяц
+            Барои моҳ
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -44,7 +44,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Статистика продаж
+            Статистикаи фурӯш
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -52,7 +52,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По товарам
+            Аз рӯи молҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -66,7 +66,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По чекам
+            Аз рӯи чекҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -80,7 +80,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По категориям
+            Аз рӯи категорияҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -94,7 +94,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По поставщикам
+            Аз рӯи таъминкунандагон
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -108,7 +108,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По покупателям
+            Аз рӯи харидорон
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -122,7 +122,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Сравнение товаров
+            Муқоисаи молҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -137,7 +137,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Отчеты
+            Ҳисоботҳо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -145,7 +145,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По сменам
+            Аз рӯи навбатҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -159,7 +159,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По кассирам
+            Аз рӯи кассирҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -173,30 +173,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            По скидкам
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconX color="#828282" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-        </tr>
-
-        <tr style={{ backgroundColor: "#2dbe60" }}>
-          <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Движение денег
-          </td>
-          <td className="tariffs-compareModal-cell" />
-          <td className="tariffs-compareModal-cell" />
-          <td className="tariffs-compareModal-cell" />
-        </tr>
-        <tr>
-          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Движение денег
+            Аз рӯи тахфифҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -211,7 +188,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Прибыли и убытки
+            Гузариши пул
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -219,63 +196,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Выручка
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconX color="#828282" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-        </tr>
-        <tr>
-          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Себестоимость
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconX color="#828282" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-        </tr>
-        <tr>
-          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Валовая прибыль
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconX color="#828282" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-        </tr>
-        <tr>
-          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Операционные расходы
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconX color="#828282" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-          <td className="tariffs-compareModal-cell">
-            <IconCheck color="#2DBE60" />
-          </td>
-        </tr>
-        <tr>
-          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Чистая прибыль
+            Гузариши пул
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -290,7 +211,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            ABC - Анализ
+            Фоида ва зарарҳо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -298,7 +219,63 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            ABC анализ
+            Даромад
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconX color="#828282" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+        </tr>
+        <tr>
+          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
+            Арзиши аслӣ
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconX color="#828282" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+        </tr>
+        <tr>
+          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
+            Фоидаи умумӣ
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconX color="#828282" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+        </tr>
+        <tr>
+          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
+            Хароҷоти амалиётӣ
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconX color="#828282" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+        </tr>
+        <tr>
+          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
+            Фоидаи соф
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -313,17 +290,40 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Продажи
+            ABC - Таҳлил
+          </td>
+          <td className="tariffs-compareModal-cell" />
+          <td className="tariffs-compareModal-cell" />
+          <td className="tariffs-compareModal-cell" />
+        </tr>
+        <tr>
+          <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
+            ABC таҳлил
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconX color="#828282" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+          <td className="tariffs-compareModal-cell">
+            <IconCheck color="#2DBE60" />
+          </td>
+        </tr>
+
+        <tr style={{ backgroundColor: "#2dbe60" }}>
+          <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
+            Фурӯшҳо
           </td>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellThin">
-            Только просмотр
+            Танҳо тамошо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Отмененный товар
+            Моли бекоршуда
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -337,7 +337,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Продажи
+            Фурӯшҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -351,7 +351,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Возврат покупателей
+            Бозгашти харидорон
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -366,7 +366,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Закупки
+            Харидҳо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -374,7 +374,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Приемка
+            Қабул
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -388,7 +388,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Возврат поставщикам
+            Бозгашт ба таъминкунандагон
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -402,7 +402,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Платежи
+            Пардохтҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -417,7 +417,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Товары
+            Молҳо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -439,7 +439,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Быстрые товары
+            Молҳои зуд
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -453,7 +453,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Склад
+            Анбор
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -467,7 +467,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Списание / Оприходование
+            Списание / Қабул
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -481,7 +481,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Инвентаризация
+            Инвентаризатсия
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -495,7 +495,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Перемещение
+            Ҷойивазкунӣ
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -509,7 +509,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Импорт товаров
+            Импорт кардани молҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -524,7 +524,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Финансы
+            Молия
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -532,7 +532,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Обзор по счетам
+            Шарҳи ҳисобҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -546,7 +546,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Платежи (приход / расход)
+            Пардохтҳо (даромад / хароҷот)
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -560,7 +560,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Переводы
+            Гузаришҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -575,7 +575,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Контрагенты
+            Контрагентҳо
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -583,7 +583,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Покупатели
+            Харидорон
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -597,7 +597,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Поставщики
+            Таъминкунандагон
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -612,7 +612,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Управление
+            Идоракунӣ
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -620,10 +620,10 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Пользователи
+            Истифодабарандагон
           </td>
           <td className="tariffs-compareModal-cell tariffs-compareMOdal-cellThin textColor-gray">
-            <span style={{ marginRight: 10 }}>Только просмотр</span>
+            <span style={{ marginRight: 10 }}>Танҳо тамошо</span>
             <IconCheck color="#2DBE60" />
           </td>
           <td className="tariffs-compareModal-cell">
@@ -635,7 +635,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Управление чеком
+            Идоракунии чек
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -649,10 +649,10 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Управление кассами
+            Идоракунии кассаҳо
           </td>
           <td className="tariffs-compareModal-cell tariffs-compareMOdal-cellThin textColor-gray">
-            <span style={{ marginRight: 10 }}>Без web-кассы</span>
+            <span style={{ marginRight: 10 }}>Бе web-касса</span>
             <IconCheck color="#2DBE60" />
           </td>
           <td className="tariffs-compareModal-cell">
@@ -664,7 +664,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Типы расходов
+            Навъҳои хароҷот
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -678,7 +678,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Настройка разрешений
+            Танзими иҷозатҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -692,7 +692,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Подписка
+            Обуна
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -706,7 +706,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Приложение
+            Барнома
           </td>
           <td className="tariffs-compareModal-cell">
             <IconCheck color="#2DBE60" />
@@ -720,7 +720,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Справочник
+            Дастур
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -735,7 +735,7 @@ export const TarifCompareTable = () => {
 
         <tr style={{ backgroundColor: "#2dbe60" }}>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellCaption">
-            Дополнительный функционал
+            Функсияи иловагӣ
           </td>
           <td className="tariffs-compareModal-cell" />
           <td className="tariffs-compareModal-cell" />
@@ -743,7 +743,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Консультанты
+            Машваратчиён
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -757,7 +757,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Размерная линейка
+            Хати андоза
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -771,7 +771,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Распаковка / упаковка
+            Кушодан / бастан
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -785,7 +785,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Производство
+            Истеҳсолот
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -799,7 +799,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Фотографии товаров
+            Аксҳои молҳо
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />
@@ -813,7 +813,7 @@ export const TarifCompareTable = () => {
         </tr>
         <tr>
           <td className="tariffs-compareModal-cell tariffs-compareModal-cellText">
-            Система лояльности
+            Системаи вафодорӣ
           </td>
           <td className="tariffs-compareModal-cell">
             <IconX color="#828282" />

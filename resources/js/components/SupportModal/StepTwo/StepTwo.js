@@ -72,15 +72,15 @@ export const StepTwo = ({ form, prevStep, question }) => {
             },
           }}
           value="other"
-          label="Другое (уточните)"
+          label="Дигар (лутфан муайян кунед)"
         />
       </Radio.Group>
       <Flex direction="row" gap={10}>
         <button className="support-modal-btn w-100" onClick={() => prevStep()}>
-          Назад
+          Бозгашт
         </button>
         <button className="support-modal-btn w-100" type="submit">
-          Далее
+          Баъдӣ
         </button>
       </Flex>
     </div>

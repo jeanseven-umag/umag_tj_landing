@@ -71,12 +71,12 @@ export const StepOne = ({ form, questions, setQuestion }) => {
             },
           }}
           value="other"
-          label="Другое (уточните)"
+          label="Дигар (лутфан муайян кунед)"
         />
       </Radio.Group>
       <Flex direction="column">
         <button className="support-modal-btn" type="submit">
-          Далее
+          Давом
         </button>
       </Flex>
     </div>

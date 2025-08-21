@@ -11,7 +11,7 @@ export const StepFeedback = ({ form, prevStep }) => {
   return (
     <div>
       <Text mb={20} className="support-modal-text">
-        Как нам с Вами связаться?
+        Чӣ тавр мо метавонем бо шумо тамос гирем?
       </Text>
       <TextInput
         mb="10px"
@@ -29,7 +29,7 @@ export const StepFeedback = ({ form, prevStep }) => {
           },
         }}
         className="support-modal-text"
-        placeholder="Имя"
+        placeholder="Ном"
         {...form.getInputProps("user_name")}
         onChange={(e) => {
           const value = e.target.value?.replace(/[^A-Za-zА-Яа-я]/g, "");
@@ -55,16 +55,16 @@ export const StepFeedback = ({ form, prevStep }) => {
           },
         }}
         className="support-modal-text"
-        placeholder="Номер телефона"
+        placeholder="Рақами мобилӣ"
         mask="+7 (000) 000-00-00"
         value={form.values.phone}
       />
       <Flex direction="row" gap={10}>
         <button className="support-modal-btn w-100" onClick={() => prevStep()}>
-          Назад
+          Бозгашт
         </button>
         <button className="support-modal-btn w-100" type="submit">
-          Отправить
+          Фиристодан
         </button>
       </Flex>
     </div>

@@ -19,7 +19,7 @@ export const Article = () => {
     <div className="knowledge-container">
       <Flex direction="column" pb={40} my={40}>
         <Text my={40} className="main-section-caption">
-          Популярные статьи
+          Мақолаҳои машҳур
         </Text>
         <Grid>
           {data?.map((item, index) => (

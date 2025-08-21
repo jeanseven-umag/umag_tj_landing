@@ -21,25 +21,25 @@ export const SupportModalForm = ({ id, questions, active, setActive }) => {
     validate: (values) => {
       if (active === 1) {
         return {
-          survey_id: !values.survey_id ? "Обязательное поле" : null,
+          survey_id: !values.survey_id ? "Майдони ҳатмӣ" : null,
         };
       } else if (active === 2) {
         return {
-          option_id: !values.option_id ? "Обязательное поле" : null,
+          option_id: !values.option_id ? "Майдони ҳатмӣ" : null,
         };
       } else if (active === 3) {
         return {
-          user_name: !values.user_name ? "Обязательное поле" : null,
+          user_name: !values.user_name ? "Майдони ҳатмӣ" : null,
           phone: !values.phone
-            ? "Обязательное поле"
+            ? "Майдони ҳатмӣ"
             : !/^\+\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}$/.test(values.phone)
-            ? "Некорректный номер телефона"
+            ? "Рақами телефони нодуруст"
             : null,
         };
       } else if (active === 0) {
         return {
           other_option_text: !values.other_option_text
-            ? "Обязательное поле"
+            ? "Майдони ҳатмӣ"
             : null,
         };
       }

@@ -38,19 +38,19 @@ export const MainSection = () => {
                   <Flex justify="center" pos="relative">
                     <img
                       className="main-image-position"
-                      src={getImage("Главная")}
+                      src={getImage("Асосӣ")}
                       alt="category image"
                     />
                   </Flex>
                 </Card.Section>
                 <Flex>
-                  <Text className="main-tag">Главная</Text>
+                  <Text className="main-tag">Асосӣ</Text>
                 </Flex>
                 <Text my={32} className="main-caption-text">
-                  Как отследить общие показатели по магазинам
+                  Чӣ тавр иҷроиши умумии мағозаҳоро пайгирӣ кардан мумкин аст
                 </Text>
                 <Text className="main-text">
-                  Обзор показателей магазинов: статистика продаж, выручка, счета, синхронизация, изменения
+                  Шарҳи ченакҳои мағоза: омори фурӯш, даромад, ҳисобҳо, ҳамоҳангсозӣ, тағирот
                 </Text>
               </Flex>
             </Card>
@@ -79,19 +79,19 @@ export const MainSection = () => {
                   <Flex justify="center" pos="relative">
                     <img
                       className="main-image-position"
-                      src={getImage("Отчеты")}
+                      src={getImage("Ҳисоботҳо:")}
                       alt="category image"
                     />
                   </Flex>
                 </Card.Section>
                 <Flex>
-                  <Text className="main-tag">Отчеты</Text>
+                  <Text className="main-tag">Ҳисоботҳо:</Text>
                 </Flex>
                 <Text my={32} className="main-caption-text">
-                  Как расчитать прибыль и рентабельность по статитике продаж
+                  Чӣ тавр ҳисоб кардани фоида ва самаранокии фурӯш
                 </Text>
                 <Text className="main-text">
-                  Инструменты для анализа и контроля бизнеса: отчеты по продажам, сменам, прибыли, скидкам
+                  Воситаҳо барои таҳлил ва назорати тиҷорат: ҳисобот дар бораи фурӯш, смена, фоида, тахфиф
                 </Text>
               </Flex>
             </Card>
@@ -120,19 +120,19 @@ export const MainSection = () => {
                   <Flex justify="center" pos="relative">
                     <img
                       className="main-image-position"
-                      src={getImage("Продажи")}
+                      src={getImage("ПродаФурӯшжи")}
                       alt="category image"
                     />
                   </Flex>
                 </Card.Section>
                 <Flex>
-                  <Text className="main-tag">Продажи</Text>
+                  <Text className="main-tag">Фурӯш</Text>
                 </Flex>
                 <Text my={32} className="main-caption-text">
-                  Как провести первую онлайн продажу
+                  Чӣ тавр гузаронидани фурӯши аввалини онлайн
                 </Text>
                 <Text className="main-text">
-                  Контроль продаж через кассу и личный кабинет, отмененных товаров, оформление возвратов
+                  Назорати фурӯш тавассути касса ва кабинети шахсӣ, молҳои бекоршуда, тартиби баргардонидан
                 </Text>
               </Flex>
             </Card>
@@ -161,19 +161,19 @@ export const MainSection = () => {
                   <Flex justify="center" pos="relative">
                     <img
                       className="main-image-position"
-                      src={getImage("Закупки")}
+                      src={getImage("Харидҳо")}
                       alt="category image"
                     />
                   </Flex>
                 </Card.Section>
                 <Flex>
-                  <Text className="main-tag">Закупки</Text>
+                  <Text className="main-tag">Харидҳо</Text>
                 </Flex>
                 <Text my={32} className="main-caption-text">
-                  В чем отличие приемки от быстрой приемки
+                  Фарқи байни қабул ва қабули зуд чӣ гуна аст
                 </Text>
                 <Text className="main-text">
-                  Управление приемкой, возвратом товаров и отслеживанием платежей для контроля закупок
+                  Қабули молҳо, баргардонидани молҳо ва пайгирӣ кардани пардохтҳо барои назорати харид
                 </Text>
               </Flex>
             </Card>
