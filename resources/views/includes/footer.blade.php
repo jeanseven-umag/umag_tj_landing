@@ -103,7 +103,7 @@
                     <input id="modal-form-modal__phone" type="text" name="phone" class="modal-form__input"
                            placeholder="Телефон" disabled>
                 </div>
-                <div class="g-recaptcha margin-20" data-sitekey="6LcgFmckAAAAABxcpKPl3w0mPViVNYhsSieWkOr9"
+                <div class="g-recaptcha margin-20" data-sitekey="6LeWia4rAAAAAHa1TtGamM-BrmVTHiaqyEK6o_yi"
                      data-callback="onRecaptchaSuccess2"></div>
                 <input type="submit" value="@lang('contact.submit')" class="modal-form__btn" disabled></form>
         </div>

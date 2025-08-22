@@ -188,7 +188,7 @@
 							<option value="OSH">Ош (Кыргызстан)</option>
 						</select>
 					</div>
-					<div class="g-recaptcha input-group" data-sitekey="6LcgFmckAAAAABxcpKPl3w0mPViVNYhsSieWkOr9" data-callback="onRecaptchaSuccess5"></div>
+					<div class="g-recaptcha input-group" data-sitekey="6LeWia4rAAAAAHa1TtGamM-BrmVTHiaqyEK6o_yi" data-callback="onRecaptchaSuccess5"></div>
 
 					<div class="input-group">
 						<button type="submit" class="vozm-form__btn"  disabled>@lang('product_capabilities.send')</button>

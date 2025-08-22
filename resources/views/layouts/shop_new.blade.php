@@ -64,7 +64,7 @@
                     <div class="input-group">
                          <input id="input-form-modal__phone" type="text" name="phone" placeholder="@lang('home.your_telephone')" disabled>
                     </div>
-                    <div class="g-recaptcha input-group" data-sitekey="6LcgFmckAAAAABxcpKPl3w0mPViVNYhsSieWkOr9" data-callback="onRecaptchaSuccess4"></div>
+                    <div class="g-recaptcha input-group" data-sitekey="6LeWia4rAAAAAHa1TtGamM-BrmVTHiaqyEK6o_yi" data-callback="onRecaptchaSuccess4"></div>
 
                     <div class="input-group">
 						<button type="submit" class="shop-form__btn" disabled>@lang('product_automation.try_free')</button>

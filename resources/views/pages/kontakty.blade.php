@@ -558,7 +558,7 @@
 					<div class="margin-20">
 						<textarea title="Сообщение" name="message" class="contact-form__input" rows="5" placeholder="@lang('contact.message')"></textarea>
 					</div>
-                    <div class="g-recaptcha margin-20" data-sitekey="6LcgFmckAAAAABxcpKPl3w0mPViVNYhsSieWkOr9" data-callback="onRecaptchaSuccess3"></div>
+                    <div class="g-recaptcha margin-20" data-sitekey="6LeWia4rAAAAAHa1TtGamM-BrmVTHiaqyEK6o_yi" data-callback="onRecaptchaSuccess3"></div>
                     <input type="submit" value="@lang('contact.submit')" class="contact-form__btn" disabled>
 				</form>
 			</div>

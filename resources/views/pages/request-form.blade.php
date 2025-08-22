@@ -100,7 +100,7 @@
                     <input title="Телефон" type="text" name="phone" class="request-form__input"
                     id="request-form__input-input" placeholder="Телефон" disabled/>
                 </div>
-                <div class="g-recaptcha margin-20" data-sitekey="6LcgFmckAAAAABxcpKPl3w0mPViVNYhsSieWkOr9" data-callback="onRecaptchaSuccess1"></div>
+                <div class="g-recaptcha margin-20" data-sitekey="6LeWia4rAAAAAHa1TtGamM-BrmVTHiaqyEK6o_yi" data-callback="onRecaptchaSuccess1"></div>
                 <input type="submit" value="@lang('contact.submit')" class="request-form__btn" disabled/>
             </form>
         </div>
