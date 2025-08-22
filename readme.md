@@ -1,11 +1,14 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## Google spreadshits with translations
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<a href="https://docs.google.com/spreadsheets/d/162iqotLdBMomThHmSt6Eq1knY0JeONpHznqY1DFKbKU/edit?usp=sharing">
+  статичный текст переводы ru-tj
+</a>
+<a href="https://docs.google.com/spreadsheets/d/19CAotCILNKp-NOeip7hyS1q8K-T6h-fyzPMW16ws-Nw/edit?usp=sharing">
+  динамический текст переводы ru-tj
+</a>
+
+
+
 
 ## About Laravel
 
