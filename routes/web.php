@@ -86,7 +86,7 @@ Route::group(['middleware' => ['XSS']], function () {
     //     return view('pages.stoimost');
     // });
     //new
-    Route::get('ceny', function () {
+    Route::get('ceny', function () { //Этот route отвечает за тарифы, почему же закоменчены нижний и верхний?
         return view('pages.stoimost-new');
     });
 //    Route::get('tariff', function () {
