@@ -263,7 +263,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="footer-bottom__credits col-grow col-mob-100"> &copy; umag, 2024</div>
+                <div class="footer-bottom__credits col-grow col-mob-100"> &copy; umag, 2025</div>
                 <div class="col-auto col-mob-100">
                     <div class="social-svg-wrap">
                         <a target="_blank" href="https://www.youtube.com/c/umagmedia">
