@@ -1,0 +1,58 @@
+.tarif-struct {
+  padding: 0 16px;
+  margin-top: 40px;
+}
+.tarif-struct-block {
+  padding: 20px;
+  border-radius: 18px;
+  background: #f5f5f5;
+  flex-direction: row;
+}
+.tarif-struct-block-margin {
+  margin-bottom: 12px;
+}
+.tarif-struct-textBlock {
+  gap: 8px;
+}
+.tarif-struct-caption-margin {
+  margin-bottom: 24px;
+}
+.tarif-struct-caption {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tarif-struct-cardCaption {
+  font-size: 16px;
+  font-weight: 700;
+}
+.tarif-struct-cardText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #5c5c5c;
+}
+.tarif-struct-icon {
+  width: 40px;
+  height: 40px;
+}
+@media screen and (min-width:768px) {
+  .tarif-struct-caption {
+    font-size: 24px;
+  }
+  .tarif-struct-cardText {
+    font-size: 16px;
+  }
+  .tarif-struct-block {
+    flex-direction: column;
+  }
+  .tarif-struct-textBlock {
+    order: 2;
+  }
+  .tarif-struct-icon {
+    width: 70px;
+    height: 70px;
+    order: 1;
+  }
+  .tarif-struct-block-mr {
+    margin-right: 12px;
+  }
+}

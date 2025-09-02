@@ -7,7 +7,7 @@
         "watch-poll": "npm run watch -- --watch-poll",
         "hot": "cross-env NODE_ENV=development node_modules/.bin/webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/.bin/webpack --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js"
+        "production": "cross-env NODE_ENV=production node_modules/.bin/webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
         "@babel/preset-react": "^7.24.7",
@@ -25,9 +25,9 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "@mantine/core": "^6.0.17",
         "@mantine/form": "^6.0.17",
-        "@mantine/hooks": "^7.14.0",
+        "@mantine/core": "8.0.0",
+        "@mantine/hooks": "8.0.0",
         "@tabler/icons-react": "^3.17.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
