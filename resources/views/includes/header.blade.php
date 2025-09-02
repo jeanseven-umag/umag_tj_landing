@@ -76,7 +76,6 @@
                     <span></span>
                 </button>
 
-                    <img src="/img/madeinkz.png" alt="" class="madeinkz">
                 </ul>
             </div>
             <div class="col-grow right-part" style="display: flex;">

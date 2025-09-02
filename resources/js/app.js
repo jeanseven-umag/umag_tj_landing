@@ -6,7 +6,8 @@ import { Nomenclature } from "./components/Nomenclature/Nomenclature";
 import "../sass/app.scss";
 import { KnowledgeBase } from "./components/KnowledgeBase/KnowledgeBase";
 import { Section } from "./components/Section/Section";
-import { Tariffs } from "./components/Tariffs/Tariffs";
+// import { Tariffs } from "./components/Tariffs/Tariffs";
+import Tariff from "./components/Tariff-tj";
 
 const nomenclature = document.getElementById("knowledge-base-root");
 const categories = document.getElementById("categories-root");
@@ -20,5 +21,8 @@ if (nomenclature) {
 } else if (category) {
   ReactDOM.render(<Section />, category);
 } else if (ceny) {
-  ReactDOM.render(<Tariffs />, ceny);
+  // ReactDOM.render(<Tariffs />, ceny);
+  ReactDOM.render(<Tariff />, ceny);
+  // const root = ReactDOM.createRoot(ceny);  // Create a root
+  // root.render(<Tariff />);  // Use the new render method
 }

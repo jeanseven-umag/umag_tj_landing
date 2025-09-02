@@ -25,9 +25,9 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "@mantine/core": "^6.0.17",
         "@mantine/form": "^6.0.17",
-        "@mantine/hooks": "^7.14.0",
+        "@mantine/core": "8.0.0",
+        "@mantine/hooks": "8.0.0",
         "@tabler/icons-react": "^3.17.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
