@@ -41,9 +41,7 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
   return (
     <Flex className="tarif" direction="column">
       <Text className="tarif-caption">
-        {locale === "tj"
-          ? "Арзиши тарофаро ҳисоб кунед"
-          : "Рассчитайте стоимость тарифов"}
+        Арзиши тарофаро ҳисоб кунед
       </Text>
       <SegmentedControl
         value={tarifId}
@@ -90,14 +88,8 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
                   </Text>
                 )}
                 <Text className="tarif-discount-text">
-                  {item.months}{" "}
-                  {key === 0
-                    ? locale === "tj"
-                      ? "моҳ"
-                      : "месяца"
-                    : locale === "tj"
-                    ? "моҳҳо"
-                    : "месяцев"}
+                  { item.months }{ " " }
+                  { key === 0 ? "моҳ" : "моҳҳо" }
                 </Text>
               </div>
             </>
@@ -109,7 +101,7 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
         <Grid.Col span={6}>
           <Flex direction="column" justify="center" miw={150}>
             <Text className="tarif-counterText">
-              {locale === "tj" ? "Хазинаҳо" : "Кассы"}
+              Хазинаҳо
             </Text>
             <Flex className="tarif-counter-block" justify="space-between">
               <img
@@ -129,7 +121,7 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
         <Grid.Col span={6}>
           <Flex direction="column" justify="center" miw={150}>
             <Text className="tarif-counterText">
-              {locale === "tj" ? "Нуқтаҳои савдо" : "Торговые точки"}
+              Нуқтаҳои савдо
             </Text>
             <Flex className="tarif-counter-block" justify="space-between">
               <img
@@ -151,15 +143,15 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
         <Flex direction="column">
           <Flex justify="space-between" mb={16}>
             <Text className="tarif-info-caption">
-              {locale === "tj" ? "Тарофаи шумо" : "Ваш тариф"}
+              Тарофаи шумо
             </Text>
             <Text className="tarif-info-text tarif-info-mobile" c="#5C5C5C">
-              {locale === "tj" ? "барои давра" : "за период"}
+              барои давра
             </Text>
           </Flex>
           <Flex justify="space-between" mb={12}>
             <Text className="tarif-info-text">
-              {locale === "tj" ? "Обуна" : "Подписка"}
+              Обуна
             </Text>
             <Flex>
               <Text className="tarif-info-text">{`${chosenTarif?.cena}`}</Text>
@@ -168,24 +160,20 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
                 ml={5}
                 c="#5C5C5C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
               <Text
                 className="tarif-info-text tarif-info-desktop"
                 ml={5}
                 c="#5C5C5C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
             </Flex>
           </Flex>
           <Flex justify="space-between" mb={12}>
             <Text className="tarif-info-text">
-              {locale === "tj" ? "Хазинаҳо" : "Кассы"} X {kassaCount}
+              Хазинаҳо X {kassaCount}
             </Text>
             <Flex>
               <Text className="tarif-info-text">
@@ -196,24 +184,20 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
                 ml={5}
                 c="#5C5C5C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
               <Text
                 className="tarif-info-text tarif-info-desktop"
                 ml={5}
                 c="#5C5C5C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
             </Flex>
           </Flex>
           <Flex justify="space-between" mb={12}>
             <Text className="tarif-info-text">
-              {locale === "tj" ? "Нуқтаҳои савдо" : "Торговые точки"} X{" "}
+              Нуқтаҳои савдо X{" "}
               {ttCount}
             </Text>
             <Flex>
@@ -225,24 +209,20 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
                 ml={5}
                 c="#5C5C5C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
               <Text
                 className="tarif-info-text tarif-info-desktop"
                 ml={5}
                 c="#5C5C5C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
             </Flex>
           </Flex>
           <Flex justify="space-between" align="center" mb={12}>
             <Text className="tarif-info-text" fw={700}>
-              {locale === "tj" ? "Ҳамагӣ" : "Итого"}
+              Ҳамагӣ
             </Text>
             <Flex align="baseline">
               <Text className="tarif-info-total">
@@ -256,25 +236,21 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
                 className="tarif-info-text tarif-info-mobile"
                 ml={5}
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
               <Text
                 fw={700}
                 className="tarif-info-text tarif-info-desktop"
                 ml={5}
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}{" "}
-                {locale === "tj" ? "барои давра" : "за период"}
+                { chosenTarif?.currency_tj }{" "}
+                барои давра
               </Text>
             </Flex>
           </Flex>
           <Flex justify="space-between" mb={12}>
             <Text className="tarif-info-text" c="#1D793C">
-              {locale === "tj" ? "Сарфакорӣ" : "Экономия"}
+              Сарфакорӣ
             </Text>
             <Flex>
               <Text className="tarif-info-text" c="#1D793C">
@@ -285,36 +261,28 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
                 ml={5}
                 c="#1D793C"
               >
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
               <Text className="tarif-info-text tarif-info-desktop" ml={5}>
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}{" "}
-                {locale === "tj" ? "барои давра" : "за период"}
+                { chosenTarif?.currency_tj }{" "}
+                барои давра
               </Text>
             </Flex>
           </Flex>
           <Flex justify="space-between" mb={12}>
             <Text className="tarif-info-text">
-              {locale === "tj"
-                ? "Насб ва таълим"
-                : "Установка и обучение"}
+              Насб ва таълим
             </Text>
             <Flex>
               <Text className="tarif-info-text">{chosenTarif?.install}</Text>
               <Text className="tarif-info-text" ml={5} c="#5C5C5C">
-                {locale === "tj"
-                  ? chosenTarif?.currency_tj
-                  : chosenTarif?.currency_ru}
+                { chosenTarif?.currency_tj }
               </Text>
             </Flex>
           </Flex>
         </Flex>
         <button className="tarif-info-link" onClick={handleTariff}>
-          {locale === "tj" ? "Дархост гузоред" : "Оставьте заявку"}
+          Дархост гузоред
         </button>
         <Flex className="tarif-warning-block" align="flex-start">
           <img
@@ -323,9 +291,7 @@ export const TarifInfo = ({ tariffs, chosenTarif, setChosenTarif }) => {
             alt="info icon"
           />
           <Text className="tarif-warning-text">
-            {locale === "tj"
-              ? "Дархост гузоред — менеҷер дар давоми рӯзи корӣ бо шумо тамос мегирад, ба ҳама саволҳо ҷавоб медиҳад ва дар пайвастшавӣ кӯмак мекунад."
-              : "Оставьте заявку — менеджер свяжется с вами в течение рабочего дня, ответит на все вопросы и поможет с подключением."}
+            Дархост гузоред — менеҷер дар давоми рӯзи корӣ бо шумо тамос мегирад, ба ҳама саволҳо ҷавоб медиҳад ва дар пайвастшавӣ кӯмак мекунад.
           </Text>
         </Flex>
       </Flex>

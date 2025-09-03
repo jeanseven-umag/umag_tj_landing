@@ -12,14 +12,10 @@ export const TarifDignity = () => {
     <Flex direction="column" className="tarif-dignity">
       <Flex direction="column" className="tarif-dignity-description">
         <Text className="tarif-dignity-caption">
-          {locale === "tj"
-            ? "Ҳанӯз шубҳа доред?"
-            : "Все ещё сомневаетесь?"}
+          Ҳанӯз шубҳа доред?
         </Text>
         <Text className="tarif-dignity-text" c="#5c5c5c" maw={900}>
-          {locale === "tj"
-            ? "Мо мефаҳмем, ки интихоби низом як қарори муҳим аст. Инҳоянд чанд сабаби дигар, ки чаро Umag барои шумо дуруст аст."
-            : "Мы понимаем, что выбор системы это важное решение. Вот ещё несколько причин, почему Umag подойдёт именно вам."}
+          Мо мефаҳмем, ки интихоби низом як қарори муҳим аст. Инҳоянд чанд сабаби дигар, ки чаро Umag барои шумо дуруст аст.
         </Text>
       </Flex>
       <Grid gutter="md">
@@ -30,14 +26,10 @@ export const TarifDignity = () => {
           <Flex className="tarif-dignity-block">
             <Flex className="tarif-dignity-cardBlock" direction="column">
               <Text className="tarif-dignity-cardCaption">
-                {locale === "tj"
-                  ? "Ҳисоботҳои номаҳдуд"
-                  : "Отчёты без ограничений"}
+                Ҳисоботҳои номаҳдуд
               </Text>
               <Text className="tarif-dignity-cardText">
-                {locale === "tj"
-                  ? "Дар бораи шумораи ҳисоботҳо, мавқеъҳо дар маҳзани молҳо, контрагентҳо ва истифодабарандагон ҳеҷ гуна маҳдудият вуҷуд надорад."
-                  : "Нет ограничений по числу отчётов, позиций в товарной базе, контрагентов и пользователей."}
+                Дар бораи шумораи ҳисоботҳо, мавқеъҳо дар маҳзани молҳо, контрагентҳо ва истифодабарандагон ҳеҷ гуна маҳдудият вуҷуд надорад.
               </Text>
             </Flex>
             <img
@@ -58,14 +50,10 @@ export const TarifDignity = () => {
               gap={8}
             >
               <Text className="tarif-dignity-cardCaption">
-                {locale === "tj"
-                  ? "Дастрасӣ ба маҳзани глобалӣ"
-                  : "Доступ к глобальной базе"}
+                Дастрасӣ ба маҳзани глобалӣ
               </Text>
               <Text className="tarif-dignity-cardText">
-                {locale === "tj"
-                  ? "Ба маҳзани молҳо, ки мунтазам нав карда мешавад ва зиёда аз 120 ҳазор номгуй ном дорад, алоқа дорад."
-                  : "Имеет подключение к базе товаров, которая регулярно обновляется и содержит более 120 тысяч позиций."}
+                Ба маҳзани молҳо, ки мунтазам нав карда мешавад ва зиёда аз 120 ҳазор номгуй ном дорад, алоқа дорад.
               </Text>
             </Flex>
             <img
@@ -83,14 +71,10 @@ export const TarifDignity = () => {
               gap={8}
             >
               <Text className="tarif-dignity-cardCaption">
-                {locale === "tj"
-                  ? "Фурӯш бе Интернет"
-                  : "Продажи без интернета"}
+                Фурӯш бе Интернет
               </Text>
               <Text className="tarif-dignity-cardText">
-                {locale === "tj"
-                  ? "Хазина ҳатто бидуни пайвасти доимӣ ба интернет кори худро идома медиҳад."
-                  : "Касса продолжает работу в обычном режиме даже при отсутствии постоянного подключения к интернету."}
+                Хазина ҳатто бидуни пайвасти доимӣ ба интернет кори худро идома медиҳад.
               </Text>
             </Flex>
             <img
@@ -104,18 +88,14 @@ export const TarifDignity = () => {
       <Flex align={{ sm: "flex-end" }} className="tarif-feedback-block">
         <Flex direction="column">
           <Text className="tarif-feedback-caption">
-            {locale === "tj"
-              ? "Оё шумо омодаед, ки бо Umag кор кунед?"
-              : "Готовы начать работу с Umag?"}
+            Оё шумо омодаед, ки бо Umag кор кунед?
           </Text>
           <Text className="tarif-feedback-text" c="#5c5c5c">
-            {locale === "tj"
-              ? "Дархостро гузоред - менеҷер дар давоми рӯзи корӣ бо шумо тамос мегирад, ба ҳама саволҳо ҷавоб медиҳад ва дар пайвастшавӣ кӯмак мекунад."
-              : "Оставьте заявку — менеджер свяжется с вами в течение рабочего дня, ответит на все вопросы и поможет с подключением."}
+            Дархостро гузоред - менеҷер дар давоми рӯзи корӣ бо шумо тамос мегирад, ба ҳама саволҳо ҷавоб медиҳад ва дар пайвастшавӣ кӯмак мекунад.
           </Text>
         </Flex>
         <button className="tarif-feedback-button" onClick={handleConsulting}>
-          {locale === "tj" ? "Ariza qoldiring" : "Дархост гузоред"}
+          Дархост гузоред
         </button>
       </Flex>
     </Flex>

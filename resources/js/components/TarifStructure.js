@@ -8,7 +8,7 @@ export const TarifStructure = () => {
     <Flex direction="column" className="tarif-struct">
       <Flex className="tarif-struct-caption-margin">
         <Text className="tarif-struct-caption">
-          {locale === "tj" ? "Чӣ ба нарх дохил карда шудааст" : "Что входит в стоимость"}
+          Чӣ ба нарх дохил карда шудааст
         </Text>
       </Flex>
       <Grid gutter="md">
@@ -16,14 +16,10 @@ export const TarifStructure = () => {
           <Flex className="tarif-struct-block tarif-struct-block-margin tarif-struct-block-mr">
             <Flex className="tarif-struct-textBlock" direction="column">
               <Text className="tarif-struct-cardCaption">
-                {locale === "tj"
-                  ? "Омӯзиши кормандони мағоза"
-                  : "Обучение сотрудников магазина"}
+                Омӯзиши кормандони мағоза
               </Text>
               <Text className="tarif-struct-cardText">
-                {locale === "tj"
-                  ? "Мо ба кормандон омӯзиши асосӣ медиҳем, то бо системаи Umag дилпурона кор кунанд."
-                  : "Проводим базовое обучение сотрудников для уверенной работы с системой Umag."}
+                Мо ба кормандон омӯзиши асосӣ медиҳем, то бо системаи Umag дилпурона кор кунанд.
               </Text>
             </Flex>
             <img
@@ -37,14 +33,10 @@ export const TarifStructure = () => {
           <Flex className="tarif-struct-block tarif-struct-block-margin">
             <Flex className="tarif-struct-textBlock" direction="column">
               <Text className="tarif-struct-cardCaption">
-                {locale === "tj"
-                  ? "Машварати телефонӣ"
-                  : "Консультация по телефону"}
+                Машварати телефонӣ
               </Text>
               <Text className="tarif-struct-cardText">
-                {locale === "tj"
-                  ? "Мо дар ҳама масъалаҳо дастгирии техникӣ ва машварат медиҳем."
-                  : "Оказываем техническую поддержку и консультации по всем вопросам."}
+                Мо дар ҳама масъалаҳо дастгирии техникӣ ва машварат медиҳем.
               </Text>
             </Flex>
             <img
@@ -58,14 +50,10 @@ export const TarifStructure = () => {
           <Flex className="tarif-struct-block tarif-struct-block-margin tarif-struct-block-mr">
             <Flex className="tarif-struct-textBlock" direction="column">
               <Text className="tarif-struct-cardCaption">
-                {locale === "tj"
-                  ? "Танзими таҷҳизот"
-                  : "Настройка оборудования"}
+                Танзими таҷҳизот
               </Text>
               <Text className="tarif-struct-cardText">
-                {locale === "tj"
-                  ? "Мо таҷхизотро дар нуқтаи савдо танзим менамоем. Ҳама пайвастҳо ва тафтишҳо - дар ҷояш мешаванд."
-                  : '"Настраиваем оборудование на торговой точке. Все подключения и проверки — на месте."'}
+                Мо таҷхизотро дар нуқтаи савдо танзим менамоем. Ҳама пайвастҳо ва тафтишҳо - дар ҷояш мешаванд.
               </Text>
             </Flex>
             <img
@@ -79,14 +67,10 @@ export const TarifStructure = () => {
           <Flex className="tarif-struct-block">
             <Flex className="tarif-struct-textBlock" direction="column">
               <Text className="tarif-struct-cardCaption">
-                {locale === "tj"
-                  ? "Насби нармафзори зарурӣ"
-                  : "Установка необходимого ПО"}
+                Насби нармафзори зарурӣ
               </Text>
               <Text className="tarif-struct-cardText">
-                {locale === "tj"
-                  ? "Мо нармафзорро барои кори устувор насб ва танзим мекунем."
-                  : "Устанавливаем и настраиваем программное обеспечение для стабильной работы."}
+                Мо нармафзорро барои кори устувор насб ва танзим мекунем.
               </Text>
             </Flex>
             <img
