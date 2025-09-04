@@ -126,7 +126,7 @@
                             </h1>
                             <div class="row row_middle equipment__bottom">
                                 <div class="col-auto col-mob-100">
-                                    <button type="button" class="equipment__btn" data-open-modal="#equipment-modal" data-type="PRODUCT_0001" data-caption="Купить товар: {{ $single_tovar->name }}">Купить</button>
+                                    <button type="button" class="equipment__btn" data-open-modal="#equipment-modal" data-type="PRODUCT_0001" data-caption="Маҳсулот харед: {{ $single_tovar->name }}">Харид</button>
                                 </div>
                             </div>
                         </section>
@@ -169,10 +169,10 @@
           selectCity.change(function () {
             inputPhone.prop('disabled', false);
             if ($(this).val() === "BSH") {
-              inputPhone.mask("+996 (555) 555 555");
-            } else if ($(this).val() === "UZB") {
-                inputPhone.placeholder='+998 (__) ___ __ __';
-                inputPhone.mask("+998 55 555 55 55");
+              inputPhone.mask("+992 (00) 000-00-00");
+            } else if ($(this).val() === "TAJ") {
+                inputPhone.placeholder='+992 (__) ___ __ __';
+                inputPhone.mask("+992 (00) 000-00-00");
               } else {
                   inputPhone.placeholder='+7 (___) ___ __ __';
                   inputPhone.mask("+7 (555) 555 55 55");

@@ -87,12 +87,12 @@
           GroupSelectCity.change(function () {
               GroupInputPhone.prop('disabled', false);
               if ($(this).val() === "BSH") {
-                  GroupInputPhone.placeholder='+996 (___) ___ ___';
-                  GroupInputPhone.mask("+996 (555) 555 555");
+                  GroupInputPhone.placeholder='+992 (__) ___ __ __';
+                  GroupInputPhone.mask("+992 (00) 000-00-00");
               } else
-              if ($(this).val() === "UZB") {
-                  GroupInputPhone.placeholder='+998 (__) ___ __ __';
-                  GroupInputPhone.mask("+998 55 555 55 55");
+              if ($(this).val() === "TAJ") {
+                  GroupInputPhone.placeholder='+992 (__) ___ __ __';
+                  GroupInputPhone.mask("+992 (00) 000-00-00");
               } else {
                   GroupInputPhone.placeholder='+7 (___) ___ __ __';
                   GroupInputPhone.mask("+7 (555) 555 55 55");

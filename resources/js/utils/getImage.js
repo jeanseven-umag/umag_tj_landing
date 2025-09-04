@@ -21,7 +21,7 @@ export const getImage = (categoryName) => {
       return purchasesImg;
     case "Мол": //Товары
       return bookImg;
-    case "Тарафҳо": //Контрагенты
+    case "Контрагенты": //Контрагенты Контрагентҳо
       return manImg;
     case "Идоракунӣ": //Управление
       return settingsImg;

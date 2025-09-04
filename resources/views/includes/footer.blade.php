@@ -123,11 +123,11 @@
         modalSelectCity.change(function () {
             modalInputPhone.prop('disabled', false);
             if ($(this).val() === "BSH") {
-                modalInputPhone.placeholder = '+996 (___) ___ ___';
-                modalInputPhone.mask("+996 (555) 555 555");
-            } else if ($(this).val() === "UZB") {
-                modalInputPhone.placeholder = '+998 (__) ___ __ __';
-                modalInputPhone.mask("+998 55 555 55 55");
+                modalInputPhone.placeholder='+992 (__) ___ __ __';
+                modalInputPhone.mask("+992 (00) 000-00-00");
+            } else if ($(this).val() === "TAJ") {
+                modalInputPhone.placeholder='+992 (__) ___ __ __';
+                modalInputPhone.mask("+992 (00) 000-00-00");
             } else {
                 modalInputPhone.placeholder = '+7 (___) ___ __ __';
                 modalInputPhone.mask("+7 (555) 555 55 55");
@@ -138,11 +138,11 @@
         leadSelectCity2.change(function () {
             leadInputPhone2.prop('disabled', false);
             if ($(this).val() === "BSH") {
-                leadInputPhone2.placeholder = '+996 (___) ___ ___';
-                leadInputPhone2.mask("+996 (555) 555 555");
-            } else if ($(this).val() === "UZB") {
-                leadInputPhone2.placeholder = '+998 (__) ___ __ __';
-                leadInputPhone2.mask("+998 55 555 55 55");
+                leadInputPhone2.placeholder = '+992 (__) ___ __ __';
+                leadInputPhone2.mask("+992 (00) 000-00-00");
+            } else if ($(this).val() === "TAJ") {
+                leadInputPhone2.placeholder = '+992 (__) ___ __ __';
+                leadInputPhone2.mask("+992 (00) 000-00-00");
             } else {
                 leadInputPhone2.placeholder = '+7 (___) ___ __ __';
                 leadInputPhone2.mask("+7 (555) 555 55 55");

@@ -261,41 +261,6 @@
             }).on("mouseleave", function(){
                 $(this).next(".contact-page__desc-list").hide();
             });
-            // $('.contact-page__card-button').on('click', function(e) {
-			// 	var passedCity = $(this).data('city');//get the id of the selected button
-			// 	var passedID = $(this).data('id');//get the id of the selected button
-			// 	$('#modal-form__id').val(passedID);
-			// 	const leadInputPhone = $("#lead-catcher-modal__phone");
-			// 	const cardCity = $("#modal-form__city");
-			// 	cardCity.val(passedCity);
-			// 	switch (cardCity.val()){
-			// 		case "Бишкек":
-			// 			leadInputPhone.placeholder='+996 (___) ___ ___';
-			// 			leadInputPhone.mask("+996 (555) 555 555");
-			// 			break
-			// 		case "Ташкент":
-			// 			leadInputPhone.placeholder = '+998 (___) __ __ __';
-			// 			leadInputPhone.mask("+998 555 555 555");
-			// 			break
-			// 		case "Самарканд":
-			// 			leadInputPhone.placeholder = '+998 (___) __ __ __';
-			// 			leadInputPhone.mask("+998 555 555 555");
-			// 			break
-			// 		default:
-			// 			leadInputPhone.placeholder='+7 (___) ___ __ __';
-			// 			leadInputPhone.mask("+7 (555) 555 55 55");
-			// 			break
-			// 	}
-            // });
-        });
-//         $("#faq [data-collapse]").click(function() {
-//             var id = $(this).data("collapse");
-//             var collapse = $(id);
-//             collapse.toggleClass("active");
-//             collapse.find(".answer").slideToggle();
-//             collapse.siblings().removeClass("active");
-//             collapse.siblings().find(".answer").slideUp();
-//         });
     </script>
 
 	<style>
@@ -589,13 +554,9 @@
     const inputPhone = $("#inputPhone");
     selectCity.change(function () {
         inputPhone.prop('disabled', false);
-        if ($(this).val() === "BSH") {
-            inputPhone.placeholder='+996 (___) ___ ___';
-            inputPhone.mask("+996 (555) 555 555");
-        } else
-        if ($(this).val() === "UZB") {
-            inputPhone.placeholder='+998 (__) ___ __ __';
-            inputPhone.mask("+998 55 555 55 55");
+        if ($(this).val() === "TAJ") {
+            inputPhone.placeholder='+992 (__) ___ __ __';
+            inputPhone.mask("+992 (00) 000-00-00");
         } else {
             inputPhone.placeholder='+7 (___) ___ __ __';
             inputPhone.mask("+7 (555) 555 55 55");

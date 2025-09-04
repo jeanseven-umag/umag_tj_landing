@@ -121,11 +121,9 @@
         const inputPhone = $("#request-form__input-input");
         selectCity.change(function () {
             inputPhone.prop('disabled', false);
-            if ($(this).val() === "BSH") {
-                inputPhone.mask("+996 (555) 555 555");
-            } else if ($(this).val() === "UZB") {
-                inputPhone.placeholder='+998 (__) ___ __ __';
-                inputPhone.mask("+998 55 555 55 55");
+            if ($(this).val() === "TAJ") {
+                inputPhone.placeholder='+992 (__) ___ __ __';
+                inputPhone.mask("+992 (00) 000-00-00");
             } else {
                 inputPhone.placeholder='+7 (___) ___ __ __';
                 inputPhone.mask("+7 (555) 555 55 55");
