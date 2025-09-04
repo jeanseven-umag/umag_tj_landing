@@ -23,12 +23,12 @@ const tariffs = [
     months: 3,
     currency_tj: "сомонӣ",
     currency_ru: "сомони",
-    cena: 207,
-    kassa: 135,
-    tt: 255,
-    perMonth: 597,    // 207 + 135 + 255 = 597
-    perPeriod: 1791,  // (207 + 135 + 255) * 3 = 597 * 3 = 1791
-    discount: 13,
+    cena: 69,
+    kassa: 45,
+    tt: 85,
+    perMonth: 179,    // 69 + 45 + 85 = 179
+    perPeriod: 537,  // (69 + 45 + 85) * 3 = 179 * 3 = 537
+    discount: "~13%",
     install: 590,
   },
   {
@@ -36,12 +36,12 @@ const tariffs = [
     months: 6,
     currency_tj: "сомонӣ",
     currency_ru: "сомони",
-    cena: 174,
-    kassa: 270,
-    tt: 510,
-    perMonth: 954,    // 174 + 270 + 510 = 954
-    perPeriod: 5724,  // (174 + 270 + 510) * 6 = 954 * 6 = 5724
-    discount: 30,
+    cena: 29,
+    kassa: 45,
+    tt: 85,
+    perMonth: 159,    // 29 + 45 + 85 = 159
+    perPeriod: 954,  // (29 + 45 + 85) * 6 = 159 * 6 = 954
+    discount: "~30%",
     install: 590,
   },
 ];
