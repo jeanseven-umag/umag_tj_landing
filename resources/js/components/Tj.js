@@ -7,42 +7,42 @@ import { TarifDignity } from "./TarifDignity";
 const tariffs = [
   {
     id: "1",
-    months: 3,
+    months: 1,
     currency_tj: "сомонӣ",
     currency_ru: "сомони",
-    cena: 56000,
-    kassa: 46000,
-    tt: 92000,
-    perMonth: 194000,
-    perPeriod: 582000,
+    cena: 99,
+    kassa: 45,
+    tt: 85,
+    perMonth: 229,    // 99 + 45 + 85 = 229
+    perPeriod: 229,   // (99 + 45 + 85) * 1 = 229
     discount: null,
-    install: 795000,
+    install: 590,
   },
   {
     id: "2",
-    months: 6,
+    months: 3,
     currency_tj: "сомонӣ",
     currency_ru: "сомони",
-    cena: 34000,
-    kassa: 46000,
-    tt: 92000,
-    perMonth: 172000,
-    perPeriod: 1032000,
-    discount: "~10%",
-    install: 795000,
+    cena: 207,
+    kassa: 135,
+    tt: 255,
+    perMonth: 597,    // 207 + 135 + 255 = 597
+    perPeriod: 1791,  // (207 + 135 + 255) * 3 = 597 * 3 = 1791
+    discount: 13,
+    install: 590,
   },
   {
     id: "3",
-    months: 12,
+    months: 6,
     currency_tj: "сомонӣ",
     currency_ru: "сомони",
-    cena: 17000,
-    kassa: 46000,
-    tt: 92000,
-    perMonth: 155000,
-    perPeriod: 1860000,
-    discount: "~20%",
-    install: 795000,
+    cena: 174,
+    kassa: 270,
+    tt: 510,
+    perMonth: 954,    // 174 + 270 + 510 = 954
+    perPeriod: 5724,  // (174 + 270 + 510) * 6 = 954 * 6 = 5724
+    discount: 30,
+    install: 590,
   },
 ];
 
